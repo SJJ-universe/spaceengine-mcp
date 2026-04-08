@@ -1,0 +1,36 @@
+// SpaceEngine Custom Star System Catalog — 자동 생성
+// 시스템 이름: {{ system_name }}
+
+Star "{{ star.name }}"
+{
+	Class         "{{ star.spectral_class }}"
+	Mass          {{ star.mass }}
+	Radius        {{ star.radius }}
+	Temperature   {{ star.temperature }}
+	Luminosity    {{ star.luminosity }}
+}
+
+{% for planet in planets %}
+Planet "{{ planet.name }}"
+{
+	ParentBody    "{{ star.name }}"
+	Class         "{{ planet.planet_class }}"
+	Mass          {{ planet.mass }}
+	Radius        {{ planet.radius }}
+
+	Orbit
+	{
+		SemiMajorAxis   {{ planet.orbit.semi_major_axis }}
+		{% if planet.orbit.period %}Period          {{ planet.orbit.period }}{% endif %}
+		Eccentricity    {{ planet.orbit.eccentricity }}
+		Inclination     {{ planet.orbit.inclination }}
+	}
+	{% if planet.has_atmosphere %}
+	Atmosphere
+	{
+		Pressure      1.0
+	}
+	{% endif %}
+}
+
+{% endfor %}

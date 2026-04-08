@@ -1,0 +1,26 @@
+site_name: SpaceEngine MCP Documentation
+site_description: AI-powered SpaceEngine control via MCP
+repo_url: https://github.com/user/spaceengine-mcp
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: blue
+    accent: cyan
+
+nav:
+  - Home: index.md
+  - Tool Reference: tools.md
+  - Architecture: architecture.md
+  - Console Rules: console-rules.md
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
+          options:
+            show_source: false
+            show_root_heading: true

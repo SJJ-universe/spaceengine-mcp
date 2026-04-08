@@ -1,0 +1,23 @@
+// SpaceEngine Tour Script - 자동 생성
+// 제목: {{ title }}
+// 정거장 수: {{ stops | length }}
+
+// 카메라 잠금 해제 (메인 메뉴 Scene1.se가 Disabled 설정)
+UserMoveControl "Free"
+UserRotationControl "Free"
+UserTimeControl "Free"
+
+{% for stop in stops %}
+Select "{{ stop.target }}"
+Goto { DistRad {{ stop.distance_rad }} Time {{ transition_time }} }
+Wait {{ transition_time | int + 1 }}
+{% if stop.message %}
+Print "{{ stop.message | replace('"', "'") }}" { Time {{ stop.wait_seconds }} }
+{% endif %}
+Wait {{ stop.wait_seconds }}
+HidePrint
+
+{% endfor %}
+{% if loop %}
+// 반복 재생은 SE 콘솔 방식에서 지원되지 않음
+{% endif %}

@@ -1,0 +1,13 @@
+// SpaceEngine Flyby Script — 자동 생성
+// 대상: {{ target }}
+
+// 카메라 잠금 해제 (메인 메뉴 Scene1.se가 Disabled 설정)
+UserMoveControl "Free"
+UserRotationControl "Free"
+UserTimeControl "Free"
+
+Select "{{ target }}"
+Goto { DistRad {{ start_dist }} Time {{ transition_time }} }
+Wait {{ transition_time | int + 1 }}
+Goto { DistRad {{ end_dist }} Time {{ flyby_duration }} }
+Wait {{ flyby_duration | int }}
