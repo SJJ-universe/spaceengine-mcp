@@ -9,6 +9,7 @@
 import { McpClient, McpTool } from './mcp-client'
 import { LLMProvider, LLMMessage, StreamCallback } from './llm-providers'
 import { ScenarioBuilder, SCENARIO_TEMPLATES } from './scenario-builder'
+import { CelestialRAG } from './celestial-rag'
 
 export interface ToolExecution {
   name: string
@@ -84,6 +85,37 @@ const INTENT_RULES: IntentRule[] = [
     tool: '_template', extractArgs: () => ({ template: 'size_comparison', params: {} }) },
   { patterns: [/(?:블랙홀|black\s*hole)\s*(?:투어|tour)/i],
     tool: '_template', extractArgs: () => ({ template: 'black_hole_tour', params: {} }) },
+  // RAG: 천체 추천/검색/투어
+  { patterns: [/(?:성운|nebula)\s*(?:보여|추천|recommend|show)/i, /(?:show|recommend)\s+(?:me\s+)?nebula/i],
+    tool: '_rag_recommend', extractArgs: () => ({ category: 'nebula', count: 5 }) },
+  { patterns: [/(?:은하|galaxy|galaxies)\s*(?:보여|추천|recommend|show)/i, /(?:show|recommend)\s+(?:me\s+)?galax/i],
+    tool: '_rag_recommend', extractArgs: () => ({ category: 'galaxy', count: 5 }) },
+  { patterns: [/(?:별|항성|star)\s*(?:보여|추천|recommend|show)/i, /(?:show|recommend)\s+(?:me\s+)?star/i],
+    tool: '_rag_recommend', extractArgs: () => ({ category: 'star', count: 5 }) },
+  { patterns: [/(?:외계행성|exoplanet)\s*(?:보여|추천|recommend|show)/i, /(?:show|recommend)\s+(?:me\s+)?exoplanet/i],
+    tool: '_rag_recommend', extractArgs: () => ({ category: 'exoplanet', count: 5 }) },
+  { patterns: [/(?:블랙홀|black\s*hole)\s*(?:보여|추천|recommend|show)/i, /(?:show|recommend)\s+(?:me\s+)?black\s*hole/i],
+    tool: '_rag_recommend', extractArgs: () => ({ category: 'black_hole', count: 5 }) },
+  { patterns: [/(?:성단|cluster)\s*(?:보여|추천|recommend|show)/i, /(?:show|recommend)\s+(?:me\s+)?cluster/i],
+    tool: '_rag_recommend', extractArgs: () => ({ category: 'cluster', count: 5 }) },
+  { patterns: [/(?:태양계|solar\s*system)\s*(?:보여|추천|천체)/i],
+    tool: '_rag_recommend', extractArgs: () => ({ category: 'solar_system', count: 5 }) },
+  { patterns: [/(?:천체|object)\s*(?:추천|recommend|보여|show)/i, /(?:추천|recommend)\s*(?:해|좀)/i],
+    tool: '_rag_recommend', extractArgs: () => ({ category: 'all', count: 5 }) },
+  { patterns: [/(\d+)\s*번\s*(?:으로|선택|가|go)/i, /(?:select|pick|choose)\s*(?:#?\s*)?(\d+)/i],
+    tool: '_rag_select', extractArgs: (m) => ({ index: parseInt(m[1] || m[2]) }) },
+  { patterns: [/(?:성운|nebula)\s*(?:투어|tour)/i],
+    tool: '_rag_tour', extractArgs: () => ({ category: 'nebula', count: 5 }) },
+  { patterns: [/(?:은하|galaxy)\s*(?:투어|tour)/i],
+    tool: '_rag_tour', extractArgs: () => ({ category: 'galaxy', count: 5 }) },
+  { patterns: [/(?:성단|cluster)\s*(?:투어|tour)/i],
+    tool: '_rag_tour', extractArgs: () => ({ category: 'cluster', count: 5 }) },
+  { patterns: [/(?:별|항성|star)\s*(?:투어|tour)/i],
+    tool: '_rag_tour', extractArgs: () => ({ category: 'star', count: 5 }) },
+  { patterns: [/오늘의\s*천체|daily\s*pick|random\s*(?:object|천체)/i],
+    tool: '_rag_daily', extractArgs: () => ({}) },
+  { patterns: [/천체\s*(?:검색|찾기|search)\s+(.+)/i, /(?:search|find)\s+(?:celestial\s+)?(.+)/i],
+    tool: '_rag_search', extractArgs: (m) => ({ query: (m[1] || '').trim() }) },
   // 시나리오 빌더 커맨드
   { patterns: [/(?:시나리오|scenario)\s*(?:시작|start|begin|만들기|새로)/i],
     tool: '_scenario_start', extractArgs: () => ({}) },
@@ -121,6 +153,7 @@ STATE: read_se_state(), save_state(), restore_state(), get_object_info(target?)
 WORKFLOW: cinematic_sequence(steps), apply_preset(preset), timelapse_capture(target, duration_seconds), set_performance(preset), restore_defaults()
 CREATION: create_star(params), create_planet(params), create_tour(title, stops)
 SEARCH: search_catalog(query, obj_type?), search_object(query)
+CELESTIAL RAG: Built-in celestial database (~600 objects). Users can say "성운 보여줘", "은하 추천", "블랙홀 투어", "오늘의 천체", "천체 검색 [query]" and the system handles it automatically via Intent Parser.
 SCRIPT: run_script(commands), set_variable(name, value), interpolate_variable(name, start, end, duration)
 SCENE: save_scene(name, description?), load_scene(name), list_scenes()
 SOUND: play_sound(filename), stop_sound()
@@ -162,11 +195,13 @@ export class Agent {
   private tools: McpTool[] = []
   private toolNames: Set<string> = new Set()
   private scenarioBuilder = new ScenarioBuilder()
+  private rag = new CelestialRAG()
 
   constructor(mcpClient: McpClient, llm: LLMProvider) {
     this.mcpClient = mcpClient
     this.llm = llm
     this.history = [{ role: 'system', content: SYSTEM_PROMPT }]
+    this.rag.load().catch(err => console.warn('[Agent] RAG load failed:', err))
   }
 
   getScenarioBuilder(): ScenarioBuilder { return this.scenarioBuilder }
@@ -406,6 +441,97 @@ export class Agent {
     if (intent.tool === '_scenario_clear') {
       this.scenarioBuilder.clear()
       const msg = '시나리오를 초기화했습니다.'
+      this.history.push({ role: 'assistant', content: msg })
+      return { response: msg }
+    }
+
+    // RAG: 천체 추천
+    if (intent.tool === '_rag_recommend') {
+      const category = String(intent.args.category || 'all')
+      const count = Number(intent.args.count) || 5
+      const items = category === 'all'
+        ? this.rag.recommend('all', count)
+        : this.rag.recommend(category, count)
+      if (items.length === 0) {
+        const msg = `"${category}" 카테고리에 해당하는 천체를 찾을 수 없습니다.`
+        this.history.push({ role: 'assistant', content: msg })
+        return { response: msg }
+      }
+      const list = items.map((obj, i) =>
+        `${i + 1}. **${obj.name}** — ${obj.description} ${'★'.repeat(obj.rating)}`
+      ).join('\n')
+      const msg = `추천 천체 (${category}):\n${list}\n\n번호를 말하면 이동합니다. (예: "1번으로 가줘")`
+      this.history.push({ role: 'assistant', content: msg })
+      return { response: msg }
+    }
+
+    // RAG: 번호 선택 → 이동
+    if (intent.tool === '_rag_select') {
+      const index = Number(intent.args.index)
+      const obj = this.rag.getRecommendation(index)
+      if (!obj) {
+        const msg = `${index}번 항목이 없습니다. 먼저 천체를 추천받아주세요.`
+        this.history.push({ role: 'assistant', content: msg })
+        return { response: msg }
+      }
+      const exec = await this._executeToolDirect('navigate_to', {
+        target: obj.se_name, mode: 'goto', distance_rad: 3.0
+      })
+      const summary = exec.status === 'ok'
+        ? `**${obj.name}**(으)로 이동합니다. ${obj.description}`
+        : `이동 실패: ${(exec.result as any)?.message || 'error'}`
+      this.history.push({ role: 'assistant', content: summary })
+      return { response: summary, toolCalls: [exec] }
+    }
+
+    // RAG: 카테고리 투어
+    if (intent.tool === '_rag_tour') {
+      const category = String(intent.args.category || 'nebula')
+      const count = Number(intent.args.count) || 5
+      const steps = this.rag.generateTour(category, count)
+      if (steps.length === 0) {
+        const msg = `"${category}" 투어를 생성할 수 없습니다.`
+        this.history.push({ role: 'assistant', content: msg })
+        return { response: msg }
+      }
+      const exec = await this._executeToolDirect('cinematic_sequence', {
+        steps, auto_hide_gui: true
+      })
+      const names = steps.map(s => s.message?.split(':')[0] || s.target).join(' → ')
+      const summary = exec.status === 'ok'
+        ? `**${category} 투어** 실행 완료 (${steps.length}곳): ${names}`
+        : `투어 실패: ${(exec.result as any)?.message || 'error'}`
+      this.history.push({ role: 'assistant', content: summary })
+      return { response: summary, toolCalls: [exec] }
+    }
+
+    // RAG: 오늘의 천체
+    if (intent.tool === '_rag_daily') {
+      const obj = this.rag.dailyPick()
+      if (!obj) {
+        const msg = 'RAG 데이터가 로드되지 않았습니다.'
+        this.history.push({ role: 'assistant', content: msg })
+        return { response: msg }
+      }
+      const msg = `오늘의 천체: **${obj.name}** ${'★'.repeat(obj.rating)}\n${obj.description}\n카테고리: ${obj.category} | 태그: ${obj.tags.join(', ')}\n\n"1번으로 가줘"로 이동할 수 있습니다.`
+      this.rag.recommend(obj.category, 1) // set lastRecommendations
+      this.history.push({ role: 'assistant', content: msg })
+      return { response: msg }
+    }
+
+    // RAG: 천체 검색
+    if (intent.tool === '_rag_search') {
+      const query = String(intent.args.query || '')
+      const items = this.rag.search(query, 5)
+      if (items.length === 0) {
+        const msg = `"${query}" 검색 결과가 없습니다.`
+        this.history.push({ role: 'assistant', content: msg })
+        return { response: msg }
+      }
+      const list = items.map((obj, i) =>
+        `${i + 1}. **${obj.name}** [${obj.category}] — ${obj.description}`
+      ).join('\n')
+      const msg = `검색 결과 "${query}":\n${list}\n\n번호를 말하면 이동합니다.`
       this.history.push({ role: 'assistant', content: msg })
       return { response: msg }
     }

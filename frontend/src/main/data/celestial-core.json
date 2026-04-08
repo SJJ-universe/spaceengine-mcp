@@ -1,0 +1,9308 @@
+[
+ {
+  "id": "earth",
+  "name": "Earth",
+  "se_name": "Earth",
+  "aliases": [
+   "지구",
+   "Terra"
+  ],
+  "category": "solar_system",
+  "subcategory": "planet",
+  "parent": "Sun",
+  "tags": [
+   "rocky",
+   "habitable",
+   "water",
+   "atmosphere",
+   "life"
+  ],
+  "description": "태양계에서 유일하게 생명이 확인된 행성",
+  "rating": 5
+ },
+ {
+  "id": "enceladus",
+  "name": "Enceladus",
+  "se_name": "Enceladus",
+  "aliases": [
+   "엔셀라두스"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Saturn",
+  "tags": [
+   "moon",
+   "geysers",
+   "subsurface-ocean",
+   "ice",
+   "potential-life"
+  ],
+  "description": "남극에서 물 간헐천을 뿜는 토성 얼음 위성",
+  "rating": 5
+ },
+ {
+  "id": "io",
+  "name": "Io",
+  "se_name": "Io",
+  "aliases": [
+   "이오"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Jupiter",
+  "tags": [
+   "moon",
+   "volcanic",
+   "sulfur",
+   "tidal-heating"
+  ],
+  "description": "태양계에서 화산 활동이 가장 활발한 천체",
+  "rating": 5
+ },
+ {
+  "id": "jupiter",
+  "name": "Jupiter",
+  "se_name": "Jupiter",
+  "aliases": [
+   "목성"
+  ],
+  "category": "solar_system",
+  "subcategory": "planet",
+  "parent": "Sun",
+  "tags": [
+   "gas-giant",
+   "great-red-spot",
+   "massive",
+   "bands"
+  ],
+  "description": "태양계 최대 행성, 대적점이 특징적인 가스 거성",
+  "rating": 5
+ },
+ {
+  "id": "saturn",
+  "name": "Saturn",
+  "se_name": "Saturn",
+  "aliases": [
+   "토성"
+  ],
+  "category": "solar_system",
+  "subcategory": "planet",
+  "parent": "Sun",
+  "tags": [
+   "gas-giant",
+   "rings",
+   "iconic",
+   "low-density"
+  ],
+  "description": "아름다운 고리로 유명한 가스 거성",
+  "rating": 5
+ },
+ {
+  "id": "titan",
+  "name": "Titan",
+  "se_name": "Titan",
+  "aliases": [
+   "타이탄"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Saturn",
+  "tags": [
+   "moon",
+   "atmosphere",
+   "methane-lakes",
+   "haze",
+   "largest"
+  ],
+  "description": "두꺼운 대기와 메탄 호수를 가진 토성 최대 위성",
+  "rating": 5
+ },
+ {
+  "id": "europa",
+  "name": "Europa",
+  "se_name": "Europa",
+  "aliases": [
+   "유로파"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Jupiter",
+  "tags": [
+   "moon",
+   "ice",
+   "subsurface-ocean",
+   "potential-life"
+  ],
+  "description": "얼음 아래 바다가 있어 생명 가능성이 주목되는 위성",
+  "rating": 4
+ },
+ {
+  "id": "iapetus",
+  "name": "Iapetus",
+  "se_name": "Iapetus",
+  "aliases": [
+   "이아페투스"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Saturn",
+  "tags": [
+   "moon",
+   "two-tone",
+   "equatorial-ridge",
+   "walnut"
+  ],
+  "description": "흑백 두 색 표면과 적도 산맥이 특징인 위성",
+  "rating": 4
+ },
+ {
+  "id": "mars",
+  "name": "Mars",
+  "se_name": "Mars",
+  "aliases": [
+   "화성",
+   "붉은 행성"
+  ],
+  "category": "solar_system",
+  "subcategory": "planet",
+  "parent": "Sun",
+  "tags": [
+   "rocky",
+   "red",
+   "desert",
+   "olympus-mons",
+   "exploration"
+  ],
+  "description": "태양계에서 가장 높은 산 올림푸스몬스를 가진 붉은 행성",
+  "rating": 4
+ },
+ {
+  "id": "mimas",
+  "name": "Mimas",
+  "se_name": "Mimas",
+  "aliases": [
+   "미마스"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Saturn",
+  "tags": [
+   "moon",
+   "death-star",
+   "herschel-crater",
+   "small"
+  ],
+  "description": "거대한 허셜 크레이터로 데스스타를 닮은 위성",
+  "rating": 4
+ },
+ {
+  "id": "miranda",
+  "name": "Miranda",
+  "se_name": "Miranda",
+  "aliases": [
+   "미란다"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Uranus",
+  "tags": [
+   "moon",
+   "fractured",
+   "verona-rupes",
+   "patchwork"
+  ],
+  "description": "태양계에서 가장 높은 절벽이 있는 천왕성 위성",
+  "rating": 4
+ },
+ {
+  "id": "moon",
+  "name": "Moon",
+  "se_name": "Moon",
+  "aliases": [
+   "달",
+   "Luna"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Earth",
+  "tags": [
+   "moon",
+   "cratered",
+   "tidally-locked",
+   "familiar"
+  ],
+  "description": "지구의 유일한 자연 위성",
+  "rating": 4
+ },
+ {
+  "id": "neptune",
+  "name": "Neptune",
+  "se_name": "Neptune",
+  "aliases": [
+   "해왕성"
+  ],
+  "category": "solar_system",
+  "subcategory": "planet",
+  "parent": "Sun",
+  "tags": [
+   "ice-giant",
+   "blue",
+   "winds",
+   "distant"
+  ],
+  "description": "태양계에서 가장 강한 바람이 부는 푸른 얼음 거성",
+  "rating": 4
+ },
+ {
+  "id": "pluto",
+  "name": "Pluto",
+  "se_name": "Pluto",
+  "aliases": [
+   "명왕성"
+  ],
+  "category": "solar_system",
+  "subcategory": "dwarf_planet",
+  "parent": "Sun",
+  "tags": [
+   "dwarf-planet",
+   "kuiper-belt",
+   "heart",
+   "nitrogen-ice"
+  ],
+  "description": "하트 모양 지형이 특징인 카이퍼벨트 왜소행성",
+  "rating": 4
+ },
+ {
+  "id": "sun",
+  "name": "Sun",
+  "se_name": "Sun",
+  "aliases": [
+   "Sol",
+   "태양"
+  ],
+  "category": "solar_system",
+  "subcategory": "star",
+  "parent": null,
+  "tags": [
+   "g-type",
+   "main-sequence",
+   "yellow-dwarf",
+   "center"
+  ],
+  "description": "태양계의 중심 항성, G형 주계열성",
+  "rating": 4
+ },
+ {
+  "id": "triton",
+  "name": "Triton",
+  "se_name": "Triton",
+  "aliases": [
+   "트리톤"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Neptune",
+  "tags": [
+   "moon",
+   "retrograde",
+   "captured",
+   "geysers",
+   "nitrogen-ice"
+  ],
+  "description": "역행 궤도를 도는 해왕성 최대 위성, 질소 간헐천 분출",
+  "rating": 4
+ },
+ {
+  "id": "venus",
+  "name": "Venus",
+  "se_name": "Venus",
+  "aliases": [
+   "금성",
+   "샛별"
+  ],
+  "category": "solar_system",
+  "subcategory": "planet",
+  "parent": "Sun",
+  "tags": [
+   "rocky",
+   "greenhouse",
+   "thick-atmosphere",
+   "volcanic"
+  ],
+  "description": "두꺼운 대기와 극심한 온실효과를 가진 행성",
+  "rating": 4
+ },
+ {
+  "id": "ariel",
+  "name": "Ariel",
+  "se_name": "Ariel",
+  "aliases": [
+   "아리엘"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Uranus",
+  "tags": [
+   "moon",
+   "ice",
+   "canyons",
+   "brightest"
+  ],
+  "description": "천왕성 위성 중 가장 밝은 표면을 가진 위성",
+  "rating": 3
+ },
+ {
+  "id": "callisto",
+  "name": "Callisto",
+  "se_name": "Callisto",
+  "aliases": [
+   "칼리스토"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Jupiter",
+  "tags": [
+   "moon",
+   "cratered",
+   "ancient-surface",
+   "ice"
+  ],
+  "description": "태양계에서 가장 오래된 표면을 가진 목성 위성",
+  "rating": 3
+ },
+ {
+  "id": "charon",
+  "name": "Charon",
+  "se_name": "Charon",
+  "aliases": [
+   "카론"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Pluto",
+  "tags": [
+   "moon",
+   "binary-system",
+   "large-ratio",
+   "red-cap"
+  ],
+  "description": "명왕성과 이중천체계를 이루는 대형 위성",
+  "rating": 3
+ },
+ {
+  "id": "dione",
+  "name": "Dione",
+  "se_name": "Dione",
+  "aliases": [
+   "디오네"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Saturn",
+  "tags": [
+   "moon",
+   "ice",
+   "cliffs",
+   "wispy-terrain"
+  ],
+  "description": "밝은 얼음 절벽이 특징적인 토성 위성",
+  "rating": 3
+ },
+ {
+  "id": "ganymede",
+  "name": "Ganymede",
+  "se_name": "Ganymede",
+  "aliases": [
+   "가니메데"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Jupiter",
+  "tags": [
+   "moon",
+   "largest-moon",
+   "magnetic-field",
+   "ice"
+  ],
+  "description": "태양계에서 가장 큰 위성, 자체 자기장 보유",
+  "rating": 3
+ },
+ {
+  "id": "haumea",
+  "name": "Haumea",
+  "se_name": "Haumea",
+  "aliases": [
+   "하우메아"
+  ],
+  "category": "solar_system",
+  "subcategory": "dwarf_planet",
+  "parent": "Sun",
+  "tags": [
+   "dwarf-planet",
+   "kuiper-belt",
+   "elongated",
+   "rings",
+   "fast-rotation"
+  ],
+  "description": "빠른 자전으로 럭비공 모양인 왜소행성",
+  "rating": 3
+ },
+ {
+  "id": "hyperion",
+  "name": "Hyperion",
+  "se_name": "Hyperion",
+  "aliases": [
+   "히페리온"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Saturn",
+  "tags": [
+   "moon",
+   "spongy",
+   "chaotic-rotation",
+   "irregular"
+  ],
+  "description": "스펀지 모양의 불규칙한 자전을 하는 토성 위성",
+  "rating": 3
+ },
+ {
+  "id": "mercury",
+  "name": "Mercury",
+  "se_name": "Mercury",
+  "aliases": [
+   "수성"
+  ],
+  "category": "solar_system",
+  "subcategory": "planet",
+  "parent": "Sun",
+  "tags": [
+   "rocky",
+   "innermost",
+   "cratered",
+   "no-atmosphere"
+  ],
+  "description": "태양계에서 가장 작고 가장 안쪽의 행성",
+  "rating": 3
+ },
+ {
+  "id": "phobos",
+  "name": "Phobos",
+  "se_name": "Phobos",
+  "aliases": [
+   "포보스"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Mars",
+  "tags": [
+   "moon",
+   "irregular",
+   "stickney-crater",
+   "doomed"
+  ],
+  "description": "화성에 점점 가까워지고 있는 감자 모양 위성",
+  "rating": 3
+ },
+ {
+  "id": "tethys",
+  "name": "Tethys",
+  "se_name": "Tethys",
+  "aliases": [
+   "테티스"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Saturn",
+  "tags": [
+   "moon",
+   "ice",
+   "odysseus-crater",
+   "ithaca-chasma"
+  ],
+  "description": "거대한 협곡과 크레이터가 있는 토성 얼음 위성",
+  "rating": 3
+ },
+ {
+  "id": "titania",
+  "name": "Titania",
+  "se_name": "Titania",
+  "aliases": [
+   "티타니아"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Uranus",
+  "tags": [
+   "moon",
+   "ice",
+   "largest",
+   "canyons"
+  ],
+  "description": "천왕성에서 가장 큰 위성",
+  "rating": 3
+ },
+ {
+  "id": "uranus",
+  "name": "Uranus",
+  "se_name": "Uranus",
+  "aliases": [
+   "천왕성"
+  ],
+  "category": "solar_system",
+  "subcategory": "planet",
+  "parent": "Sun",
+  "tags": [
+   "ice-giant",
+   "tilted",
+   "rings",
+   "blue-green"
+  ],
+  "description": "극도로 기울어진 자전축을 가진 얼음 거성",
+  "rating": 3
+ },
+ {
+  "id": "amalthea",
+  "name": "Amalthea",
+  "se_name": "Amalthea",
+  "aliases": [
+   "아말테아"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Jupiter",
+  "tags": [
+   "moon",
+   "irregular",
+   "red",
+   "inner"
+  ],
+  "description": "목성 내부 위성 중 가장 큰 불규칙 위성",
+  "rating": 2
+ },
+ {
+  "id": "ceres",
+  "name": "Ceres",
+  "se_name": "Ceres",
+  "aliases": [
+   "세레스",
+   "1 Ceres"
+  ],
+  "category": "solar_system",
+  "subcategory": "dwarf_planet",
+  "parent": "Sun",
+  "tags": [
+   "dwarf-planet",
+   "asteroid-belt",
+   "ice",
+   "bright-spots"
+  ],
+  "description": "소행성대에서 가장 큰 왜소행성",
+  "rating": 2
+ },
+ {
+  "id": "deimos",
+  "name": "Deimos",
+  "se_name": "Deimos",
+  "aliases": [
+   "데이모스"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Mars",
+  "tags": [
+   "moon",
+   "irregular",
+   "small",
+   "smooth"
+  ],
+  "description": "화성의 작고 매끄러운 바깥쪽 위성",
+  "rating": 2
+ },
+ {
+  "id": "eris",
+  "name": "Eris",
+  "se_name": "Eris",
+  "aliases": [
+   "에리스"
+  ],
+  "category": "solar_system",
+  "subcategory": "dwarf_planet",
+  "parent": "Sun",
+  "tags": [
+   "dwarf-planet",
+   "scattered-disc",
+   "massive",
+   "distant"
+  ],
+  "description": "명왕성보다 무거운 산란원반의 왜소행성",
+  "rating": 2
+ },
+ {
+  "id": "makemake",
+  "name": "Makemake",
+  "se_name": "Makemake",
+  "aliases": [
+   "마케마케"
+  ],
+  "category": "solar_system",
+  "subcategory": "dwarf_planet",
+  "parent": "Sun",
+  "tags": [
+   "dwarf-planet",
+   "kuiper-belt",
+   "reddish",
+   "bright"
+  ],
+  "description": "카이퍼벨트에서 두 번째로 밝은 왜소행성",
+  "rating": 2
+ },
+ {
+  "id": "oberon",
+  "name": "Oberon",
+  "se_name": "Oberon",
+  "aliases": [
+   "오베론"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Uranus",
+  "tags": [
+   "moon",
+   "ice",
+   "cratered",
+   "dark"
+  ],
+  "description": "천왕성에서 두 번째로 큰 위성",
+  "rating": 2
+ },
+ {
+  "id": "phoebe",
+  "name": "Phoebe",
+  "se_name": "Phoebe",
+  "aliases": [
+   "포에베"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Saturn",
+  "tags": [
+   "moon",
+   "retrograde",
+   "captured",
+   "dark"
+  ],
+  "description": "역행 궤도의 포획된 토성 위성",
+  "rating": 2
+ },
+ {
+  "id": "quaoar",
+  "name": "Quaoar",
+  "se_name": "Quaoar",
+  "aliases": [
+   "쿠아오아르"
+  ],
+  "category": "solar_system",
+  "subcategory": "dwarf_planet",
+  "parent": "Sun",
+  "tags": [
+   "dwarf-planet",
+   "kuiper-belt",
+   "rings"
+  ],
+  "description": "고리를 가진 것으로 확인된 카이퍼벨트 천체",
+  "rating": 2
+ },
+ {
+  "id": "rhea",
+  "name": "Rhea",
+  "se_name": "Rhea",
+  "aliases": [
+   "레아"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Saturn",
+  "tags": [
+   "moon",
+   "ice",
+   "cratered",
+   "second-largest"
+  ],
+  "description": "토성에서 두 번째로 큰 얼음 위성",
+  "rating": 2
+ },
+ {
+  "id": "umbriel",
+  "name": "Umbriel",
+  "se_name": "Umbriel",
+  "aliases": [
+   "움브리엘"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Uranus",
+  "tags": [
+   "moon",
+   "dark",
+   "cratered",
+   "ancient"
+  ],
+  "description": "천왕성 위성 중 가장 어두운 표면의 위성",
+  "rating": 2
+ },
+ {
+  "id": "vesta",
+  "name": "Vesta",
+  "se_name": "Vesta",
+  "aliases": [
+   "베스타",
+   "4 Vesta"
+  ],
+  "category": "solar_system",
+  "subcategory": "asteroid",
+  "parent": "Sun",
+  "tags": [
+   "asteroid",
+   "differentiated",
+   "large-crater",
+   "bright"
+  ],
+  "description": "소행성대에서 두 번째로 크고 가장 밝은 소행성",
+  "rating": 2
+ },
+ {
+  "id": "dysnomia",
+  "name": "Dysnomia",
+  "se_name": "Dysnomia",
+  "aliases": [
+   "디스노미아"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Eris",
+  "tags": [
+   "moon",
+   "distant",
+   "small"
+  ],
+  "description": "에리스의 유일한 위성",
+  "rating": 1
+ },
+ {
+  "id": "hygiea",
+  "name": "Hygiea",
+  "se_name": "Hygiea",
+  "aliases": [
+   "히기에아",
+   "10 Hygiea"
+  ],
+  "category": "solar_system",
+  "subcategory": "asteroid",
+  "parent": "Sun",
+  "tags": [
+   "asteroid",
+   "large",
+   "dark",
+   "c-type"
+  ],
+  "description": "소행성대에서 네 번째로 큰 소행성",
+  "rating": 1
+ },
+ {
+  "id": "juno",
+  "name": "Juno",
+  "se_name": "Juno",
+  "aliases": [
+   "유노",
+   "3 Juno"
+  ],
+  "category": "solar_system",
+  "subcategory": "asteroid",
+  "parent": "Sun",
+  "tags": [
+   "asteroid",
+   "s-type",
+   "bright"
+  ],
+  "description": "세 번째로 발견된 소행성",
+  "rating": 1
+ },
+ {
+  "id": "nereid",
+  "name": "Nereid",
+  "se_name": "Nereid",
+  "aliases": [
+   "네레이드"
+  ],
+  "category": "solar_system",
+  "subcategory": "moon",
+  "parent": "Neptune",
+  "tags": [
+   "moon",
+   "eccentric-orbit",
+   "irregular"
+  ],
+  "description": "태양계 위성 중 가장 이심률이 큰 궤도를 가진 위성",
+  "rating": 1
+ },
+ {
+  "id": "pallas",
+  "name": "Pallas",
+  "se_name": "Pallas",
+  "aliases": [
+   "팔라스",
+   "2 Pallas"
+  ],
+  "category": "solar_system",
+  "subcategory": "asteroid",
+  "parent": "Sun",
+  "tags": [
+   "asteroid",
+   "large",
+   "tilted-orbit",
+   "b-type"
+  ],
+  "description": "소행성대에서 세 번째로 큰 소행성",
+  "rating": 1
+ },
+ {
+  "id": "antares",
+  "name": "Antares",
+  "se_name": "Antares",
+  "aliases": [],
+  "category": "star",
+  "subcategory": "red_supergiant",
+  "parent": null,
+  "tags": [
+   "bright",
+   "red",
+   "scorpius",
+   "M-type"
+  ],
+  "description": "전갈자리의 붉은 초거성",
+  "rating": 5
+ },
+ {
+  "id": "betelgeuse",
+  "name": "Betelgeuse",
+  "se_name": "Betelgeuse",
+  "aliases": [
+   "베텔게우스",
+   "ALF Ori"
+  ],
+  "category": "star",
+  "subcategory": "red_supergiant",
+  "parent": null,
+  "tags": [
+   "orion",
+   "red",
+   "huge",
+   "variable",
+   "supernova-candidate"
+  ],
+  "description": "오리온의 어깨, 초신성 후보 적색초거성",
+  "rating": 5
+ },
+ {
+  "id": "eta-carinae",
+  "name": "Eta Carinae",
+  "se_name": "Eta Carinae",
+  "aliases": [
+   "에타 카리나"
+  ],
+  "category": "star",
+  "subcategory": "star",
+  "parent": null,
+  "tags": [
+   "luminous-blue-variable",
+   "massive",
+   "unstable",
+   "eruption",
+   "binary"
+  ],
+  "description": "은하계에서 가장 불안정한 초대질량 쌍성계",
+  "rating": 5
+ },
+ {
+  "id": "rigel",
+  "name": "Rigel",
+  "se_name": "Rigel",
+  "aliases": [],
+  "category": "star",
+  "subcategory": "blue_supergiant",
+  "parent": null,
+  "tags": [
+   "bright",
+   "orion",
+   "B-type",
+   "luminous"
+  ],
+  "description": "오리온자리의 푸른 초거성",
+  "rating": 5
+ },
+ {
+  "id": "sirius",
+  "name": "Sirius",
+  "se_name": "Sirius",
+  "aliases": [],
+  "category": "star",
+  "subcategory": "main_sequence",
+  "parent": null,
+  "tags": [
+   "brightest",
+   "binary",
+   "A-type",
+   "nearby"
+  ],
+  "description": "밤하늘에서 가장 밝은 별",
+  "rating": 5
+ },
+ {
+  "id": "v838-monocerotis",
+  "name": "V838 Monocerotis",
+  "se_name": "V838 Mon",
+  "aliases": [
+   "V838 외뿔소자리"
+  ],
+  "category": "star",
+  "subcategory": "star",
+  "parent": null,
+  "tags": [
+   "nova",
+   "light-echo",
+   "unusual",
+   "red"
+  ],
+  "description": "빛 메아리 현상으로 유명한 특이 변광성",
+  "rating": 5
+ },
+ {
+  "id": "alf-cen-a",
+  "name": "ALF Cen A",
+  "se_name": "ALF Cen A",
+  "aliases": [
+   "알파 센타우리 A",
+   "Toliman A"
+  ],
+  "category": "star",
+  "subcategory": "main_sequence",
+  "parent": null,
+  "tags": [
+   "nearest",
+   "sun-like",
+   "G-type",
+   "binary"
+  ],
+  "description": "태양과 비슷한 가장 가까운 별",
+  "rating": 4
+ },
+ {
+  "id": "aldebaran",
+  "name": "Aldebaran",
+  "se_name": "Aldebaran",
+  "aliases": [],
+  "category": "star",
+  "subcategory": "red_giant",
+  "parent": null,
+  "tags": [
+   "bright",
+   "orange",
+   "taurus",
+   "K-type"
+  ],
+  "description": "황소자리의 눈, 주황색 거성",
+  "rating": 4
+ },
+ {
+  "id": "arcturus",
+  "name": "Arcturus",
+  "se_name": "Arcturus",
+  "aliases": [],
+  "category": "star",
+  "subcategory": "red_giant",
+  "parent": null,
+  "tags": [
+   "bright",
+   "orange",
+   "K-type"
+  ],
+  "description": "북반구에서 가장 밝은 적색거성",
+  "rating": 4
+ },
+ {
+  "id": "canopus",
+  "name": "Canopus",
+  "se_name": "Canopus",
+  "aliases": [],
+  "category": "star",
+  "subcategory": "supergiant",
+  "parent": null,
+  "tags": [
+   "bright",
+   "southern",
+   "F-type"
+  ],
+  "description": "남반구에서 가장 밝은 별",
+  "rating": 4
+ },
+ {
+  "id": "crab-pulsar",
+  "name": "Crab Pulsar",
+  "se_name": "Crab Pulsar",
+  "aliases": [
+   "게 펄서",
+   "PSR B0531+21"
+  ],
+  "category": "star",
+  "subcategory": "pulsar",
+  "parent": null,
+  "tags": [
+   "pulsar",
+   "neutron-star",
+   "crab-nebula",
+   "young",
+   "fast"
+  ],
+  "description": "게 성운 중심의 빠르게 회전하는 펄서",
+  "rating": 4
+ },
+ {
+  "id": "deneb",
+  "name": "Deneb",
+  "se_name": "Deneb",
+  "aliases": [],
+  "category": "star",
+  "subcategory": "blue_supergiant",
+  "parent": null,
+  "tags": [
+   "luminous",
+   "summer-triangle",
+   "A-type"
+  ],
+  "description": "여름 대삼각형의 극대광도 초거성",
+  "rating": 4
+ },
+ {
+  "id": "la-superba",
+  "name": "La Superba",
+  "se_name": "La Superba",
+  "aliases": [
+   "Y CVn"
+  ],
+  "category": "star",
+  "subcategory": "carbon_star",
+  "parent": null,
+  "tags": [
+   "red",
+   "carbon",
+   "beautiful",
+   "variable"
+  ],
+  "description": "가장 아름다운 적색 탄소별 중 하나",
+  "rating": 4
+ },
+ {
+  "id": "mamajeks-object",
+  "name": "Mamajek's Object",
+  "se_name": "Mamajek's Object",
+  "aliases": [
+   "J1407",
+   "V1400 Cen"
+  ],
+  "category": "star",
+  "subcategory": "peculiar",
+  "parent": null,
+  "tags": [
+   "super-ring",
+   "exoring",
+   "young"
+  ],
+  "description": "토성보다 200배 큰 고리계를 가진 별",
+  "rating": 4
+ },
+ {
+  "id": "mira",
+  "name": "Mira",
+  "se_name": "Mira",
+  "aliases": [
+   "미라",
+   "Omicron Ceti"
+  ],
+  "category": "star",
+  "subcategory": "star",
+  "parent": null,
+  "tags": [
+   "variable",
+   "red-giant",
+   "pulsating",
+   "comet-like-tail"
+  ],
+  "description": "혜성 같은 꼬리를 가진 유명한 맥동변광성",
+  "rating": 4
+ },
+ {
+  "id": "mu-cephei",
+  "name": "Mu Cephei",
+  "se_name": "Mu Cephei",
+  "aliases": [
+   "뮤 세페이",
+   "Garnet Star",
+   "허셜의 가넷별"
+  ],
+  "category": "star",
+  "subcategory": "red_supergiant",
+  "parent": null,
+  "tags": [
+   "red-supergiant",
+   "garnet",
+   "variable",
+   "large"
+  ],
+  "description": "허셜이 이름 붙인 진홍색의 거대 적색 초거성",
+  "rating": 4
+ },
+ {
+  "id": "polaris",
+  "name": "Polaris",
+  "se_name": "Polaris",
+  "aliases": [],
+  "category": "star",
+  "subcategory": "supergiant",
+  "parent": null,
+  "tags": [
+   "north-star",
+   "cepheid",
+   "navigation"
+  ],
+  "description": "현재의 북극성, 세페이드 변광성",
+  "rating": 4
+ },
+ {
+  "id": "proxima",
+  "name": "Proxima",
+  "se_name": "Proxima",
+  "aliases": [
+   "프록시마",
+   "Proxima Cen",
+   "ALF Cen C"
+  ],
+  "category": "star",
+  "subcategory": "red_dwarf",
+  "parent": null,
+  "tags": [
+   "nearest",
+   "red-dwarf",
+   "M-type",
+   "exoplanets"
+  ],
+  "description": "태양에서 가장 가까운 별",
+  "rating": 4
+ },
+ {
+  "id": "r136a1",
+  "name": "R136a1",
+  "se_name": "R136a1 system",
+  "aliases": [
+   "R136a1"
+  ],
+  "category": "star",
+  "subcategory": "wolf_rayet",
+  "parent": null,
+  "tags": [
+   "most-massive",
+   "luminous",
+   "LMC",
+   "record"
+  ],
+  "description": "알려진 별 중 가장 무거운 별",
+  "rating": 4
+ },
+ {
+  "id": "stephenson-2-18",
+  "name": "Stephenson 2-18",
+  "se_name": "Stephenson 2-18",
+  "aliases": [
+   "RSGC2-18"
+  ],
+  "category": "star",
+  "subcategory": "red_supergiant",
+  "parent": null,
+  "tags": [
+   "largest",
+   "record",
+   "luminous"
+  ],
+  "description": "알려진 별 중 가장 클 수 있는 적색초거성",
+  "rating": 4
+ },
+ {
+  "id": "uy-sct",
+  "name": "UY Sct",
+  "se_name": "UY Sct",
+  "aliases": [
+   "방패자리 UY"
+  ],
+  "category": "star",
+  "subcategory": "red_supergiant",
+  "parent": null,
+  "tags": [
+   "huge",
+   "luminous",
+   "record"
+  ],
+  "description": "반지름이 매우 큰 적색초거성",
+  "rating": 4
+ },
+ {
+  "id": "uy-scuti",
+  "name": "UY Scuti",
+  "se_name": "UY Sct",
+  "aliases": [
+   "UY 방패자리"
+  ],
+  "category": "star",
+  "subcategory": "red_supergiant",
+  "parent": null,
+  "tags": [
+   "hypergiant",
+   "red",
+   "largest-stars",
+   "pulsating"
+  ],
+  "description": "태양 반지름의 1700배 이상인 거대 적색 초거성",
+  "rating": 4
+ },
+ {
+  "id": "v838-mon",
+  "name": "V838 Mon",
+  "se_name": "V838 Mon",
+  "aliases": [
+   "V838 Monocerotis"
+  ],
+  "category": "star",
+  "subcategory": "peculiar",
+  "parent": null,
+  "tags": [
+   "light-echo",
+   "eruption",
+   "mysterious"
+  ],
+  "description": "빛 메아리 현상으로 유명한 폭발 변광성",
+  "rating": 4
+ },
+ {
+  "id": "vy-cma",
+  "name": "VY CMa",
+  "se_name": "VY CMa",
+  "aliases": [
+   "큰개자리 VY"
+  ],
+  "category": "star",
+  "subcategory": "red_hypergiant",
+  "parent": null,
+  "tags": [
+   "huge",
+   "hypergiant",
+   "luminous"
+  ],
+  "description": "알려진 별 중 가장 큰 극대거성 중 하나",
+  "rating": 4
+ },
+ {
+  "id": "vy-canis-majoris",
+  "name": "VY Canis Majoris",
+  "se_name": "VY CMa",
+  "aliases": [
+   "VY 큰개자리"
+  ],
+  "category": "star",
+  "subcategory": "red_supergiant",
+  "parent": null,
+  "tags": [
+   "hypergiant",
+   "red",
+   "massive",
+   "luminous",
+   "largest-stars"
+  ],
+  "description": "알려진 항성 중 가장 큰 적색 극초거성 중 하나",
+  "rating": 4
+ },
+ {
+  "id": "vega",
+  "name": "Vega",
+  "se_name": "Vega",
+  "aliases": [],
+  "category": "star",
+  "subcategory": "main_sequence",
+  "parent": null,
+  "tags": [
+   "bright",
+   "summer-triangle",
+   "A-type"
+  ],
+  "description": "여름 대삼각형의 밝은 별",
+  "rating": 4
+ },
+ {
+  "id": "alf-cen-b",
+  "name": "ALF Cen B",
+  "se_name": "ALF Cen B",
+  "aliases": [
+   "알파 센타우리 B",
+   "Toliman B"
+  ],
+  "category": "star",
+  "subcategory": "main_sequence",
+  "parent": null,
+  "tags": [
+   "nearest",
+   "K-type",
+   "binary"
+  ],
+  "description": "알파 센타우리의 동반성",
+  "rating": 3
+ },
+ {
+  "id": "achernar",
+  "name": "Achernar",
+  "se_name": "Achernar",
+  "aliases": [],
+  "category": "star",
+  "subcategory": "main_sequence",
+  "parent": null,
+  "tags": [
+   "bright",
+   "fast-rotation",
+   "B-type"
+  ],
+  "description": "빠르게 회전하는 납작한 별",
+  "rating": 3
+ },
+ {
+  "id": "algol",
+  "name": "Algol",
+  "se_name": "Algol",
+  "aliases": [
+   "알골",
+   "Beta Persei",
+   "악마의 별"
+  ],
+  "category": "star",
+  "subcategory": "star",
+  "parent": null,
+  "tags": [
+   "eclipsing-binary",
+   "variable",
+   "demon-star",
+   "historic"
+  ],
+  "description": "고대부터 알려진 식쌍성의 원형",
+  "rating": 3
+ },
+ {
+  "id": "alpha-centauri-a",
+  "name": "Alpha Centauri A",
+  "se_name": "ALF Cen A",
+  "aliases": [
+   "알파 센타우리 A",
+   "Rigil Kentaurus"
+  ],
+  "category": "star",
+  "subcategory": "star",
+  "parent": null,
+  "tags": [
+   "near",
+   "g-type",
+   "solar-twin",
+   "binary"
+  ],
+  "description": "태양과 유사한 센타우루스자리 알파 쌍성의 주성",
+  "rating": 3
+ },
+ {
+  "id": "altair",
+  "name": "Altair",
+  "se_name": "Altair",
+  "aliases": [
+   "알타이르",
+   "ALF Aql"
+  ],
+  "category": "star",
+  "subcategory": "main_sequence",
+  "parent": null,
+  "tags": [
+   "summer-triangle",
+   "fast-rotation",
+   "A-type"
+  ],
+  "description": "여름 대삼각형의 빠르게 회전하는 별",
+  "rating": 3
+ },
+ {
+  "id": "barnards-star",
+  "name": "Barnard's Star",
+  "se_name": "Barnard's Star",
+  "aliases": [
+   "바너드별"
+  ],
+  "category": "star",
+  "subcategory": "red_dwarf",
+  "parent": null,
+  "tags": [
+   "nearby",
+   "fast-proper-motion",
+   "red-dwarf"
+  ],
+  "description": "고유 운동이 가장 빠른 별 중 하나",
+  "rating": 3
+ },
+ {
+  "id": "capella",
+  "name": "Capella",
+  "se_name": "Capella",
+  "aliases": [],
+  "category": "star",
+  "subcategory": "giant",
+  "parent": null,
+  "tags": [
+   "bright",
+   "binary",
+   "G-type"
+  ],
+  "description": "마차부자리의 밝은 쌍성계",
+  "rating": 3
+ },
+ {
+  "id": "eps-eri",
+  "name": "EPS Eri",
+  "se_name": "EPS Eri",
+  "aliases": [
+   "엡실론 에리다니"
+  ],
+  "category": "star",
+  "subcategory": "main_sequence",
+  "parent": null,
+  "tags": [
+   "nearby",
+   "K-type",
+   "young",
+   "debris-disk"
+  ],
+  "description": "가까운 젊은 별, 잔해원반 보유",
+  "rating": 3
+ },
+ {
+  "id": "fomalhaut",
+  "name": "Fomalhaut",
+  "se_name": "Fomalhaut",
+  "aliases": [],
+  "category": "star",
+  "subcategory": "main_sequence",
+  "parent": null,
+  "tags": [
+   "bright",
+   "debris-disk",
+   "A-type"
+  ],
+  "description": "잔해 원반이 유명한 가을의 외로운 별",
+  "rating": 3
+ },
+ {
+  "id": "ky-cyg",
+  "name": "KY Cyg",
+  "se_name": "KY Cyg",
+  "aliases": [],
+  "category": "star",
+  "subcategory": "red_supergiant",
+  "parent": null,
+  "tags": [
+   "huge",
+   "luminous"
+  ],
+  "description": "백조자리의 적색 초거성",
+  "rating": 3
+ },
+ {
+  "id": "ky-cygni",
+  "name": "KY Cygni",
+  "se_name": "KY Cyg",
+  "aliases": [
+   "KY 백조자리"
+  ],
+  "category": "star",
+  "subcategory": "red_supergiant",
+  "parent": null,
+  "tags": [
+   "hypergiant",
+   "red",
+   "massive",
+   "luminous"
+  ],
+  "description": "백조자리의 거대 적색 초거성",
+  "rating": 3
+ },
+ {
+  "id": "nml-cyg",
+  "name": "NML Cyg",
+  "se_name": "NML Cyg",
+  "aliases": [
+   "V1489 Cyg"
+  ],
+  "category": "star",
+  "subcategory": "red_hypergiant",
+  "parent": null,
+  "tags": [
+   "huge",
+   "luminous",
+   "mass-loss"
+  ],
+  "description": "백조자리의 적색 극대거성",
+  "rating": 3
+ },
+ {
+  "id": "nml-cygni",
+  "name": "NML Cygni",
+  "se_name": "NML Cyg",
+  "aliases": [
+   "NML 백조자리"
+  ],
+  "category": "star",
+  "subcategory": "red_supergiant",
+  "parent": null,
+  "tags": [
+   "hypergiant",
+   "red",
+   "largest-stars",
+   "luminous"
+  ],
+  "description": "백조자리의 극대 적색 초거성",
+  "rating": 3
+ },
+ {
+  "id": "p-cyg",
+  "name": "P Cyg",
+  "se_name": "P Cyg",
+  "aliases": [
+   "34 Cyg"
+  ],
+  "category": "star",
+  "subcategory": "blue_hypergiant",
+  "parent": null,
+  "tags": [
+   "luminous",
+   "variable",
+   "LBV"
+  ],
+  "description": "밝은 청색변광성의 원조 천체",
+  "rating": 3
+ },
+ {
+  "id": "p-cygni",
+  "name": "P Cygni",
+  "se_name": "P Cyg",
+  "aliases": [
+   "P 백조자리"
+  ],
+  "category": "star",
+  "subcategory": "star",
+  "parent": null,
+  "tags": [
+   "luminous-blue-variable",
+   "massive",
+   "eruption",
+   "historical"
+  ],
+  "description": "17세기에 맨눈으로 보인 청색 초거성",
+  "rating": 3
+ },
+ {
+  "id": "pistol-star",
+  "name": "Pistol Star",
+  "se_name": "Pistol Star",
+  "aliases": [
+   "V4647 Sgr"
+  ],
+  "category": "star",
+  "subcategory": "blue_hypergiant",
+  "parent": null,
+  "tags": [
+   "luminous",
+   "massive",
+   "galactic-center"
+  ],
+  "description": "은하 중심부의 극대광도 청색거성",
+  "rating": 3
+ },
+ {
+  "id": "procyon",
+  "name": "Procyon",
+  "se_name": "Procyon",
+  "aliases": [],
+  "category": "star",
+  "subcategory": "main_sequence",
+  "parent": null,
+  "tags": [
+   "bright",
+   "nearby",
+   "F-type",
+   "binary"
+  ],
+  "description": "작은개자리의 밝은 별",
+  "rating": 3
+ },
+ {
+  "id": "proxima-centauri",
+  "name": "Proxima Centauri",
+  "se_name": "Proxima",
+  "aliases": [
+   "프록시마 센타우리",
+   "Alpha Centauri C"
+  ],
+  "category": "star",
+  "subcategory": "star",
+  "parent": null,
+  "tags": [
+   "nearest-star",
+   "red-dwarf",
+   "m-type",
+   "flare-star",
+   "exoplanets"
+  ],
+  "description": "태양에서 가장 가까운 항성, 외계행성 보유",
+  "rating": 3
+ },
+ {
+  "id": "regulus",
+  "name": "Regulus",
+  "se_name": "Regulus",
+  "aliases": [],
+  "category": "star",
+  "subcategory": "main_sequence",
+  "parent": null,
+  "tags": [
+   "bright",
+   "leo",
+   "B-type"
+  ],
+  "description": "사자자리의 심장, 밝은 별",
+  "rating": 3
+ },
+ {
+  "id": "s-dor",
+  "name": "S Dor",
+  "se_name": "S Dor",
+  "aliases": [
+   "HD 35343"
+  ],
+  "category": "star",
+  "subcategory": "blue_hypergiant",
+  "parent": null,
+  "tags": [
+   "LBV",
+   "LMC",
+   "variable",
+   "luminous"
+  ],
+  "description": "S 도라두스형 변광성의 원형 천체",
+  "rating": 3
+ },
+ {
+  "id": "s-doradus",
+  "name": "S Doradus",
+  "se_name": "S Dor",
+  "aliases": [
+   "S 황새치자리"
+  ],
+  "category": "star",
+  "subcategory": "star",
+  "parent": null,
+  "tags": [
+   "luminous-blue-variable",
+   "lmc",
+   "extreme",
+   "massive"
+  ],
+  "description": "대마젤란은하에서 가장 밝은 항성 중 하나",
+  "rating": 3
+ },
+ {
+  "id": "sirius-b",
+  "name": "Sirius B",
+  "se_name": "Sirius B",
+  "aliases": [
+   "시리우스 B"
+  ],
+  "category": "star",
+  "subcategory": "white_dwarf",
+  "parent": "Sirius",
+  "tags": [
+   "white-dwarf",
+   "binary",
+   "hot",
+   "dense"
+  ],
+  "description": "시리우스의 백색왜성 동반성",
+  "rating": 3
+ },
+ {
+  "id": "spica",
+  "name": "Spica",
+  "se_name": "Spica",
+  "aliases": [],
+  "category": "star",
+  "subcategory": "main_sequence",
+  "parent": null,
+  "tags": [
+   "bright",
+   "binary",
+   "B-type"
+  ],
+  "description": "처녀자리의 밝은 쌍성",
+  "rating": 3
+ },
+ {
+  "id": "tau-cet",
+  "name": "TAU Cet",
+  "se_name": "TAU Cet",
+  "aliases": [
+   "타우 세티"
+  ],
+  "category": "star",
+  "subcategory": "main_sequence",
+  "parent": null,
+  "tags": [
+   "sun-like",
+   "nearby",
+   "G-type",
+   "exoplanets"
+  ],
+  "description": "가까운 태양 유사 별, 행성계 보유",
+  "rating": 3
+ },
+ {
+  "id": "tabbys-star",
+  "name": "Tabby's Star",
+  "se_name": "Tabby's Star",
+  "aliases": [
+   "태비의 별",
+   "KIC 8462852",
+   "Boyajian's Star"
+  ],
+  "category": "star",
+  "subcategory": "star",
+  "parent": null,
+  "tags": [
+   "mysterious-dimming",
+   "f-type",
+   "controversial",
+   "megastructure"
+  ],
+  "description": "비정상적 밝기 감소로 유명한 미스터리 항성",
+  "rating": 3
+ },
+ {
+  "id": "vela-pulsar",
+  "name": "Vela Pulsar",
+  "se_name": "Vela Pulsar",
+  "aliases": [
+   "벨라 펄서",
+   "PSR B0833-45"
+  ],
+  "category": "star",
+  "subcategory": "pulsar",
+  "parent": null,
+  "tags": [
+   "pulsar",
+   "neutron-star",
+   "vela-snr",
+   "gamma-ray"
+  ],
+  "description": "벨라 초신성 잔해의 감마선 펄서",
+  "rating": 3
+ },
+ {
+  "id": "woh-g64",
+  "name": "WOH G64",
+  "se_name": "WOH G64",
+  "aliases": [],
+  "category": "star",
+  "subcategory": "red_supergiant",
+  "parent": null,
+  "tags": [
+   "LMC",
+   "huge",
+   "dusty"
+  ],
+  "description": "대마젤란은하의 거대한 적색초거성",
+  "rating": 3
+ },
+ {
+  "id": "alpha-centauri-b",
+  "name": "Alpha Centauri B",
+  "se_name": "ALF Cen B",
+  "aliases": [
+   "알파 센타우리 B",
+   "Toliman"
+  ],
+  "category": "star",
+  "subcategory": "star",
+  "parent": null,
+  "tags": [
+   "near",
+   "k-type",
+   "binary",
+   "orange-dwarf"
+  ],
+  "description": "센타우루스자리 알파 쌍성의 반성",
+  "rating": 2
+ },
+ {
+  "id": "denebola",
+  "name": "Denebola",
+  "se_name": "Denebola",
+  "aliases": [
+   "데네볼라",
+   "BET Leo"
+  ],
+  "category": "star",
+  "subcategory": "main_sequence",
+  "parent": null,
+  "tags": [
+   "bright",
+   "leo",
+   "A-type"
+  ],
+  "description": "사자자리 꼬리의 밝은 별",
+  "rating": 2
+ },
+ {
+  "id": "epsilon-eridani",
+  "name": "Epsilon Eridani",
+  "se_name": "EPS Eri",
+  "aliases": [
+   "엡실론 에리다니"
+  ],
+  "category": "star",
+  "subcategory": "star",
+  "parent": null,
+  "tags": [
+   "near",
+   "k-type",
+   "young",
+   "debris-disk",
+   "exoplanet"
+  ],
+  "description": "젊은 근거리 항성, 먼지 원반과 외계행성 보유",
+  "rating": 2
+ },
+ {
+  "id": "kapteyn",
+  "name": "Kapteyn",
+  "se_name": "Kapteyn",
+  "aliases": [
+   "Kapteyn's Star"
+  ],
+  "category": "star",
+  "subcategory": "red_dwarf",
+  "parent": null,
+  "tags": [
+   "nearby",
+   "fast",
+   "halo-star",
+   "old"
+  ],
+  "description": "매우 오래된 은하 헤일로 출신 별",
+  "rating": 2
+ },
+ {
+  "id": "kapteyns-star",
+  "name": "Kapteyn's Star",
+  "se_name": "Kapteyn",
+  "aliases": [
+   "캡틴별"
+  ],
+  "category": "star",
+  "subcategory": "star",
+  "parent": null,
+  "tags": [
+   "near",
+   "red-subdwarf",
+   "halo-star",
+   "old",
+   "high-velocity"
+  ],
+  "description": "은하 헤일로 출신의 고속 근거리 항성",
+  "rating": 2
+ },
+ {
+  "id": "lalande-21185",
+  "name": "Lalande 21185",
+  "se_name": "HD 95735",
+  "aliases": [
+   "Lalande 21185"
+  ],
+  "category": "star",
+  "subcategory": "red_dwarf",
+  "parent": null,
+  "tags": [
+   "nearby",
+   "M-type"
+  ],
+  "description": "가까운 적색왜성",
+  "rating": 2
+ },
+ {
+  "id": "luhman-16",
+  "name": "Luhman 16",
+  "se_name": "Luhman 16",
+  "aliases": [
+   "루만 16",
+   "WISE 1049-5319"
+  ],
+  "category": "star",
+  "subcategory": "brown_dwarf",
+  "parent": null,
+  "tags": [
+   "brown-dwarf",
+   "binary",
+   "nearest-bd",
+   "l-dwarf"
+  ],
+  "description": "가장 가까운 갈색왜성 쌍성계",
+  "rating": 2
+ },
+ {
+  "id": "ross-128",
+  "name": "Ross 128",
+  "se_name": "Ross 128",
+  "aliases": [
+   "로스 128"
+  ],
+  "category": "star",
+  "subcategory": "red_dwarf",
+  "parent": null,
+  "tags": [
+   "nearby",
+   "quiet",
+   "M-type",
+   "exoplanet"
+  ],
+  "description": "조용한 근거리 적색왜성, 외계행성 보유",
+  "rating": 2
+ },
+ {
+  "id": "tau-ceti",
+  "name": "Tau Ceti",
+  "se_name": "TAU Cet",
+  "aliases": [
+   "타우 세티"
+  ],
+  "category": "star",
+  "subcategory": "star",
+  "parent": null,
+  "tags": [
+   "near",
+   "solar-like",
+   "g-type",
+   "exoplanets"
+  ],
+  "description": "태양과 유사한 근거리 항성, SF에서 자주 등장",
+  "rating": 2
+ },
+ {
+  "id": "wolf-359",
+  "name": "Wolf 359",
+  "se_name": "Wolf 359",
+  "aliases": [
+   "울프 359"
+  ],
+  "category": "star",
+  "subcategory": "star",
+  "parent": null,
+  "tags": [
+   "red-dwarf",
+   "near",
+   "faint",
+   "flare-star"
+  ],
+  "description": "태양에서 매우 가까운 희미한 적색왜성",
+  "rating": 2
+ },
+ {
+  "id": "dimidium",
+  "name": "Dimidium",
+  "se_name": "Dimidium",
+  "aliases": [
+   "51 Peg b",
+   "Bellerophon"
+  ],
+  "category": "exoplanet",
+  "subcategory": "hot-jupiter",
+  "parent": null,
+  "tags": [
+   "first-discovery",
+   "hot-jupiter",
+   "historic"
+  ],
+  "description": "최초로 발견된 태양형 별의 외계행성",
+  "rating": 5
+ },
+ {
+  "id": "proxima-b",
+  "name": "Proxima b",
+  "se_name": "Proxima b",
+  "aliases": [
+   "프록시마 b",
+   "Proxima Cen b",
+   "ALF Cen C b"
+  ],
+  "category": "exoplanet",
+  "subcategory": "rocky",
+  "parent": "Proxima",
+  "tags": [
+   "habitable-zone",
+   "nearest-exoplanet",
+   "rocky"
+  ],
+  "description": "가장 가까운 별의 거주가능 지대 행성",
+  "rating": 5
+ },
+ {
+  "id": "trappist-1-e",
+  "name": "TRAPPIST-1 e",
+  "se_name": "TRAPPIST-1 e",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "trappist",
+   "rocky",
+   "habitable-zone",
+   "earth-like",
+   "best-candidate"
+  ],
+  "description": "TRAPPIST-1계에서 가장 지구와 유사한 행성",
+  "rating": 5
+ },
+ {
+  "id": "trappist-1e",
+  "name": "TRAPPIST-1 e",
+  "se_name": "TRAPPIST-1 e",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "rocky",
+  "parent": null,
+  "tags": [
+   "trappist",
+   "habitable-zone",
+   "earth-like",
+   "best-candidate"
+  ],
+  "description": "가장 지구와 유사한 TRAPPIST-1 행성",
+  "rating": 5
+ },
+ {
+  "id": "51-peg-b",
+  "name": "51 Pegasi b",
+  "se_name": "Dimidium",
+  "aliases": [
+   "디미디움",
+   "51 Peg b",
+   "Dimidium"
+  ],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "first-exoplanet",
+   "hot-jupiter",
+   "historic",
+   "gas-giant"
+  ],
+  "description": "최초로 발견된 태양형 항성의 외계행성",
+  "rating": 4
+ },
+ {
+  "id": "hd-189733-b",
+  "name": "HD 189733 b",
+  "se_name": "HD 189733 b",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "hot-jupiter",
+   "blue",
+   "glass-rain",
+   "extreme-weather"
+  ],
+  "description": "유리비가 내리는 것으로 유명한 뜨거운 목성형 행성",
+  "rating": 4
+ },
+ {
+  "id": "hd189733b",
+  "name": "HD 189733 b",
+  "se_name": "HD 189733 b",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "hot-jupiter",
+  "parent": null,
+  "tags": [
+   "blue",
+   "glass-rain",
+   "hot"
+  ],
+  "description": "유리 비가 내리는 푸른 뜨거운 목성",
+  "rating": 4
+ },
+ {
+  "id": "hr8799b",
+  "name": "HR 8799 b",
+  "se_name": "HR 8799 b",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "giant",
+  "parent": null,
+  "tags": [
+   "direct-imaging",
+   "young",
+   "massive"
+  ],
+  "description": "직접 촬영된 거대 가스행성",
+  "rating": 4
+ },
+ {
+  "id": "janssen",
+  "name": "Janssen",
+  "se_name": "Janssen",
+  "aliases": [
+   "55 Cnc e",
+   "55 Cnc A e"
+  ],
+  "category": "exoplanet",
+  "subcategory": "super-earth",
+  "parent": null,
+  "tags": [
+   "lava",
+   "ultra-hot",
+   "diamond"
+  ],
+  "description": "용암 바다가 있는 초고온 슈퍼지구",
+  "rating": 4
+ },
+ {
+  "id": "k2-18-b",
+  "name": "K2-18 b",
+  "se_name": "K2-18 b",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "sub-neptune",
+   "habitable-zone",
+   "water-vapor",
+   "biosignature-candidate"
+  ],
+  "description": "대기에서 수증기가 검출된 거주가능영역 행성",
+  "rating": 4
+ },
+ {
+  "id": "k2-18b",
+  "name": "K2-18 b",
+  "se_name": "K2-18 b",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "sub-neptune",
+  "parent": null,
+  "tags": [
+   "habitable-zone",
+   "water-vapor",
+   "biosignature"
+  ],
+  "description": "대기에 수증기가 감지된 거주가능 지대 행성",
+  "rating": 4
+ },
+ {
+  "id": "osiris",
+  "name": "Osiris",
+  "se_name": "Osiris",
+  "aliases": [
+   "HD 209458 b"
+  ],
+  "category": "exoplanet",
+  "subcategory": "hot-jupiter",
+  "parent": null,
+  "tags": [
+   "first-transit",
+   "evaporating"
+  ],
+  "description": "최초로 대기가 관측된 외계행성",
+  "rating": 4
+ },
+ {
+  "id": "trappist-1b",
+  "name": "TRAPPIST-1 b",
+  "se_name": "TRAPPIST-1 b",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "rocky",
+  "parent": null,
+  "tags": [
+   "trappist",
+   "innermost",
+   "hot"
+  ],
+  "description": "TRAPPIST-1계의 가장 안쪽 행성",
+  "rating": 4
+ },
+ {
+  "id": "wasp-12-b",
+  "name": "WASP-12 b",
+  "se_name": "WASP-12 b",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "hot-jupiter",
+   "ultra-hot",
+   "decaying-orbit",
+   "egg-shaped"
+  ],
+  "description": "항성에 삼켜지고 있는 초고온 목성형 행성",
+  "rating": 4
+ },
+ {
+  "id": "wasp-12b",
+  "name": "WASP-12 b",
+  "se_name": "WASP-12 b",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "hot-jupiter",
+  "parent": null,
+  "tags": [
+   "ultra-hot",
+   "egg-shaped",
+   "doomed"
+  ],
+  "description": "별에 삼켜지는 초고온 뜨거운 목성",
+  "rating": 4
+ },
+ {
+  "id": "barnard-b",
+  "name": "Barnard's Star b",
+  "se_name": "Barnard's Star b",
+  "aliases": [
+   "바너드별 b"
+  ],
+  "category": "exoplanet",
+  "subcategory": "super-earth",
+  "parent": "Barnard's Star",
+  "tags": [
+   "cold",
+   "snow-line"
+  ],
+  "description": "바너드별의 눈선 부근 슈퍼지구",
+  "rating": 3
+ },
+ {
+  "id": "dagon",
+  "name": "Dagon",
+  "se_name": "Dagon",
+  "aliases": [
+   "Fomalhaut b"
+  ],
+  "category": "exoplanet",
+  "subcategory": "giant",
+  "parent": "Fomalhaut",
+  "tags": [
+   "direct-imaging",
+   "debris-disk"
+  ],
+  "description": "잔해 원반에서 직접 촬영된 행성",
+  "rating": 3
+ },
+ {
+  "id": "draugr",
+  "name": "Draugr",
+  "se_name": "Draugr",
+  "aliases": [
+   "PSR B1257+12 b"
+  ],
+  "category": "exoplanet",
+  "subcategory": "rocky",
+  "parent": null,
+  "tags": [
+   "pulsar-planet",
+   "first-exoplanet"
+  ],
+  "description": "최초로 발견된 외계행성 (펄서 행성)",
+  "rating": 3
+ },
+ {
+  "id": "gliese-12-b",
+  "name": "Gliese 12 b",
+  "se_name": "Gliese 12 b",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "temperate",
+   "venus-like",
+   "nearby",
+   "jwst-target"
+  ],
+  "description": "금성과 지구 사이 온도의 근거리 온대 행성",
+  "rating": 3
+ },
+ {
+  "id": "gliese-12b",
+  "name": "Gliese 12 b",
+  "se_name": "Gliese 12 b",
+  "aliases": [
+   "GJ 12 b"
+  ],
+  "category": "exoplanet",
+  "subcategory": "rocky",
+  "parent": null,
+  "tags": [
+   "temperate",
+   "venus-like"
+  ],
+  "description": "금성과 비슷한 온도의 근거리 행성",
+  "rating": 3
+ },
+ {
+  "id": "gliese-581-c",
+  "name": "Gliese 581 c",
+  "se_name": "Gliese 581 c",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "super-earth",
+   "habitable-zone-edge",
+   "historic"
+  ],
+  "description": "초기 거주가능 행성 후보로 주목받은 슈퍼 지구",
+  "rating": 3
+ },
+ {
+  "id": "gliese-581c",
+  "name": "Gliese 581 c",
+  "se_name": "Gliese 581 c",
+  "aliases": [
+   "GJ 581 c"
+  ],
+  "category": "exoplanet",
+  "subcategory": "super-earth",
+  "parent": null,
+  "tags": [
+   "habitable-zone",
+   "controversial"
+  ],
+  "description": "거주가능 지대 논쟁의 슈퍼지구",
+  "rating": 3
+ },
+ {
+  "id": "gliese-667cc",
+  "name": "Gliese 667 C c",
+  "se_name": "Gliese 667 C c",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "super-earth",
+  "parent": null,
+  "tags": [
+   "habitable-zone",
+   "triple-star"
+  ],
+  "description": "삼중성계의 거주가능 지대 슈퍼지구",
+  "rating": 3
+ },
+ {
+  "id": "hd-106906-b",
+  "name": "HD 106906 b",
+  "se_name": "HD 106906 b",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "directly-imaged",
+   "wide-orbit",
+   "gas-giant",
+   "extreme"
+  ],
+  "description": "항성에서 극도로 먼 궤도의 직접 촬영 가스 거성",
+  "rating": 3
+ },
+ {
+  "id": "hd106906b",
+  "name": "HD 106906 b",
+  "se_name": "HD 106906 b",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "giant",
+  "parent": null,
+  "tags": [
+   "wide-orbit",
+   "planet-nine-analog"
+  ],
+  "description": "극도로 넓은 궤도의 거대행성",
+  "rating": 3
+ },
+ {
+  "id": "hd-209458-b",
+  "name": "HD 209458 b",
+  "se_name": "Osiris",
+  "aliases": [
+   "오시리스",
+   "HD 209458 b",
+   "Osiris"
+  ],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "hot-jupiter",
+   "transit",
+   "evaporating",
+   "atmosphere-detected"
+  ],
+  "description": "최초로 대기가 검출된 외계행성",
+  "rating": 3
+ },
+ {
+  "id": "hr-8799-b",
+  "name": "HR 8799 b",
+  "se_name": "HR 8799 b",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "directly-imaged",
+   "gas-giant",
+   "young",
+   "wide-orbit"
+  ],
+  "description": "직접 촬영된 HR 8799계의 가장 바깥쪽 가스 거성",
+  "rating": 3
+ },
+ {
+  "id": "hr-8799-c",
+  "name": "HR 8799 c",
+  "se_name": "HR 8799 c",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "directly-imaged",
+   "gas-giant",
+   "young"
+  ],
+  "description": "직접 촬영된 HR 8799계의 가스 거성",
+  "rating": 3
+ },
+ {
+  "id": "hr8799c",
+  "name": "HR 8799 c",
+  "se_name": "HR 8799 c",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "giant",
+  "parent": null,
+  "tags": [
+   "direct-imaging"
+  ],
+  "description": "HR 8799의 직접 촬영된 행성",
+  "rating": 3
+ },
+ {
+  "id": "hr-8799-d",
+  "name": "HR 8799 d",
+  "se_name": "HR 8799 d",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "directly-imaged",
+   "gas-giant",
+   "young"
+  ],
+  "description": "직접 촬영된 HR 8799계의 가스 거성",
+  "rating": 3
+ },
+ {
+  "id": "hr8799d",
+  "name": "HR 8799 d",
+  "se_name": "HR 8799 d",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "giant",
+  "parent": null,
+  "tags": [
+   "direct-imaging"
+  ],
+  "description": "HR 8799의 직접 촬영된 행성",
+  "rating": 3
+ },
+ {
+  "id": "hr-8799-e",
+  "name": "HR 8799 e",
+  "se_name": "HR 8799 e",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "directly-imaged",
+   "gas-giant",
+   "innermost",
+   "young"
+  ],
+  "description": "HR 8799계의 가장 안쪽 직접 촬영 가스 거성",
+  "rating": 3
+ },
+ {
+  "id": "hr8799e",
+  "name": "HR 8799 e",
+  "se_name": "HR 8799 e",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "giant",
+  "parent": null,
+  "tags": [
+   "direct-imaging",
+   "innermost"
+  ],
+  "description": "HR 8799의 가장 안쪽 직접 촬영 행성",
+  "rating": 3
+ },
+ {
+  "id": "kepler-1b",
+  "name": "Kepler-1 b",
+  "se_name": "Kepler-1 b",
+  "aliases": [
+   "TrES-2 b"
+  ],
+  "category": "exoplanet",
+  "subcategory": "hot-jupiter",
+  "parent": null,
+  "tags": [
+   "darkest",
+   "kepler"
+  ],
+  "description": "알려진 행성 중 가장 어두운 뜨거운 목성",
+  "rating": 3
+ },
+ {
+  "id": "kepler-10-b",
+  "name": "Kepler-10 b",
+  "se_name": "Kepler-10 b",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "rocky",
+   "lava-world",
+   "first-rocky-kepler"
+  ],
+  "description": "케플러가 발견한 최초의 확정 암석 행성",
+  "rating": 3
+ },
+ {
+  "id": "kepler-10b",
+  "name": "Kepler-10 b",
+  "se_name": "Kepler-10 b",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "rocky",
+  "parent": null,
+  "tags": [
+   "first-kepler-rocky",
+   "lava"
+  ],
+  "description": "케플러가 발견한 최초의 암석 행성",
+  "rating": 3
+ },
+ {
+  "id": "kepler-1625b",
+  "name": "Kepler-1625 b",
+  "se_name": "Kepler-1625 b",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "giant",
+  "parent": null,
+  "tags": [
+   "exomoon-candidate",
+   "large"
+  ],
+  "description": "외계위성 후보가 있는 거대행성",
+  "rating": 3
+ },
+ {
+  "id": "kepler-442-b",
+  "name": "Kepler-442 b",
+  "se_name": "Kepler-442 b",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "super-earth",
+   "habitable-zone",
+   "earth-like"
+  ],
+  "description": "거주가능영역의 지구와 유사한 슈퍼 지구",
+  "rating": 3
+ },
+ {
+  "id": "kepler-442b",
+  "name": "Kepler-442 b",
+  "se_name": "Kepler-442 b",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "super-earth",
+  "parent": null,
+  "tags": [
+   "habitable-zone",
+   "earth-like"
+  ],
+  "description": "지구 유사도가 높은 슈퍼지구",
+  "rating": 3
+ },
+ {
+  "id": "m51-uls-1b",
+  "name": "M51-ULS-1 b",
+  "se_name": "M51-ULS-1 b",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "giant",
+  "parent": null,
+  "tags": [
+   "extragalactic",
+   "first",
+   "x-ray-transit"
+  ],
+  "description": "최초의 외부은하 외계행성 후보",
+  "rating": 3
+ },
+ {
+  "id": "ross-128-b",
+  "name": "Ross 128 b",
+  "se_name": "Ross 128 b",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": "Ross 128",
+  "tags": [
+   "temperate",
+   "earth-like",
+   "nearby",
+   "quiet-star"
+  ],
+  "description": "조용한 적색왜성의 온대 지구형 행성",
+  "rating": 3
+ },
+ {
+  "id": "ross-128b",
+  "name": "Ross 128 b",
+  "se_name": "Ross 128 b",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "rocky",
+  "parent": "Ross 128",
+  "tags": [
+   "habitable-zone",
+   "nearby",
+   "quiet-star"
+  ],
+  "description": "조용한 별의 거주가능 지대 행성",
+  "rating": 3
+ },
+ {
+  "id": "trappist-1-b",
+  "name": "TRAPPIST-1 b",
+  "se_name": "TRAPPIST-1 b",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "trappist",
+   "rocky",
+   "tidally-locked",
+   "hot"
+  ],
+  "description": "TRAPPIST-1계의 가장 안쪽 암석 행성",
+  "rating": 3
+ },
+ {
+  "id": "trappist-1-c",
+  "name": "TRAPPIST-1 c",
+  "se_name": "TRAPPIST-1 c",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "trappist",
+   "rocky",
+   "venus-like"
+  ],
+  "description": "금성과 유사할 수 있는 TRAPPIST-1 행성",
+  "rating": 3
+ },
+ {
+  "id": "trappist-1c",
+  "name": "TRAPPIST-1 c",
+  "se_name": "TRAPPIST-1 c",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "rocky",
+  "parent": null,
+  "tags": [
+   "trappist",
+   "venus-like"
+  ],
+  "description": "TRAPPIST-1계의 금성형 행성",
+  "rating": 3
+ },
+ {
+  "id": "trappist-1-d",
+  "name": "TRAPPIST-1 d",
+  "se_name": "TRAPPIST-1 d",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "trappist",
+   "rocky",
+   "habitable-zone"
+  ],
+  "description": "거주가능영역 안쪽 경계의 TRAPPIST-1 행성",
+  "rating": 3
+ },
+ {
+  "id": "trappist-1d",
+  "name": "TRAPPIST-1 d",
+  "se_name": "TRAPPIST-1 d",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "rocky",
+  "parent": null,
+  "tags": [
+   "trappist",
+   "light"
+  ],
+  "description": "TRAPPIST-1계의 가벼운 행성",
+  "rating": 3
+ },
+ {
+  "id": "trappist-1-f",
+  "name": "TRAPPIST-1 f",
+  "se_name": "TRAPPIST-1 f",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "trappist",
+   "rocky",
+   "habitable-zone",
+   "icy"
+  ],
+  "description": "거주가능영역 바깥쪽 경계의 TRAPPIST-1 행성",
+  "rating": 3
+ },
+ {
+  "id": "trappist-1f",
+  "name": "TRAPPIST-1 f",
+  "se_name": "TRAPPIST-1 f",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "rocky",
+  "parent": null,
+  "tags": [
+   "trappist",
+   "habitable-zone",
+   "icy"
+  ],
+  "description": "TRAPPIST-1 거주가능 지대 외곽 행성",
+  "rating": 3
+ },
+ {
+  "id": "trappist-1g",
+  "name": "TRAPPIST-1 g",
+  "se_name": "TRAPPIST-1 g",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "rocky",
+  "parent": null,
+  "tags": [
+   "trappist",
+   "large"
+  ],
+  "description": "TRAPPIST-1계에서 가장 큰 행성",
+  "rating": 3
+ },
+ {
+  "id": "tau-cet-e",
+  "name": "Tau Cet e",
+  "se_name": "Tau Cet e",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "super-earth",
+  "parent": "TAU Cet",
+  "tags": [
+   "habitable-zone",
+   "nearby"
+  ],
+  "description": "가까운 태양형 별의 거주가능 지대 행성",
+  "rating": 3
+ },
+ {
+  "id": "tau-cet-f",
+  "name": "Tau Cet f",
+  "se_name": "Tau Cet f",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "super-earth",
+  "parent": "TAU Cet",
+  "tags": [
+   "habitable-zone"
+  ],
+  "description": "타우 세티의 거주가능 지대 외곽 행성",
+  "rating": 3
+ },
+ {
+  "id": "barnards-star-b",
+  "name": "Barnard's Star b",
+  "se_name": "Barnard's Star b",
+  "aliases": [
+   "바나드별 b"
+  ],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": "Barnard's Star",
+  "tags": [
+   "near",
+   "super-earth",
+   "cold",
+   "candidate"
+  ],
+  "description": "바나드별의 차가운 슈퍼 지구 후보",
+  "rating": 2
+ },
+ {
+  "id": "galileo",
+  "name": "Galileo",
+  "se_name": "Galileo",
+  "aliases": [
+   "55 Cancri d"
+  ],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "gas-giant",
+   "habitable-zone",
+   "long-period"
+  ],
+  "description": "55 Cancri계의 거주가능영역 가스 거성",
+  "rating": 2
+ },
+ {
+  "id": "galileo-55cnc",
+  "name": "Galileo",
+  "se_name": "Galileo",
+  "aliases": [
+   "55 Cnc b",
+   "55 Cnc A b"
+  ],
+  "category": "exoplanet",
+  "subcategory": "giant",
+  "parent": null,
+  "tags": [
+   "warm-jupiter"
+  ],
+  "description": "55 Cancri 계의 따뜻한 목성형 행성",
+  "rating": 2
+ },
+ {
+  "id": "gliese-581-b",
+  "name": "Gliese 581 b",
+  "se_name": "Gliese 581 b",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "hot-neptune",
+   "red-dwarf",
+   "early-discovery"
+  ],
+  "description": "Gliese 581계의 뜨거운 해왕성형 행성",
+  "rating": 2
+ },
+ {
+  "id": "gliese-581b",
+  "name": "Gliese 581 b",
+  "se_name": "Gliese 581 b",
+  "aliases": [
+   "GJ 581 b"
+  ],
+  "category": "exoplanet",
+  "subcategory": "neptune-like",
+  "parent": null,
+  "tags": [
+   "hot-neptune"
+  ],
+  "description": "Gliese 581계의 뜨거운 해왕성",
+  "rating": 2
+ },
+ {
+  "id": "gliese-581e",
+  "name": "Gliese 581 e",
+  "se_name": "Gliese 581 e",
+  "aliases": [
+   "GJ 581 e"
+  ],
+  "category": "exoplanet",
+  "subcategory": "rocky",
+  "parent": null,
+  "tags": [
+   "small",
+   "close-orbit"
+  ],
+  "description": "Gliese 581계의 작은 내측 행성",
+  "rating": 2
+ },
+ {
+  "id": "kepler-1-b",
+  "name": "Kepler-1 b",
+  "se_name": "Kepler-1 b",
+  "aliases": [
+   "TrES-2 b"
+  ],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "hot-jupiter",
+   "dark",
+   "kepler-first"
+  ],
+  "description": "케플러 미션의 첫 번째 확인 행성",
+  "rating": 2
+ },
+ {
+  "id": "proxima-c",
+  "name": "Proxima c",
+  "se_name": "Proxima c",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "super-earth",
+  "parent": "Proxima",
+  "tags": [
+   "cold",
+   "distant"
+  ],
+  "description": "프록시마의 먼 궤도 슈퍼지구",
+  "rating": 2
+ },
+ {
+  "id": "proxima-d",
+  "name": "Proxima d",
+  "se_name": "Proxima d",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "rocky",
+  "parent": "Proxima",
+  "tags": [
+   "small",
+   "close-orbit"
+  ],
+  "description": "프록시마의 가장 작은 행성",
+  "rating": 2
+ },
+ {
+  "id": "speculoos-3-b",
+  "name": "SPECULOOS-3 b",
+  "se_name": "SPECULOOS-3 b",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "earth-sized",
+   "ultra-cool-dwarf",
+   "tidally-locked"
+  ],
+  "description": "초저온 왜성을 공전하는 지구 크기 행성",
+  "rating": 2
+ },
+ {
+  "id": "speculoos-3b",
+  "name": "SPECULOOS-3 b",
+  "se_name": "SPECULOOS-3 b",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "rocky",
+  "parent": null,
+  "tags": [
+   "tidal-locked",
+   "ultra-cool"
+  ],
+  "description": "초저온 왜성의 암석형 행성",
+  "rating": 2
+ },
+ {
+  "id": "trappist-1-g",
+  "name": "TRAPPIST-1 g",
+  "se_name": "TRAPPIST-1 g",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "trappist",
+   "rocky",
+   "icy",
+   "large"
+  ],
+  "description": "TRAPPIST-1계에서 가장 큰 행성",
+  "rating": 2
+ },
+ {
+  "id": "trappist-1-h",
+  "name": "TRAPPIST-1 h",
+  "se_name": "TRAPPIST-1 h",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "trappist",
+   "rocky",
+   "frozen",
+   "outermost"
+  ],
+  "description": "TRAPPIST-1계의 가장 바깥쪽 얼어붙은 행성",
+  "rating": 2
+ },
+ {
+  "id": "trappist-1h",
+  "name": "TRAPPIST-1 h",
+  "se_name": "TRAPPIST-1 h",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "rocky",
+  "parent": null,
+  "tags": [
+   "trappist",
+   "outermost",
+   "cold"
+  ],
+  "description": "TRAPPIST-1계의 가장 먼 행성",
+  "rating": 2
+ },
+ {
+  "id": "wd0806-661b",
+  "name": "WD 0806-661 B",
+  "se_name": "WD 0806-661 B",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "sub-brown-dwarf",
+  "parent": null,
+  "tags": [
+   "cold",
+   "faint",
+   "white-dwarf-companion"
+  ],
+  "description": "백색왜성 동반 극저온 천체",
+  "rating": 2
+ },
+ {
+  "id": "gliese-581-e",
+  "name": "Gliese 581 e",
+  "se_name": "Gliese 581 e",
+  "aliases": [],
+  "category": "exoplanet",
+  "subcategory": "exoplanet",
+  "parent": null,
+  "tags": [
+   "small",
+   "hot",
+   "rocky"
+  ],
+  "description": "Gliese 581계의 가장 안쪽 소형 행성",
+  "rating": 1
+ },
+ {
+  "id": "antares-nebula",
+  "name": "Antares Nebula",
+  "se_name": "Antares Nebula",
+  "aliases": [
+   "Rho Ophiuchi Nebula"
+  ],
+  "category": "nebula",
+  "subcategory": "reflection",
+  "parent": null,
+  "tags": [
+   "reflection",
+   "colorful",
+   "famous"
+  ],
+  "description": "다채로운 색상의 로 오피우키 성운 복합체",
+  "rating": 5
+ },
+ {
+  "id": "ngc-6302",
+  "name": "Bug Nebula",
+  "se_name": "NGC 6302",
+  "aliases": [
+   "벌레 성운",
+   "나비 성운",
+   "Butterfly Nebula"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "bipolar",
+   "hot-central-star",
+   "butterfly"
+  ],
+  "description": "나비 모양의 뜨거운 행성상성운",
+  "rating": 5
+ },
+ {
+  "id": "ngc6302",
+  "name": "Bug Nebula",
+  "se_name": "NGC 6302",
+  "aliases": [
+   "Bug Nebula",
+   "Butterfly Nebula",
+   "Caldwell 69"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "bipolar",
+   "hot-star",
+   "butterfly"
+  ],
+  "description": "뜨거운 중심별의 나비 모양 행성상 성운",
+  "rating": 5
+ },
+ {
+  "id": "carina-nebula",
+  "name": "Carina Nebula",
+  "se_name": "Carina Nebula",
+  "aliases": [
+   "카리나 성운",
+   "NGC 3372",
+   "용골자리 성운"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "star-forming",
+   "massive",
+   "southern",
+   "eta-carinae"
+  ],
+  "description": "오리온 성운보다 크고 밝은 남반구의 거대 성운",
+  "rating": 5
+ },
+ {
+  "id": "carina",
+  "name": "Carina Nebula",
+  "se_name": "Carina Nebula",
+  "aliases": [
+   "Grand Nebula",
+   "NGC 3372",
+   "용골자리 대성운"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "huge",
+   "stellar-nursery",
+   "bright"
+  ],
+  "description": "남반구 최대의 별 탄생 지역",
+  "rating": 5
+ },
+ {
+  "id": "cassiopeia-a",
+  "name": "Cassiopeia A",
+  "se_name": "Cassiopeia A",
+  "aliases": [
+   "카시오페이아 A",
+   "Cas A"
+  ],
+  "category": "nebula",
+  "subcategory": "supernova_remnant",
+  "parent": null,
+  "tags": [
+   "supernova-remnant",
+   "youngest",
+   "radio-source",
+   "neutron-star"
+  ],
+  "description": "은하계에서 가장 젊은 초신성 잔해",
+  "rating": 5
+ },
+ {
+  "id": "cas-a",
+  "name": "Cassiopeia A",
+  "se_name": "Cassiopeia A",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "supernova_remnant",
+  "parent": null,
+  "tags": [
+   "supernova",
+   "youngest",
+   "radio",
+   "bright-xray"
+  ],
+  "description": "은하계에서 가장 젊은 초신성 잔해",
+  "rating": 5
+ },
+ {
+  "id": "cats-eye-nebula",
+  "name": "Cat's Eye Nebula",
+  "se_name": "NGC 6543",
+  "aliases": [
+   "고양이 눈 성운",
+   "Cat's Eye"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "complex-structure",
+   "draco",
+   "concentric-shells"
+  ],
+  "description": "복잡한 동심원 구조의 행성상성운",
+  "rating": 5
+ },
+ {
+  "id": "cats-eye",
+  "name": "Cat's Eye Nebula",
+  "se_name": "NGC 6543",
+  "aliases": [
+   "Cat's Eye Nebula",
+   "고양이 눈 성운"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "complex",
+   "concentric",
+   "famous"
+  ],
+  "description": "복잡한 동심원 구조의 유명 행성상 성운",
+  "rating": 5
+ },
+ {
+  "id": "crab-nebula",
+  "name": "Crab Nebula",
+  "se_name": "Crab Nebula",
+  "aliases": [
+   "게 성운",
+   "M 1",
+   "NGC 1952"
+  ],
+  "category": "nebula",
+  "subcategory": "supernova_remnant",
+  "parent": null,
+  "tags": [
+   "supernova-remnant",
+   "pulsar",
+   "historic",
+   "1054-ad"
+  ],
+  "description": "1054년 초신성 폭발의 잔해, 중심에 펄서 존재",
+  "rating": 5
+ },
+ {
+  "id": "crab",
+  "name": "Crab Nebula",
+  "se_name": "Crab Nebula",
+  "aliases": [
+   "M 1",
+   "NGC 1952",
+   "Taurus A",
+   "게 성운"
+  ],
+  "category": "nebula",
+  "subcategory": "supernova_remnant",
+  "parent": null,
+  "tags": [
+   "supernova",
+   "pulsar",
+   "historic",
+   "1054AD"
+  ],
+  "description": "1054년 초신성 잔해, 중심에 펄서 보유",
+  "rating": 5
+ },
+ {
+  "id": "dumbbell",
+  "name": "Dumbbell Nebula",
+  "se_name": "Dumbbell",
+  "aliases": [
+   "M 27",
+   "NGC 6853",
+   "아령 성운"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "famous",
+   "bright",
+   "first-discovered"
+  ],
+  "description": "최초로 발견된 행성상 성운",
+  "rating": 5
+ },
+ {
+  "id": "eagle-nebula",
+  "name": "Eagle Nebula",
+  "se_name": "Eagle Nebula",
+  "aliases": [
+   "독수리 성운",
+   "M 16",
+   "NGC 6611"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "star-forming",
+   "pillars-of-creation",
+   "iconic"
+  ],
+  "description": "창조의 기둥을 품은 유명한 별 탄생 성운",
+  "rating": 5
+ },
+ {
+  "id": "eagle",
+  "name": "Eagle Nebula",
+  "se_name": "Eagle Nebula",
+  "aliases": [
+   "Star Queen Nebula",
+   "M 16",
+   "NGC 6611",
+   "IC 4703",
+   "독수리 성운"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "famous",
+   "stellar-nursery",
+   "pillars"
+  ],
+  "description": "창조의 기둥이 있는 유명한 별 탄생 지역",
+  "rating": 5
+ },
+ {
+  "id": "ngc-3132",
+  "name": "Eight-Burst Nebula",
+  "se_name": "NGC 3132",
+  "aliases": [
+   "팔자 성운",
+   "Southern Ring Nebula",
+   "남쪽 고리 성운"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "vela",
+   "ring",
+   "jwst-target"
+  ],
+  "description": "JWST가 촬영한 남쪽 고리 행성상성운",
+  "rating": 5
+ },
+ {
+  "id": "helix-nebula",
+  "name": "Helix Nebula",
+  "se_name": "Helix Nebula",
+  "aliases": [
+   "나선 성운",
+   "NGC 7293",
+   "눈 성운"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "nearest",
+   "eye-shaped",
+   "large"
+  ],
+  "description": "가장 가까운 행성상성운, 우주의 눈이라 불림",
+  "rating": 5
+ },
+ {
+  "id": "helix",
+  "name": "Helix Nebula",
+  "se_name": "Helix Nebula",
+  "aliases": [
+   "NGC 7293",
+   "나선 성운"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "nearby",
+   "large",
+   "eye-of-god"
+  ],
+  "description": "가장 가까운 행성상 성운, 신의 눈",
+  "rating": 5
+ },
+ {
+  "id": "homunculus-nebula",
+  "name": "Homunculus Nebula",
+  "se_name": "Homunculus Nebula",
+  "aliases": [
+   "호문쿨루스 성운"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "bipolar",
+   "eta-carinae",
+   "eruption",
+   "bright"
+  ],
+  "description": "에타 카리나의 대분출로 형성된 쌍극 성운",
+  "rating": 5
+ },
+ {
+  "id": "horsehead-nebula",
+  "name": "Horsehead Nebula",
+  "se_name": "Horsehead Nebula",
+  "aliases": [
+   "말머리 성운",
+   "Barnard 33"
+  ],
+  "category": "nebula",
+  "subcategory": "dark",
+  "parent": null,
+  "tags": [
+   "dark",
+   "iconic",
+   "orion",
+   "silhouette"
+  ],
+  "description": "오리온자리의 상징적인 말머리 모양 암흑성운",
+  "rating": 5
+ },
+ {
+  "id": "horsehead",
+  "name": "Horsehead Nebula",
+  "se_name": "Horsehead Nebula",
+  "aliases": [
+   "Barnard 33",
+   "LDN 1630",
+   "말머리 성운"
+  ],
+  "category": "nebula",
+  "subcategory": "dark",
+  "parent": null,
+  "tags": [
+   "dark",
+   "iconic",
+   "famous",
+   "silhouette"
+  ],
+  "description": "가장 유명한 암흑성운",
+  "rating": 5
+ },
+ {
+  "id": "hourglass-nebula",
+  "name": "Hourglass Nebula",
+  "se_name": "Hourglass Nebula",
+  "aliases": [
+   "모래시계 성운",
+   "MyCn 18"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "hourglass",
+   "musca",
+   "eye-shaped"
+  ],
+  "description": "모래시계 모양의 아름다운 행성상성운",
+  "rating": 5
+ },
+ {
+  "id": "hourglass",
+  "name": "Hourglass Nebula",
+  "se_name": "Hourglass Nebula",
+  "aliases": [
+   "ESO 97-1",
+   "PN MyCn 18"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "eye-shape",
+   "famous"
+  ],
+  "description": "모래시계/눈 모양의 행성상 성운",
+  "rating": 5
+ },
+ {
+  "id": "iris",
+  "name": "Iris Nebula",
+  "se_name": "Iris Nebula",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "reflection",
+  "parent": null,
+  "tags": [
+   "reflection",
+   "blue",
+   "beautiful",
+   "dark-surround"
+  ],
+  "description": "어두운 먼지 속 밝게 피어난 붓꽃 성운",
+  "rating": 5
+ },
+ {
+  "id": "lagoon-nebula",
+  "name": "Lagoon Nebula",
+  "se_name": "Lagoon",
+  "aliases": [
+   "석호 성운",
+   "M 8",
+   "NGC 6523"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "star-forming",
+   "sagittarius",
+   "visible"
+  ],
+  "description": "맨눈으로 보이는 궁수자리의 밝은 발광성운",
+  "rating": 5
+ },
+ {
+  "id": "lagoon",
+  "name": "Lagoon Nebula",
+  "se_name": "Lagoon",
+  "aliases": [
+   "M 8",
+   "NGC 6523"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "bright",
+   "stellar-nursery",
+   "summer"
+  ],
+  "description": "여름 은하수의 밝은 별 탄생 지역",
+  "rating": 5
+ },
+ {
+  "id": "mystic-mountain",
+  "name": "Mystic Mountain Nebula",
+  "se_name": "Mystic Mountain Nebula",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "pillar",
+   "carina",
+   "hubble-iconic"
+  ],
+  "description": "카리나 성운 속 허블 아이콘 기둥 구조",
+  "rating": 5
+ },
+ {
+  "id": "orion-nebula",
+  "name": "Orion Nebula",
+  "se_name": "Orion Nebula",
+  "aliases": [
+   "M 42",
+   "NGC 1976",
+   "오리온 대성운"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "famous",
+   "stellar-nursery",
+   "bright",
+   "iconic"
+  ],
+  "description": "가장 유명한 별 탄생 지역",
+  "rating": 5
+ },
+ {
+  "id": "pillars-of-creation",
+  "name": "Pillars of Creation",
+  "se_name": "Pillars of Creation",
+  "aliases": [
+   "창조의 기둥"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "pillar",
+   "eagle-nebula",
+   "star-forming",
+   "iconic",
+   "hubble"
+  ],
+  "description": "허블 망원경의 가장 유명한 사진, 별 탄생 기둥",
+  "rating": 5
+ },
+ {
+  "id": "pillars",
+  "name": "Pillars of Creation",
+  "se_name": "Pillars of Creation",
+  "aliases": [
+   "창조의 기둥"
+  ],
+  "category": "nebula",
+  "subcategory": "dark",
+  "parent": null,
+  "tags": [
+   "pillar",
+   "iconic",
+   "hubble",
+   "famous"
+  ],
+  "description": "허블 우주 망원경의 가장 유명한 사진",
+  "rating": 5
+ },
+ {
+  "id": "ring-nebula",
+  "name": "Ring Nebula",
+  "se_name": "Ring Nebula",
+  "aliases": [
+   "고리 성운",
+   "M 57",
+   "NGC 6720"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "ring-shaped",
+   "lyra",
+   "iconic"
+  ],
+  "description": "거문고자리의 상징적인 고리 모양 행성상성운",
+  "rating": 5
+ },
+ {
+  "id": "ring",
+  "name": "Ring Nebula",
+  "se_name": "Ring Nebula",
+  "aliases": [
+   "M 57",
+   "NGC 6720",
+   "고리 성운"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "famous",
+   "ring-shape",
+   "iconic"
+  ],
+  "description": "가장 유명한 고리 모양 행성상 성운",
+  "rating": 5
+ },
+ {
+  "id": "rosette-nebula",
+  "name": "Rosette Nebula",
+  "se_name": "Rosette Nebula",
+  "aliases": [
+   "장미 성운",
+   "NGC 2237",
+   "Caldwell 49"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "circular",
+   "monoceros",
+   "star-cluster"
+  ],
+  "description": "외뿔소자리의 장미꽃 모양 거대 발광성운",
+  "rating": 5
+ },
+ {
+  "id": "rosette",
+  "name": "Rosette Nebula",
+  "se_name": "Rosette Nebula",
+  "aliases": [
+   "Caldwell 49"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "circular",
+   "stellar-nursery"
+  ],
+  "description": "장미꽃 모양의 아름다운 발광성운",
+  "rating": 5
+ },
+ {
+  "id": "tarantula-nebula",
+  "name": "Tarantula Nebula",
+  "se_name": "Tarantula Nebula",
+  "aliases": [
+   "타란툴라 성운",
+   "30 Doradus",
+   "NGC 2070"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "lmc",
+   "largest-h-ii",
+   "star-forming",
+   "extreme"
+  ],
+  "description": "국부은하군에서 가장 큰 별 탄생 영역",
+  "rating": 5
+ },
+ {
+  "id": "trifid-nebula",
+  "name": "Trifid Nebula",
+  "se_name": "Trifid Nebula",
+  "aliases": [
+   "삼열 성운",
+   "M 20",
+   "NGC 6514"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "reflection",
+   "dark-lanes",
+   "sagittarius",
+   "tricolor"
+  ],
+  "description": "발광/반사/암흑이 공존하는 삼색 성운",
+  "rating": 5
+ },
+ {
+  "id": "trifid",
+  "name": "Trifid Nebula",
+  "se_name": "Trifid Nebula",
+  "aliases": [
+   "M 20",
+   "NGC 6514",
+   "삼열 성운"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "reflection",
+   "dark",
+   "triple",
+   "colorful"
+  ],
+  "description": "발광/반사/암흑이 공존하는 삼색 성운",
+  "rating": 5
+ },
+ {
+  "id": "veil-nebula",
+  "name": "Veil Nebula",
+  "se_name": "Veil Nebula",
+  "aliases": [
+   "베일 성운",
+   "NGC 6960",
+   "Cygnus Loop"
+  ],
+  "category": "nebula",
+  "subcategory": "supernova_remnant",
+  "parent": null,
+  "tags": [
+   "supernova-remnant",
+   "cygnus",
+   "filamentary",
+   "large"
+  ],
+  "description": "백조자리의 실 모양 구조가 아름다운 초신성 잔해",
+  "rating": 5
+ },
+ {
+  "id": "abell33",
+  "name": "Abell 33",
+  "se_name": "Abell 33",
+  "aliases": [
+   "PK 238+34.1"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "diamond-ring"
+  ],
+  "description": "별과 겹쳐 다이아몬드 반지처럼 보이는 성운",
+  "rating": 4
+ },
+ {
+  "id": "abell39",
+  "name": "Abell 39",
+  "se_name": "Abell 39",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "perfect-sphere",
+   "symmetric"
+  ],
+  "description": "거의 완벽한 구형의 행성상 성운",
+  "rating": 4
+ },
+ {
+  "id": "ant-nebula",
+  "name": "Ant Nebula",
+  "se_name": "Ant Nebula",
+  "aliases": [
+   "개미 성운",
+   "Mz 3"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "bipolar",
+   "ant-shaped",
+   "jets"
+  ],
+  "description": "개미 모양의 쌍극 행성상성운",
+  "rating": 4
+ },
+ {
+  "id": "barnard68",
+  "name": "Barnard 68",
+  "se_name": "Barnard 68",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "dark",
+  "parent": null,
+  "tags": [
+   "dark",
+   "bok-globule",
+   "opaque"
+  ],
+  "description": "별빛을 완전히 차단하는 보크 구상체",
+  "rating": 4
+ },
+ {
+  "id": "barnards-loop",
+  "name": "Barnard's Loop",
+  "se_name": "Barnard's Loop",
+  "aliases": [
+   "Sh 2-276"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "huge",
+   "orion",
+   "arc"
+  ],
+  "description": "오리온자리를 감싸는 거대한 발광 고리",
+  "rating": 4
+ },
+ {
+  "id": "boomerang-nebula",
+  "name": "Boomerang Nebula",
+  "se_name": "Boomerang Nebula",
+  "aliases": [
+   "부메랑 성운"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "coldest-object",
+   "pre-planetary",
+   "bipolar"
+  ],
+  "description": "우주에서 가장 차가운 자연 천체(1K)",
+  "rating": 4
+ },
+ {
+  "id": "boomerang",
+  "name": "Boomerang Nebula",
+  "se_name": "Boomerang Nebula",
+  "aliases": [
+   "Centaurus Bipolar Nebula"
+  ],
+  "category": "nebula",
+  "subcategory": "protoplanetary",
+  "parent": null,
+  "tags": [
+   "coldest",
+   "protoplanetary",
+   "1K"
+  ],
+  "description": "우주에서 가장 차가운 천체 (1K)",
+  "rating": 4
+ },
+ {
+  "id": "bubble-nebula",
+  "name": "Bubble Nebula",
+  "se_name": "Bubble Nebula",
+  "aliases": [
+   "거품 성운",
+   "NGC 7635"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "bubble",
+   "cassiopeia",
+   "stellar-wind"
+  ],
+  "description": "항성풍이 만든 거품 모양 발광성운",
+  "rating": 4
+ },
+ {
+  "id": "california",
+  "name": "California Nebula",
+  "se_name": "California Nebula",
+  "aliases": [
+   "NGC 1499"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "large",
+   "red"
+  ],
+  "description": "캘리포니아 주 모양의 거대 발광성운",
+  "rating": 4
+ },
+ {
+  "id": "cats-paw-nebula",
+  "name": "Cat's Paw Nebula",
+  "se_name": "Cat's Paw Nebula",
+  "aliases": [
+   "고양이 발 성운",
+   "NGC 6334"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "scorpius",
+   "star-forming",
+   "paw-shaped"
+  ],
+  "description": "전갈자리의 고양이 발 모양 별 탄생 성운",
+  "rating": 4
+ },
+ {
+  "id": "cats-paw",
+  "name": "Cat's Paw Nebula",
+  "se_name": "NGC 6334",
+  "aliases": [
+   "Cat's Paw Nebula",
+   "Bear Claw Nebula"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "stellar-nursery",
+   "red"
+  ],
+  "description": "고양이 발자국 모양의 별 탄생 지역",
+  "rating": 4
+ },
+ {
+  "id": "ngc2392",
+  "name": "Clownface Nebula",
+  "se_name": "NGC 2392",
+  "aliases": [
+   "Clownface Nebula",
+   "Caldwell 39"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "face-shape"
+  ],
+  "description": "광대 얼굴 모양의 행성상 성운",
+  "rating": 4
+ },
+ {
+  "id": "cone-nebula",
+  "name": "Cone Nebula",
+  "se_name": "Cone Nebula",
+  "aliases": [
+   "원뿔 성운",
+   "NGC 2264"
+  ],
+  "category": "nebula",
+  "subcategory": "dark",
+  "parent": null,
+  "tags": [
+   "dark",
+   "pillar",
+   "monoceros",
+   "star-forming"
+  ],
+  "description": "원뿔 모양의 먼지 기둥이 특징인 성운",
+  "rating": 4
+ },
+ {
+  "id": "cone",
+  "name": "Cone Nebula",
+  "se_name": "Cone Nebula",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "dark",
+  "parent": null,
+  "tags": [
+   "dark",
+   "pillar",
+   "iconic"
+  ],
+  "description": "원뿔 모양의 유명한 암흑 기둥",
+  "rating": 4
+ },
+ {
+  "id": "crescent-nebula",
+  "name": "Crescent Nebula",
+  "se_name": "Crescent Nebula",
+  "aliases": [
+   "초승달 성운",
+   "NGC 6888"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "wolf-rayet",
+   "cygnus",
+   "bubble"
+  ],
+  "description": "울프-레이에 별이 만든 초승달 모양 성운",
+  "rating": 4
+ },
+ {
+  "id": "crescent",
+  "name": "Crescent Nebula",
+  "se_name": "Crescent Nebula",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "wolf-rayet",
+   "bubble"
+  ],
+  "description": "초승달 모양의 볼프-라이에 성운",
+  "rating": 4
+ },
+ {
+  "id": "dumbbell-nebula",
+  "name": "Dumbbell Nebula",
+  "se_name": "Dumbbell",
+  "aliases": [
+   "아령 성운",
+   "M 27",
+   "NGC 6853"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "bright",
+   "vulpecula",
+   "first-discovered"
+  ],
+  "description": "최초로 발견된 행성상성운",
+  "rating": 4
+ },
+ {
+  "id": "eagle-pillar",
+  "name": "Eagle Pillar",
+  "se_name": "Eagle Pillar",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "dark",
+  "parent": null,
+  "tags": [
+   "pillar",
+   "famous"
+  ],
+  "description": "독수리 성운의 거대한 먼지 기둥",
+  "rating": 4
+ },
+ {
+  "id": "egg",
+  "name": "Egg Nebula",
+  "se_name": "Egg Nebula",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "protoplanetary",
+  "parent": null,
+  "tags": [
+   "protoplanetary",
+   "searchlight",
+   "bipolar"
+  ],
+  "description": "탐조등 빔 모양의 원시행성상 성운",
+  "rating": 4
+ },
+ {
+  "id": "eskimo-nebula",
+  "name": "Eskimo Nebula",
+  "se_name": "Eskimo Nebula",
+  "aliases": [
+   "에스키모 성운",
+   "NGC 2392",
+   "Clown Face"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "face-shaped",
+   "gemini",
+   "double-shell"
+  ],
+  "description": "이중 껍질 구조의 얼굴 모양 행성상성운",
+  "rating": 4
+ },
+ {
+  "id": "flame-nebula",
+  "name": "Flame Nebula",
+  "se_name": "Flame Nebula",
+  "aliases": [
+   "NGC 2024"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "orion",
+   "orange"
+  ],
+  "description": "불꽃 모양의 발광성운",
+  "rating": 4
+ },
+ {
+  "id": "heart-nebula",
+  "name": "Heart Nebula",
+  "se_name": "Heart Nebula",
+  "aliases": [
+   "하트 성운",
+   "IC 1805"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "heart-shaped",
+   "cassiopeia",
+   "h-ii-region"
+  ],
+  "description": "카시오페이아자리의 하트 모양 발광성운",
+  "rating": 4
+ },
+ {
+  "id": "heart",
+  "name": "Heart Nebula",
+  "se_name": "Heart Nebula",
+  "aliases": [
+   "IC 1805"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "heart-shape",
+   "romantic"
+  ],
+  "description": "하트 모양의 발광성운",
+  "rating": 4
+ },
+ {
+  "id": "homunculus",
+  "name": "Homunculus Nebula",
+  "se_name": "Homunculus Nebula",
+  "aliases": [
+   "Eta Carinae Nebula"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "bipolar",
+   "eta-carinae",
+   "eruption"
+  ],
+  "description": "에타 카리나이의 폭발로 생긴 쌍극 성운",
+  "rating": 4
+ },
+ {
+  "id": "iris-nebula",
+  "name": "Iris Nebula",
+  "se_name": "Iris Nebula",
+  "aliases": [
+   "붓꽃 성운",
+   "NGC 7023"
+  ],
+  "category": "nebula",
+  "subcategory": "reflection",
+  "parent": null,
+  "tags": [
+   "reflection",
+   "blue",
+   "cepheus",
+   "beautiful"
+  ],
+  "description": "세페우스자리의 아름다운 푸른 반사성운",
+  "rating": 4
+ },
+ {
+  "id": "keplers-supernova",
+  "name": "Kepler's Supernova",
+  "se_name": "Kepler's Supernova",
+  "aliases": [
+   "케플러 초신성",
+   "SN 1604"
+  ],
+  "category": "nebula",
+  "subcategory": "supernova_remnant",
+  "parent": null,
+  "tags": [
+   "supernova-remnant",
+   "historic",
+   "kepler",
+   "last-galactic"
+  ],
+  "description": "1604년 케플러가 관측한 은하계 마지막 초신성",
+  "rating": 4
+ },
+ {
+  "id": "kepler-sn",
+  "name": "Kepler's Supernova",
+  "se_name": "Kepler's Supernova",
+  "aliases": [
+   "SN 1604"
+  ],
+  "category": "nebula",
+  "subcategory": "supernova_remnant",
+  "parent": null,
+  "tags": [
+   "supernova",
+   "historic",
+   "1604",
+   "kepler"
+  ],
+  "description": "케플러가 관측한 마지막 은하 초신성",
+  "rating": 4
+ },
+ {
+  "id": "keyhole-nebula",
+  "name": "Keyhole Nebula",
+  "se_name": "Keyhole Nebula",
+  "aliases": [
+   "열쇠구멍 성운"
+  ],
+  "category": "nebula",
+  "subcategory": "dark",
+  "parent": null,
+  "tags": [
+   "dark",
+   "carina",
+   "silhouette",
+   "bright-rim"
+  ],
+  "description": "카리나 성운 내의 열쇠구멍 모양 암흑성운",
+  "rating": 4
+ },
+ {
+  "id": "keyhole",
+  "name": "Keyhole Nebula",
+  "se_name": "Keyhole Nebula",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "dark",
+  "parent": null,
+  "tags": [
+   "dark",
+   "carina",
+   "silhouette"
+  ],
+  "description": "카리나 성운 내부의 열쇠구멍 암흑성운",
+  "rating": 4
+ },
+ {
+  "id": "m82-starburst",
+  "name": "M 82 Starburst",
+  "se_name": "M 82 Starburst",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "starburst",
+   "galactic-wind"
+  ],
+  "description": "M 82 은하의 폭발적 별 생성 지역",
+  "rating": 4
+ },
+ {
+  "id": "manatee",
+  "name": "Manatee Nebula",
+  "se_name": "Manatee Nebula",
+  "aliases": [
+   "W50",
+   "SNR G039.7-02.0"
+  ],
+  "category": "nebula",
+  "subcategory": "supernova_remnant",
+  "parent": null,
+  "tags": [
+   "supernova",
+   "jet",
+   "microquasar",
+   "SS433"
+  ],
+  "description": "SS 433 마이크로퀘이사의 초신성 잔해",
+  "rating": 4
+ },
+ {
+  "id": "ngc3132",
+  "name": "NGC 3132",
+  "se_name": "NGC 3132",
+  "aliases": [
+   "Eight-Burst Nebula",
+   "Southern Ring"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "JWST",
+   "southern-ring"
+  ],
+  "description": "JWST가 촬영한 남반구 고리 성운",
+  "rating": 4
+ },
+ {
+  "id": "ngc5189",
+  "name": "NGC 5189",
+  "se_name": "NGC 5189",
+  "aliases": [
+   "Spiral Planetary"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "complex",
+   "S-shape"
+  ],
+  "description": "S자 모양의 복잡한 행성상 성운",
+  "rating": 4
+ },
+ {
+  "id": "ngc-604",
+  "name": "NGC 604",
+  "se_name": "NGC 604",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": "Triangulum",
+  "tags": [
+   "emission",
+   "extragalactic",
+   "triangulum",
+   "giant-h-ii"
+  ],
+  "description": "삼각형자리 은하 내의 거대 H II 발광성운",
+  "rating": 4
+ },
+ {
+  "id": "ngc604",
+  "name": "NGC 604",
+  "se_name": "NGC 604",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "extragalactic",
+   "M33",
+   "giant-HII"
+  ],
+  "description": "삼각형자리 은하의 거대 발광 영역",
+  "rating": 4
+ },
+ {
+  "id": "ngc-7027",
+  "name": "NGC 7027",
+  "se_name": "NGC 7027",
+  "aliases": [
+   "Jewel Bug Nebula"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "cygnus",
+   "young",
+   "bright",
+   "dense"
+  ],
+  "description": "매우 젊고 밝은 조밀 행성상성운",
+  "rating": 4
+ },
+ {
+  "id": "north-america-nebula",
+  "name": "North America Nebula",
+  "se_name": "North America Nebula",
+  "aliases": [
+   "북아메리카 성운",
+   "NGC 7000"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "large",
+   "cygnus",
+   "continent-shaped"
+  ],
+  "description": "북아메리카 대륙 모양의 거대 발광성운",
+  "rating": 4
+ },
+ {
+  "id": "north-america",
+  "name": "North America Nebula",
+  "se_name": "North America Nebula",
+  "aliases": [
+   "NGC 7000",
+   "Caldwell 20"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "large",
+   "iconic-shape"
+  ],
+  "description": "북아메리카 대륙 모양의 발광성운",
+  "rating": 4
+ },
+ {
+  "id": "omega-nebula",
+  "name": "Omega Nebula",
+  "se_name": "Omega Nebula",
+  "aliases": [
+   "Swan Nebula",
+   "M 17",
+   "NGC 6618"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "bright",
+   "stellar-nursery"
+  ],
+  "description": "백조/오메가 모양의 별 생성 영역",
+  "rating": 4
+ },
+ {
+  "id": "owl-nebula",
+  "name": "Owl Nebula",
+  "se_name": "Owl Nebula",
+  "aliases": [
+   "올빼미 성운",
+   "M 97",
+   "NGC 3587"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "owl-face",
+   "ursa-major"
+  ],
+  "description": "올빼미 얼굴을 닮은 행성상성운",
+  "rating": 4
+ },
+ {
+  "id": "owl",
+  "name": "Owl Nebula",
+  "se_name": "Owl Nebula",
+  "aliases": [
+   "M 97",
+   "NGC 3587",
+   "부엉이 성운"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "famous",
+   "owl-eyes"
+  ],
+  "description": "부엉이 눈 모양의 행성상 성운",
+  "rating": 4
+ },
+ {
+  "id": "pleiades-nebula",
+  "name": "Pleiades Nebula",
+  "se_name": "Pleiades Nebula",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "reflection",
+  "parent": null,
+  "tags": [
+   "reflection",
+   "famous",
+   "blue"
+  ],
+  "description": "플레이아데스 성단을 감싸는 푸른 반사성운",
+  "rating": 4
+ },
+ {
+  "id": "red-rectangle",
+  "name": "Red Rectangle Nebula",
+  "se_name": "Red Rectangle Nebula",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "protoplanetary",
+  "parent": null,
+  "tags": [
+   "protoplanetary",
+   "red",
+   "geometric",
+   "unique"
+  ],
+  "description": "독특한 직사각형 모양의 원시행성상 성운",
+  "rating": 4
+ },
+ {
+  "id": "red-spider",
+  "name": "Red Spider Nebula",
+  "se_name": "NGC 6537",
+  "aliases": [
+   "Red Spider Nebula"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "hot",
+   "bipolar",
+   "fast-wind"
+  ],
+  "description": "가장 뜨거운 중심별의 행성상 성운",
+  "rating": 4
+ },
+ {
+  "id": "sn-1006",
+  "name": "SN 1006",
+  "se_name": "SN 1006",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "supernova_remnant",
+  "parent": null,
+  "tags": [
+   "supernova-remnant",
+   "historic",
+   "brightest-supernova",
+   "lupus"
+  ],
+  "description": "역사상 가장 밝았던 초신성(1006년)의 잔해",
+  "rating": 4
+ },
+ {
+  "id": "sn1006",
+  "name": "SN 1006",
+  "se_name": "SN 1006",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "supernova_remnant",
+  "parent": null,
+  "tags": [
+   "supernova",
+   "historic",
+   "1006AD",
+   "brightest"
+  ],
+  "description": "역사상 가장 밝았던 초신성 잔해",
+  "rating": 4
+ },
+ {
+  "id": "saturn-nebula",
+  "name": "Saturn Nebula",
+  "se_name": "NGC 7009",
+  "aliases": [
+   "Saturn Nebula"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "ansae",
+   "saturn-shape"
+  ],
+  "description": "토성 고리 같은 돌출부가 있는 행성상 성운",
+  "rating": 4
+ },
+ {
+  "id": "soul-nebula",
+  "name": "Soul Nebula",
+  "se_name": "Soul Nebula",
+  "aliases": [
+   "영혼 성운",
+   "IC 1848",
+   "Westerhout 5"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "cassiopeia",
+   "h-ii-region",
+   "heart-companion"
+  ],
+  "description": "하트 성운 옆의 영혼 모양 발광성운",
+  "rating": 4
+ },
+ {
+  "id": "spirograph-nebula",
+  "name": "Spirograph Nebula",
+  "se_name": "Spirograph Nebula",
+  "aliases": [
+   "스피로그래프 성운",
+   "IC 418"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "colorful",
+   "lepus",
+   "spiral-pattern"
+  ],
+  "description": "스피로그래프 무늬의 다채로운 행성상성운",
+  "rating": 4
+ },
+ {
+  "id": "spirograph",
+  "name": "Spirograph Nebula",
+  "se_name": "Spirograph Nebula",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "delicate",
+   "pattern"
+  ],
+  "description": "스피로그래프 패턴의 행성상 성운",
+  "rating": 4
+ },
+ {
+  "id": "thors-helmet",
+  "name": "Thor's Helmet",
+  "se_name": "Thors Helmet",
+  "aliases": [
+   "NGC 2359",
+   "IC 468"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "bubble",
+   "wolf-rayet"
+  ],
+  "description": "토르의 투구 모양의 볼프-라이에 거품 성운",
+  "rating": 4
+ },
+ {
+  "id": "twin-jet",
+  "name": "Twin Jet Nebula",
+  "se_name": "Twin Jet Nebula",
+  "aliases": [
+   "M2-9",
+   "Wings of a Butterfly Nebula"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "bipolar",
+   "butterfly",
+   "jets"
+  ],
+  "description": "나비 날개 모양의 쌍극제트 성운",
+  "rating": 4
+ },
+ {
+  "id": "tychos-supernova",
+  "name": "Tycho's Supernova",
+  "se_name": "Tycho's Supernova",
+  "aliases": [
+   "티코 초신성",
+   "SN 1572"
+  ],
+  "category": "nebula",
+  "subcategory": "supernova_remnant",
+  "parent": null,
+  "tags": [
+   "supernova-remnant",
+   "historic",
+   "tycho-brahe",
+   "type-ia"
+  ],
+  "description": "1572년 티코 브라헤가 관측한 초신성의 잔해",
+  "rating": 4
+ },
+ {
+  "id": "tycho",
+  "name": "Tycho's Supernova",
+  "se_name": "Tycho's Supernova",
+  "aliases": [
+   "SN 1572",
+   "3C 10"
+  ],
+  "category": "nebula",
+  "subcategory": "supernova_remnant",
+  "parent": null,
+  "tags": [
+   "supernova",
+   "historic",
+   "1572",
+   "tycho-brahe"
+  ],
+  "description": "티코 브라헤가 관측한 초신성 잔해",
+  "rating": 4
+ },
+ {
+  "id": "war-and-peace-nebula",
+  "name": "War and Peace Nebula",
+  "se_name": "War and Peace Nebula",
+  "aliases": [
+   "전쟁과 평화 성운",
+   "NGC 6357"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "scorpius",
+   "star-forming",
+   "massive-stars"
+  ],
+  "description": "무거운 별들이 탄생하는 전갈자리의 거대 성운",
+  "rating": 4
+ },
+ {
+  "id": "ic-2118",
+  "name": "Witch Head Nebula",
+  "se_name": "IC 2118",
+  "aliases": [
+   "마녀머리 성운",
+   "Witch Head"
+  ],
+  "category": "nebula",
+  "subcategory": "reflection",
+  "parent": null,
+  "tags": [
+   "reflection",
+   "blue",
+   "eridanus",
+   "rigel"
+  ],
+  "description": "리겔의 빛을 반사하는 마녀 머리 모양 성운",
+  "rating": 4
+ },
+ {
+  "id": "ic2118",
+  "name": "Witch Head Nebula",
+  "se_name": "IC 2118",
+  "aliases": [
+   "Witch Head Nebula"
+  ],
+  "category": "nebula",
+  "subcategory": "reflection",
+  "parent": null,
+  "tags": [
+   "reflection",
+   "blue",
+   "eerie"
+  ],
+  "description": "마녀 머리 모양의 반사성운",
+  "rating": 4
+ },
+ {
+  "id": "abell30",
+  "name": "Abell 30",
+  "se_name": "Abell 30",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "born-again"
+  ],
+  "description": "재탄생한 행성상 성운",
+  "rating": 3
+ },
+ {
+  "id": "abell70",
+  "name": "Abell 70",
+  "se_name": "Abell 70",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "galaxy-overlay"
+  ],
+  "description": "배경 은하와 겹쳐 보이는 행성상 성운",
+  "rating": 3
+ },
+ {
+  "id": "mz3",
+  "name": "Ant Nebula",
+  "se_name": "Mz 3",
+  "aliases": [
+   "Ant Nebula"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "bipolar",
+   "ant-shape"
+  ],
+  "description": "개미 모양의 쌍극 행성상 성운",
+  "rating": 3
+ },
+ {
+  "id": "barnard-68",
+  "name": "Barnard 68",
+  "se_name": "Barnard 68",
+  "aliases": [
+   "바나드 68"
+  ],
+  "category": "nebula",
+  "subcategory": "dark",
+  "parent": null,
+  "tags": [
+   "dark",
+   "bok-globule",
+   "isolated",
+   "dense"
+  ],
+  "description": "별빛을 완전히 차단하는 작고 조밀한 암흑 분자운",
+  "rating": 3
+ },
+ {
+  "id": "ngc-6826",
+  "name": "Blinking Nebula",
+  "se_name": "NGC 6826",
+  "aliases": [
+   "깜빡이 성운"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "cygnus",
+   "optical-effect",
+   "bright"
+  ],
+  "description": "관찰 시 깜빡이는 것처럼 보이는 행성상성운",
+  "rating": 3
+ },
+ {
+  "id": "ngc-6905",
+  "name": "Blue Flash Nebula",
+  "se_name": "NGC 6905",
+  "aliases": [
+   "푸른 섬광 성운"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "delphinus",
+   "blue",
+   "bright"
+  ],
+  "description": "돌고래자리의 밝고 푸른 행성상성운",
+  "rating": 3
+ },
+ {
+  "id": "ngc-7662",
+  "name": "Blue Snowball Nebula",
+  "se_name": "NGC 7662",
+  "aliases": [
+   "푸른 눈덩이 성운"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "blue",
+   "andromeda-constellation",
+   "bright"
+  ],
+  "description": "안드로메다자리의 밝고 푸른 행성상성운",
+  "rating": 3
+ },
+ {
+  "id": "bow-tie",
+  "name": "Bow-Tie Nebula",
+  "se_name": "Bow-Tie Nebula",
+  "aliases": [
+   "NGC 40",
+   "Caldwell 2"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "bow-tie"
+  ],
+  "description": "나비넥타이 모양의 행성상 성운",
+  "rating": 3
+ },
+ {
+  "id": "calabash",
+  "name": "Calabash Nebula",
+  "se_name": "Calabash Nebula",
+  "aliases": [
+   "Rotten Egg Nebula",
+   "OH 231.84 +4.22"
+  ],
+  "category": "nebula",
+  "subcategory": "protoplanetary",
+  "parent": null,
+  "tags": [
+   "protoplanetary",
+   "jets",
+   "sulfur"
+  ],
+  "description": "썩은 달걀 냄새의 원시행성상 성운",
+  "rating": 3
+ },
+ {
+  "id": "california-nebula",
+  "name": "California Nebula",
+  "se_name": "California Nebula",
+  "aliases": [
+   "캘리포니아 성운",
+   "NGC 1499"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "large",
+   "perseus",
+   "h-alpha"
+  ],
+  "description": "캘리포니아 주 모양의 거대 발광성운",
+  "rating": 3
+ },
+ {
+  "id": "christmas-tree",
+  "name": "Christmas Tree Nebula",
+  "se_name": "Christmas Tree Nebula",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "cluster",
+   "tree-shape"
+  ],
+  "description": "크리스마스 트리 모양의 성운",
+  "rating": 3
+ },
+ {
+  "id": "cocoon-nebula",
+  "name": "Cocoon Nebula",
+  "se_name": "Cocoon Nebula",
+  "aliases": [
+   "고치 성운",
+   "IC 5146"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "reflection",
+   "cygnus",
+   "dark-lane"
+  ],
+  "description": "백조자리의 고치 모양 발광성운",
+  "rating": 3
+ },
+ {
+  "id": "cocoon",
+  "name": "Cocoon Nebula",
+  "se_name": "Cocoon Nebula",
+  "aliases": [
+   "IC 5146",
+   "Caldwell 19"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "dark-lane"
+  ],
+  "description": "어두운 먼지 통로로 둘러싸인 성운",
+  "rating": 3
+ },
+ {
+  "id": "de-mairans-nebula",
+  "name": "De Mairan's Nebula",
+  "se_name": "De Mairan's Nebula",
+  "aliases": [
+   "드 메랑 성운",
+   "M 43"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "orion",
+   "h-ii-region"
+  ],
+  "description": "오리온 성운 옆의 작은 발광성운",
+  "rating": 3
+ },
+ {
+  "id": "de-mairans",
+  "name": "De Mairan's Nebula",
+  "se_name": "De Mairan's Nebula",
+  "aliases": [
+   "M 43",
+   "NGC 1982"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "orion"
+  ],
+  "description": "오리온 성운 옆의 작은 발광성운",
+  "rating": 3
+ },
+ {
+  "id": "flaming-star-nebula",
+  "name": "Flaming Star Nebula",
+  "se_name": "Flaming Star Nebula",
+  "aliases": [
+   "불타는 별 성운",
+   "IC 405"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "reflection",
+   "auriga",
+   "runaway-star"
+  ],
+  "description": "도망성 AE Aurigae를 감싸는 성운",
+  "rating": 3
+ },
+ {
+  "id": "ngc-3242",
+  "name": "Ghost of Jupiter",
+  "se_name": "NGC 3242",
+  "aliases": [
+   "목성의 유령",
+   "Jupiter's Ghost"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "hydra",
+   "bright",
+   "round"
+  ],
+  "description": "목성 크기와 비슷하게 보이는 밝은 행성상성운",
+  "rating": 3
+ },
+ {
+  "id": "ghost-jupiter",
+  "name": "Ghost of Jupiter",
+  "se_name": "Ghost of Jupiter",
+  "aliases": [
+   "NGC 3242"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "bright",
+   "blue-green"
+  ],
+  "description": "목성의 유령이라 불리는 행성상 성운",
+  "rating": 3
+ },
+ {
+  "id": "hen3-401",
+  "name": "Hen 3-401",
+  "se_name": "Hen 3-401",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "bipolar",
+   "jets",
+   "searchlight"
+  ],
+  "description": "가느다란 쌍극 제트의 행성상 성운",
+  "rating": 3
+ },
+ {
+  "id": "ic1396",
+  "name": "IC 1396",
+  "se_name": "IC 1396",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "elephant-trunk"
+  ],
+  "description": "코끼리 코 구조가 있는 발광성운",
+  "rating": 3
+ },
+ {
+  "id": "ic-434",
+  "name": "IC 434",
+  "se_name": "IC 434",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "orion",
+   "horsehead-background"
+  ],
+  "description": "말머리 성운의 배경이 되는 발광성운",
+  "rating": 3
+ },
+ {
+  "id": "ic434",
+  "name": "IC 434",
+  "se_name": "IC 434",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "orion",
+   "red"
+  ],
+  "description": "말머리 성운의 배경이 되는 발광성운",
+  "rating": 3
+ },
+ {
+  "id": "lemon-slice",
+  "name": "Lemon Slice Nebula",
+  "se_name": "IC 3568",
+  "aliases": [
+   "Lemon Slice Nebula"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "round",
+   "bright"
+  ],
+  "description": "레몬 조각 모양의 밝은 행성상 성운",
+  "rating": 3
+ },
+ {
+  "id": "little-dumbbell",
+  "name": "Little Dumbbell",
+  "se_name": "Little Dumbbell Nebula",
+  "aliases": [
+   "M 76",
+   "NGC 650"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "bipolar",
+   "small"
+  ],
+  "description": "작은 아령 모양 행성상 성운",
+  "rating": 3
+ },
+ {
+  "id": "ngc-6818",
+  "name": "Little Gem Nebula",
+  "se_name": "NGC 6818",
+  "aliases": [
+   "작은 보석 성운"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "sagittarius",
+   "bright",
+   "small"
+  ],
+  "description": "궁수자리의 작은 보석 같은 행성상성운",
+  "rating": 3
+ },
+ {
+  "id": "ngc-6369",
+  "name": "Little Ghost Nebula",
+  "se_name": "NGC 6369",
+  "aliases": [
+   "작은 유령 성운"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "ophiuchus",
+   "round",
+   "faint"
+  ],
+  "description": "뱀주인자리의 작은 원형 행성상성운",
+  "rating": 3
+ },
+ {
+  "id": "little-ghost",
+  "name": "Little Ghost Nebula",
+  "se_name": "Little Ghost Nebula",
+  "aliases": [
+   "NGC 6369"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "small",
+   "blue-green"
+  ],
+  "description": "작은 유령처럼 빛나는 행성상 성운",
+  "rating": 3
+ },
+ {
+  "id": "m78",
+  "name": "M 78",
+  "se_name": "M 78",
+  "aliases": [
+   "NGC 2068"
+  ],
+  "category": "nebula",
+  "subcategory": "reflection",
+  "parent": null,
+  "tags": [
+   "reflection",
+   "bright",
+   "orion"
+  ],
+  "description": "오리온의 밝은 반사성운",
+  "rating": 3
+ },
+ {
+  "id": "manatee-nebula",
+  "name": "Manatee Nebula",
+  "se_name": "Manatee Nebula",
+  "aliases": [
+   "매너티 성운",
+   "W50"
+  ],
+  "category": "nebula",
+  "subcategory": "supernova_remnant",
+  "parent": null,
+  "tags": [
+   "supernova-remnant",
+   "ss-433",
+   "aquila",
+   "large"
+  ],
+  "description": "SS 433 마이크로퀘이사를 품은 초신성 잔해",
+  "rating": 3
+ },
+ {
+  "id": "medusa-nebula",
+  "name": "Medusa Nebula",
+  "se_name": "Medusa Nebula",
+  "aliases": [
+   "메두사 성운",
+   "Abell 21"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "large",
+   "old",
+   "filamentary"
+  ],
+  "description": "뱀 머리카락 같은 필라멘트가 있는 큰 행성상성운",
+  "rating": 3
+ },
+ {
+  "id": "monkey-head-nebula",
+  "name": "Monkey Head Nebula",
+  "se_name": "Monkey Head Nebula",
+  "aliases": [
+   "원숭이 머리 성운",
+   "NGC 2174"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "orion",
+   "star-forming",
+   "bright"
+  ],
+  "description": "원숭이 머리를 닮은 오리온자리의 발광성운",
+  "rating": 3
+ },
+ {
+  "id": "ngc1514",
+  "name": "NGC 1514",
+  "se_name": "NGC 1514",
+  "aliases": [
+   "Crystal Ball Nebula"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "ring"
+  ],
+  "description": "수정 구슬이라 불리는 행성상 성운",
+  "rating": 3
+ },
+ {
+  "id": "ngc1535",
+  "name": "NGC 1535",
+  "se_name": "NGC 1535",
+  "aliases": [
+   "Cleopatra's Eye"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "bright",
+   "blue"
+  ],
+  "description": "클레오파트라의 눈이라 불리는 행성상 성운",
+  "rating": 3
+ },
+ {
+  "id": "ngc-2023",
+  "name": "NGC 2023",
+  "se_name": "NGC 2023",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "reflection",
+  "parent": null,
+  "tags": [
+   "reflection",
+   "orion",
+   "bright"
+  ],
+  "description": "말머리 성운 근처의 밝은 반사성운",
+  "rating": 3
+ },
+ {
+  "id": "ngc2023",
+  "name": "NGC 2023",
+  "se_name": "NGC 2023",
+  "aliases": [
+   "LBN 954"
+  ],
+  "category": "nebula",
+  "subcategory": "reflection",
+  "parent": null,
+  "tags": [
+   "reflection",
+   "orion"
+  ],
+  "description": "오리온의 밝은 반사성운",
+  "rating": 3
+ },
+ {
+  "id": "ngc2264-nebula",
+  "name": "NGC 2264 Nebula",
+  "se_name": "NGC 2264 Nebula",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "cluster"
+  ],
+  "description": "크리스마스 트리 성단의 성운",
+  "rating": 3
+ },
+ {
+  "id": "ngc-2440",
+  "name": "NGC 2440",
+  "se_name": "NGC 2440",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "puppis",
+   "hot-star",
+   "chaotic"
+  ],
+  "description": "가장 뜨거운 백색왜성 중 하나를 품은 행성상성운",
+  "rating": 3
+ },
+ {
+  "id": "ngc3918",
+  "name": "NGC 3918",
+  "se_name": "NGC 3918",
+  "aliases": [
+   "Blue Planetary"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "bright",
+   "blue"
+  ],
+  "description": "밝은 푸른색의 남반구 행성상 성운",
+  "rating": 3
+ },
+ {
+  "id": "ngc5307",
+  "name": "NGC 5307",
+  "se_name": "NGC 5307",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "spiral-structure"
+  ],
+  "description": "나선 구조의 행성상 성운",
+  "rating": 3
+ },
+ {
+  "id": "ngc-6210",
+  "name": "NGC 6210",
+  "se_name": "NGC 6210",
+  "aliases": [
+   "Turtle Nebula"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "hercules",
+   "bright",
+   "compact"
+  ],
+  "description": "헤르쿨레스자리의 밝은 소형 행성상성운",
+  "rating": 3
+ },
+ {
+  "id": "ngc-6445",
+  "name": "NGC 6445",
+  "se_name": "NGC 6445",
+  "aliases": [
+   "Box Nebula",
+   "상자 성운"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "sagittarius",
+   "bipolar",
+   "irregular"
+  ],
+  "description": "불규칙한 상자 모양의 행성상성운",
+  "rating": 3
+ },
+ {
+  "id": "ngc-6572",
+  "name": "NGC 6572",
+  "se_name": "NGC 6572",
+  "aliases": [
+   "Emerald Nebula"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "ophiuchus",
+   "green",
+   "bright"
+  ],
+  "description": "에메랄드 빛으로 빛나는 밝은 행성상성운",
+  "rating": 3
+ },
+ {
+  "id": "ngc-6751",
+  "name": "NGC 6751",
+  "se_name": "NGC 6751",
+  "aliases": [
+   "Glowing Eye Nebula"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "aquila",
+   "round",
+   "colorful"
+  ],
+  "description": "독수리자리의 빛나는 눈 모양 행성상성운",
+  "rating": 3
+ },
+ {
+  "id": "ngc6781",
+  "name": "NGC 6781",
+  "se_name": "NGC 6781",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "ring"
+  ],
+  "description": "고리 모양의 행성상 성운",
+  "rating": 3
+ },
+ {
+  "id": "ngc6826",
+  "name": "NGC 6826",
+  "se_name": "NGC 6826",
+  "aliases": [
+   "Blinking Nebula"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "blinking"
+  ],
+  "description": "깜박이는 듯 보이는 행성상 성운",
+  "rating": 3
+ },
+ {
+  "id": "ngc6891",
+  "name": "NGC 6891",
+  "se_name": "NGC 6891",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "nested-shells"
+  ],
+  "description": "다중 껍질 구조의 행성상 성운",
+  "rating": 3
+ },
+ {
+  "id": "ngc7008",
+  "name": "NGC 7008",
+  "se_name": "NGC 7008",
+  "aliases": [
+   "Fetus Nebula"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "unusual-shape"
+  ],
+  "description": "태아 모양의 행성상 성운",
+  "rating": 3
+ },
+ {
+  "id": "pacman",
+  "name": "PacMan Nebula",
+  "se_name": "PacMan Nebula",
+  "aliases": [
+   "NGC 281"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "fun-shape"
+  ],
+  "description": "팩맨 모양의 발광성운",
+  "rating": 3
+ },
+ {
+  "id": "pacman-nebula",
+  "name": "Pacman Nebula",
+  "se_name": "PacMan Nebula",
+  "aliases": [
+   "팩맨 성운",
+   "NGC 281"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "cassiopeia",
+   "h-ii-region",
+   "bok-globules"
+  ],
+  "description": "팩맨을 닮은 카시오페이아자리의 발광성운",
+  "rating": 3
+ },
+ {
+  "id": "pelican-nebula",
+  "name": "Pelican Nebula",
+  "se_name": "Pelican Nebula",
+  "aliases": [
+   "펠리컨 성운",
+   "IC 5070"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "cygnus",
+   "h-ii-region",
+   "bird-shaped"
+  ],
+  "description": "펠리컨을 닮은 백조자리의 발광성운",
+  "rating": 3
+ },
+ {
+  "id": "pencil-nebula",
+  "name": "Pencil Nebula",
+  "se_name": "Pencil Nebula",
+  "aliases": [
+   "연필 성운",
+   "NGC 2736"
+  ],
+  "category": "nebula",
+  "subcategory": "supernova_remnant",
+  "parent": null,
+  "tags": [
+   "supernova-remnant",
+   "vela",
+   "linear",
+   "shock-wave"
+  ],
+  "description": "벨라 초신성 잔해의 일부인 선형 충격파 구조",
+  "rating": 3
+ },
+ {
+  "id": "retina",
+  "name": "Retina Nebula",
+  "se_name": "Retina Nebula",
+  "aliases": [
+   "IC 4406"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "cylindrical"
+  ],
+  "description": "원통형 구조의 행성상 성운",
+  "rating": 3
+ },
+ {
+  "id": "rotten-egg-nebula",
+  "name": "Rotten Egg Nebula",
+  "se_name": "Rotten Egg Nebula",
+  "aliases": [
+   "썩은 달걀 성운",
+   "Calabash Nebula"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "proto-planetary",
+   "bipolar",
+   "sulfur",
+   "jets"
+  ],
+  "description": "황 화합물이 풍부한 원시행성상성운",
+  "rating": 3
+ },
+ {
+  "id": "running-man-nebula",
+  "name": "Running Man Nebula",
+  "se_name": "Running Man Nebula",
+  "aliases": [
+   "달리는 사람 성운",
+   "NGC 1977"
+  ],
+  "category": "nebula",
+  "subcategory": "reflection",
+  "parent": null,
+  "tags": [
+   "reflection",
+   "orion",
+   "blue"
+  ],
+  "description": "오리온 성운 북쪽의 반사성운",
+  "rating": 3
+ },
+ {
+  "id": "running-man",
+  "name": "Running Man Nebula",
+  "se_name": "Running Man Nebula",
+  "aliases": [
+   "Sh2-279"
+  ],
+  "category": "nebula",
+  "subcategory": "reflection",
+  "parent": null,
+  "tags": [
+   "reflection",
+   "orion"
+  ],
+  "description": "달리는 사람 모양의 반사성운",
+  "rating": 3
+ },
+ {
+  "id": "ngc-246",
+  "name": "Skull Nebula",
+  "se_name": "NGC 246",
+  "aliases": [
+   "해골 성운"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "cetus",
+   "filamentary",
+   "skull-shaped"
+  ],
+  "description": "해골을 닮은 고래자리의 행성상성운",
+  "rating": 3
+ },
+ {
+  "id": "skull",
+  "name": "Skull Nebula",
+  "se_name": "NGC 246",
+  "aliases": [
+   "Skull Nebula"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "skull-shape"
+  ],
+  "description": "해골 모양의 행성상 성운",
+  "rating": 3
+ },
+ {
+  "id": "skylias-stellar-nursery",
+  "name": "Skylias Stellar Nursery",
+  "se_name": "Skylias Stellar Nursery",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "star-forming",
+   "custom",
+   "nursery"
+  ],
+  "description": "SpaceEngine 커스텀 별 탄생 성운",
+  "rating": 3
+ },
+ {
+  "id": "skylias",
+  "name": "Skylias Stellar Nursery",
+  "se_name": "Skylias Stellar Nursery",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "custom",
+  "parent": null,
+  "tags": [
+   "custom",
+   "stellar-nursery",
+   "spaceengine"
+  ],
+  "description": "SpaceEngine 커스텀 별 탄생 영역",
+  "rating": 3
+ },
+ {
+  "id": "soul",
+  "name": "Soul Nebula",
+  "se_name": "Soul Nebula",
+  "aliases": [
+   "IC 1824"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "companion"
+  ],
+  "description": "하트 성운 옆의 영혼 성운",
+  "rating": 3
+ },
+ {
+  "id": "southern-crab",
+  "name": "Southern Crab Nebula",
+  "se_name": "Hen 2-104",
+  "aliases": [
+   "Southern Crab Nebula"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "bipolar",
+   "symbiotic"
+  ],
+  "description": "게 모양의 공생별 성운",
+  "rating": 3
+ },
+ {
+  "id": "spare-tyre",
+  "name": "Spare-Tyre Nebula",
+  "se_name": "Spare-tyre nebula",
+  "aliases": [
+   "IC 5148"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "circular"
+  ],
+  "description": "여분 타이어 모양의 원형 행성상 성운",
+  "rating": 3
+ },
+ {
+  "id": "stingray",
+  "name": "Stingray Nebula",
+  "se_name": "Stingray Nebula",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "youngest",
+   "fading"
+  ],
+  "description": "가장 젊고 빠르게 사라지는 행성상 성운",
+  "rating": 3
+ },
+ {
+  "id": "wizard",
+  "name": "Wizard Nebula",
+  "se_name": "Wizard Nebula",
+  "aliases": [
+   "NGC 7380",
+   "Sh2-142"
+  ],
+  "category": "nebula",
+  "subcategory": "emission",
+  "parent": null,
+  "tags": [
+   "emission",
+   "cluster"
+  ],
+  "description": "마법사 모양의 발광성운",
+  "rating": 3
+ },
+ {
+  "id": "abell13",
+  "name": "Abell 13",
+  "se_name": "Abell 13",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "faint",
+   "large"
+  ],
+  "description": "희미하고 큰 행성상 성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc-6309",
+  "name": "Box Nebula",
+  "se_name": "NGC 6309",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "ophiuchus",
+   "rectangular"
+  ],
+  "description": "뱀주인자리의 직사각형 행성상성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc-7026",
+  "name": "Cheeseburger Nebula",
+  "se_name": "NGC 7026",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "cygnus",
+   "bipolar"
+  ],
+  "description": "치즈버거를 닮은 쌍극 행성상성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc-7008",
+  "name": "Fetus Nebula",
+  "se_name": "NGC 7008",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "cygnus",
+   "irregular"
+  ],
+  "description": "불규칙한 모양의 백조자리 행성상성운",
+  "rating": 2
+ },
+ {
+  "id": "ic2003",
+  "name": "IC 2003",
+  "se_name": "IC 2003",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "small"
+  ],
+  "description": "작은 행성상 성운",
+  "rating": 2
+ },
+ {
+  "id": "ic2621",
+  "name": "IC 2621",
+  "se_name": "IC 2621",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "compact"
+  ],
+  "description": "작고 밝은 행성상 성운",
+  "rating": 2
+ },
+ {
+  "id": "ic-4593",
+  "name": "IC 4593",
+  "se_name": "IC 4593",
+  "aliases": [
+   "White Eyed Pea"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "hercules",
+   "small"
+  ],
+  "description": "헤르쿨레스자리의 작은 행성상성운",
+  "rating": 2
+ },
+ {
+  "id": "ic4776",
+  "name": "IC 4776",
+  "se_name": "IC 4776",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "small"
+  ],
+  "description": "작은 행성상 성운",
+  "rating": 2
+ },
+ {
+  "id": "jones-emberson",
+  "name": "Jones-Emberson 1",
+  "se_name": "Jones-Emberson 1",
+  "aliases": [
+   "VV 47"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "faint",
+   "headphone"
+  ],
+  "description": "헤드폰 모양의 희미한 행성상 성운",
+  "rating": 2
+ },
+ {
+  "id": "ic-3568",
+  "name": "Lemon Slice Nebula",
+  "se_name": "IC 3568",
+  "aliases": [
+   "레몬 조각 성운"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "round",
+   "camelopardalis",
+   "bright"
+  ],
+  "description": "거의 완벽한 원형의 소형 행성상성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc-2022",
+  "name": "NGC 2022",
+  "se_name": "NGC 2022",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "orion",
+   "round"
+  ],
+  "description": "오리온자리의 원형 행성상성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc-2371",
+  "name": "NGC 2371",
+  "se_name": "NGC 2371",
+  "aliases": [
+   "Gemini Nebula"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "gemini",
+   "bipolar"
+  ],
+  "description": "쌍둥이자리의 쌍극 행성상성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc2452",
+  "name": "NGC 2452",
+  "se_name": "NGC 2452",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "southern"
+  ],
+  "description": "남반구의 행성상 성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc3211",
+  "name": "NGC 3211",
+  "se_name": "NGC 3211",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "bright-center"
+  ],
+  "description": "밝은 중심의 행성상 성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc-6153",
+  "name": "NGC 6153",
+  "se_name": "NGC 6153",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "scorpius",
+   "elliptical"
+  ],
+  "description": "전갈자리의 타원형 행성상성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc6153",
+  "name": "NGC 6153",
+  "se_name": "NGC 6153",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "bright"
+  ],
+  "description": "밝은 행성상 성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc6210",
+  "name": "NGC 6210",
+  "se_name": "NGC 6210",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "bright",
+   "compact"
+  ],
+  "description": "밝고 작은 행성상 성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc6445",
+  "name": "NGC 6445",
+  "se_name": "NGC 6445",
+  "aliases": [
+   "Little Gem Nebula"
+  ],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "irregular"
+  ],
+  "description": "불규칙한 모양의 행성상 성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc-6620",
+  "name": "NGC 6620",
+  "se_name": "NGC 6620",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "sagittarius",
+   "compact"
+  ],
+  "description": "궁수자리의 소형 행성상성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc6620",
+  "name": "NGC 6620",
+  "se_name": "NGC 6620",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "bulge"
+  ],
+  "description": "은하 팽대부 방향의 행성상 성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc-6629",
+  "name": "NGC 6629",
+  "se_name": "NGC 6629",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "sagittarius",
+   "round"
+  ],
+  "description": "궁수자리의 원형 행성상성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc6629",
+  "name": "NGC 6629",
+  "se_name": "NGC 6629",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "symmetric"
+  ],
+  "description": "대칭적인 행성상 성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc6644",
+  "name": "NGC 6644",
+  "se_name": "NGC 6644",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "compact"
+  ],
+  "description": "컴팩트한 행성상 성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc-6781",
+  "name": "NGC 6781",
+  "se_name": "NGC 6781",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "aquila",
+   "ring-like",
+   "faint"
+  ],
+  "description": "독수리자리의 고리 모양 행성상성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc6803",
+  "name": "NGC 6803",
+  "se_name": "NGC 6803",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "ring-shell"
+  ],
+  "description": "고리 껍질 구조의 행성상 성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc6804",
+  "name": "NGC 6804",
+  "se_name": "NGC 6804",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "ring"
+  ],
+  "description": "고리 구조의 행성상 성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc6881",
+  "name": "NGC 6881",
+  "se_name": "NGC 6881",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "bipolar",
+   "compact"
+  ],
+  "description": "컴팩트한 쌍극 행성상 성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc-6884",
+  "name": "NGC 6884",
+  "se_name": "NGC 6884",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "cygnus",
+   "compact"
+  ],
+  "description": "백조자리의 소형 행성상성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc-6891",
+  "name": "NGC 6891",
+  "se_name": "NGC 6891",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "delphinus",
+   "double-shell"
+  ],
+  "description": "돌고래자리의 이중 껍질 행성상성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc6894",
+  "name": "NGC 6894",
+  "se_name": "NGC 6894",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "faint-ring"
+  ],
+  "description": "희미한 고리의 행성상 성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc7048",
+  "name": "NGC 7048",
+  "se_name": "NGC 7048",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "faint"
+  ],
+  "description": "희미한 행성상 성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc7139",
+  "name": "NGC 7139",
+  "se_name": "NGC 7139",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "faint"
+  ],
+  "description": "희미한 행성상 성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc-7354",
+  "name": "NGC 7354",
+  "se_name": "NGC 7354",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "cepheus",
+   "bipolar"
+  ],
+  "description": "세페우스자리의 쌍극 행성상성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc-6741",
+  "name": "Phantom Streak Nebula",
+  "se_name": "NGC 6741",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "aquila",
+   "dense"
+  ],
+  "description": "독수리자리의 조밀한 행성상성운",
+  "rating": 2
+ },
+ {
+  "id": "ngc5873",
+  "name": "NGC 5873",
+  "se_name": "NGC 5873",
+  "aliases": [],
+  "category": "nebula",
+  "subcategory": "planetary",
+  "parent": null,
+  "tags": [
+   "planetary",
+   "tiny"
+  ],
+  "description": "매우 작은 행성상 성운",
+  "rating": 1
+ },
+ {
+  "id": "andromeda",
+  "name": "Andromeda",
+  "se_name": "Andromeda",
+  "aliases": [
+   "M 31",
+   "NGC 224",
+   "안드로메다 은하"
+  ],
+  "category": "galaxy",
+  "subcategory": "spiral",
+  "parent": null,
+  "tags": [
+   "nearest-large",
+   "spiral",
+   "collision-course",
+   "famous"
+  ],
+  "description": "가장 가까운 대형 나선은하, 우리 은하와 충돌 예정",
+  "rating": 5
+ },
+ {
+  "id": "antennae-galaxies",
+  "name": "Antennae Galaxies",
+  "se_name": "Antennae Galaxies",
+  "aliases": [
+   "더듬이 은하",
+   "NGC 4038/4039"
+  ],
+  "category": "galaxy",
+  "subcategory": "interacting",
+  "parent": null,
+  "tags": [
+   "interacting",
+   "merger",
+   "starburst",
+   "tidal-tails"
+  ],
+  "description": "긴 더듬이 모양 조석 꼬리를 가진 충돌 은하쌍",
+  "rating": 5
+ },
+ {
+  "id": "cartwheel-galaxy",
+  "name": "Cartwheel Galaxy",
+  "se_name": "Cartwheel Galaxy",
+  "aliases": [
+   "수레바퀴 은하"
+  ],
+  "category": "galaxy",
+  "subcategory": "ring",
+  "parent": null,
+  "tags": [
+   "ring-galaxy",
+   "collision",
+   "sculptor",
+   "starburst"
+  ],
+  "description": "충돌로 형성된 거대 고리 모양 은하",
+  "rating": 5
+ },
+ {
+  "id": "centaurus-a",
+  "name": "Centaurus A",
+  "se_name": "Centaurus A",
+  "aliases": [
+   "NGC 5128",
+   "Arp 153"
+  ],
+  "category": "galaxy",
+  "subcategory": "elliptical",
+  "parent": null,
+  "tags": [
+   "radio",
+   "dust-lane",
+   "jet",
+   "active",
+   "famous"
+  ],
+  "description": "거대한 먼지 띠와 제트가 있는 전파은하",
+  "rating": 5
+ },
+ {
+  "id": "hoags-object",
+  "name": "Hoag's Object",
+  "se_name": "Hoag's object",
+  "aliases": [
+   "PGC 54559",
+   "호그 천체"
+  ],
+  "category": "galaxy",
+  "subcategory": "ring",
+  "parent": null,
+  "tags": [
+   "ring-galaxy",
+   "mysterious",
+   "rare",
+   "beautiful"
+  ],
+  "description": "신비로운 완벽한 고리 은하",
+  "rating": 5
+ },
+ {
+  "id": "lmc",
+  "name": "Large Magellanic Cloud",
+  "se_name": "Large Magellanic Cloud",
+  "aliases": [
+   "LMC",
+   "대마젤란은하"
+  ],
+  "category": "galaxy",
+  "subcategory": "irregular",
+  "parent": null,
+  "tags": [
+   "satellite",
+   "irregular",
+   "nearby",
+   "southern"
+  ],
+  "description": "우리 은하의 가장 큰 위성은하",
+  "rating": 5
+ },
+ {
+  "id": "m82",
+  "name": "M 82",
+  "se_name": "M 82",
+  "aliases": [
+   "NGC 3034",
+   "시가 은하"
+  ],
+  "category": "galaxy",
+  "subcategory": "irregular",
+  "parent": null,
+  "tags": [
+   "starburst",
+   "edge-on",
+   "galactic-wind"
+  ],
+  "description": "폭발적 별 생성의 시가 모양 은하",
+  "rating": 5
+ },
+ {
+  "id": "m87",
+  "name": "M 87",
+  "se_name": "M 87",
+  "aliases": [
+   "NGC 4486"
+  ],
+  "category": "galaxy",
+  "subcategory": "elliptical",
+  "parent": null,
+  "tags": [
+   "giant-elliptical",
+   "jet",
+   "virgo-cluster",
+   "black-hole-image"
+  ],
+  "description": "최초 블랙홀 이미지의 거대 타원은하",
+  "rating": 5
+ },
+ {
+  "id": "milky-way",
+  "name": "Milky Way",
+  "se_name": "Milky Way",
+  "aliases": [
+   "은하수",
+   "우리 은하"
+  ],
+  "category": "galaxy",
+  "subcategory": "spiral",
+  "parent": null,
+  "tags": [
+   "home",
+   "barred-spiral",
+   "SABbc"
+  ],
+  "description": "우리가 속한 막대나선은하",
+  "rating": 5
+ },
+ {
+  "id": "ngc-1300",
+  "name": "NGC 1300",
+  "se_name": "NGC 1300",
+  "aliases": [],
+  "category": "galaxy",
+  "subcategory": "spiral",
+  "parent": null,
+  "tags": [
+   "barred-spiral",
+   "grand-design",
+   "eridanus",
+   "prototypical"
+  ],
+  "description": "전형적인 아름다운 막대나선은하",
+  "rating": 5
+ },
+ {
+  "id": "ngc-1365",
+  "name": "NGC 1365",
+  "se_name": "NGC 1365",
+  "aliases": [
+   "Great Barred Spiral"
+  ],
+  "category": "galaxy",
+  "subcategory": "spiral",
+  "parent": null,
+  "tags": [
+   "barred-spiral",
+   "fornax-cluster",
+   "grand-design",
+   "agn"
+  ],
+  "description": "화로자리 은하단의 거대 막대나선은하",
+  "rating": 5
+ },
+ {
+  "id": "sombrero",
+  "name": "Sombrero Galaxy",
+  "se_name": "Sombrero",
+  "aliases": [
+   "M 104",
+   "NGC 4594",
+   "솜브레로 은하"
+  ],
+  "category": "galaxy",
+  "subcategory": "lenticular",
+  "parent": null,
+  "tags": [
+   "edge-on",
+   "dust-lane",
+   "bulge",
+   "iconic"
+  ],
+  "description": "챙 넓은 모자 모양의 은하",
+  "rating": 5
+ },
+ {
+  "id": "stephans-quintet",
+  "name": "Stephan's Quintet",
+  "se_name": "Stephan's Quintet",
+  "aliases": [
+   "스테판 5중주",
+   "HCG 92"
+  ],
+  "category": "galaxy",
+  "subcategory": "interacting",
+  "parent": null,
+  "tags": [
+   "compact-group",
+   "interacting",
+   "pegasus",
+   "jwst-target"
+  ],
+  "description": "JWST가 촬영한 유명한 은하 5중주",
+  "rating": 5
+ },
+ {
+  "id": "whirlpool",
+  "name": "Whirlpool Galaxy",
+  "se_name": "Whirlpool",
+  "aliases": [
+   "M 51",
+   "NGC 5194",
+   "소용돌이 은하"
+  ],
+  "category": "galaxy",
+  "subcategory": "spiral",
+  "parent": null,
+  "tags": [
+   "spiral",
+   "interacting",
+   "face-on",
+   "iconic",
+   "famous"
+  ],
+  "description": "가장 유명한 정면 나선은하",
+  "rating": 5
+ },
+ {
+  "id": "3c273-gal",
+  "name": "3C 273 Galaxy",
+  "se_name": "3C 273*",
+  "aliases": [],
+  "category": "galaxy",
+  "subcategory": "elliptical",
+  "parent": null,
+  "tags": [
+   "quasar",
+   "first-quasar",
+   "bright",
+   "distant"
+  ],
+  "description": "최초로 발견된 퀘이사의 모은하",
+  "rating": 4
+ },
+ {
+  "id": "black-eye-galaxy",
+  "name": "Black Eye Galaxy",
+  "se_name": "Black Eye Galaxy",
+  "aliases": [
+   "검은 눈 은하",
+   "M 64",
+   "NGC 4826"
+  ],
+  "category": "galaxy",
+  "subcategory": "spiral",
+  "parent": null,
+  "tags": [
+   "dust-band",
+   "counter-rotating",
+   "evil-eye",
+   "unusual"
+  ],
+  "description": "거대한 먼지 띠로 검은 눈처럼 보이는 은하",
+  "rating": 4
+ },
+ {
+  "id": "holmberg15a",
+  "name": "Holmberg 15A",
+  "se_name": "Holm 15",
+  "aliases": [
+   "Holmberg 15A"
+  ],
+  "category": "galaxy",
+  "subcategory": "elliptical",
+  "parent": null,
+  "tags": [
+   "giant",
+   "largest-core",
+   "massive-black-hole"
+  ],
+  "description": "가장 큰 은하 핵을 가진 초거대 은하",
+  "rating": 4
+ },
+ {
+  "id": "ic-1101",
+  "name": "IC 1101",
+  "se_name": "IC 1101",
+  "aliases": [],
+  "category": "galaxy",
+  "subcategory": "elliptical",
+  "parent": null,
+  "tags": [
+   "supergiant-elliptical",
+   "largest-galaxy",
+   "abell-2029"
+  ],
+  "description": "알려진 은하 중 가장 큰 초거대 타원은하",
+  "rating": 4
+ },
+ {
+  "id": "m81",
+  "name": "M 81",
+  "se_name": "M 81",
+  "aliases": [
+   "NGC 3031",
+   "보데 은하"
+  ],
+  "category": "galaxy",
+  "subcategory": "spiral",
+  "parent": null,
+  "tags": [
+   "spiral",
+   "bright",
+   "grand-design"
+  ],
+  "description": "밝은 대나선 구조의 은하",
+  "rating": 4
+ },
+ {
+  "id": "ngc-2207-galaxy",
+  "name": "NGC 2207",
+  "se_name": "NGC 2207",
+  "aliases": [],
+  "category": "galaxy",
+  "subcategory": "spiral",
+  "parent": null,
+  "tags": [
+   "interacting",
+   "merger",
+   "spiral",
+   "tidal"
+  ],
+  "description": "IC 2163과 충돌 중인 나선은하",
+  "rating": 4
+ },
+ {
+  "id": "ngc2207",
+  "name": "NGC 2207",
+  "se_name": "NGC 2207",
+  "aliases": [],
+  "category": "galaxy",
+  "subcategory": "spiral",
+  "parent": null,
+  "tags": [
+   "interacting",
+   "colliding"
+  ],
+  "description": "IC 2163과 충돌 중인 나선은하",
+  "rating": 4
+ },
+ {
+  "id": "ngc-4565",
+  "name": "Needle Galaxy",
+  "se_name": "NGC 4565",
+  "aliases": [
+   "바늘 은하"
+  ],
+  "category": "galaxy",
+  "subcategory": "spiral",
+  "parent": null,
+  "tags": [
+   "edge-on",
+   "thin",
+   "coma-berenices",
+   "dust-lane"
+  ],
+  "description": "가장 아름다운 측면 나선은하 중 하나",
+  "rating": 4
+ },
+ {
+  "id": "pinwheel",
+  "name": "Pinwheel Galaxy",
+  "se_name": "Pinwheel",
+  "aliases": [
+   "M 101",
+   "NGC 5457",
+   "바람개비 은하"
+  ],
+  "category": "galaxy",
+  "subcategory": "spiral",
+  "parent": null,
+  "tags": [
+   "spiral",
+   "face-on",
+   "large"
+  ],
+  "description": "큰 정면 나선은하",
+  "rating": 4
+ },
+ {
+  "id": "smc",
+  "name": "Small Magellanic Cloud",
+  "se_name": "Small Magellanic Cloud",
+  "aliases": [
+   "SMC",
+   "소마젤란은하",
+   "NGC 292"
+  ],
+  "category": "galaxy",
+  "subcategory": "irregular",
+  "parent": null,
+  "tags": [
+   "satellite",
+   "irregular",
+   "nearby",
+   "southern"
+  ],
+  "description": "우리 은하의 작은 위성은하",
+  "rating": 4
+ },
+ {
+  "id": "sunflower-galaxy",
+  "name": "Sunflower Galaxy",
+  "se_name": "Sunflower",
+  "aliases": [
+   "해바라기 은하",
+   "M 63",
+   "NGC 5055"
+  ],
+  "category": "galaxy",
+  "subcategory": "spiral",
+  "parent": null,
+  "tags": [
+   "flocculent",
+   "spiral",
+   "canes-venatici"
+  ],
+  "description": "솜사탕 같은 나선팔의 아름다운 은하",
+  "rating": 4
+ },
+ {
+  "id": "tadpole-galaxy",
+  "name": "Tadpole Galaxy",
+  "se_name": "Tadpole Galaxy",
+  "aliases": [
+   "올챙이 은하",
+   "UGC 10214"
+  ],
+  "category": "galaxy",
+  "subcategory": "spiral",
+  "parent": null,
+  "tags": [
+   "disrupted",
+   "tidal-tail",
+   "merger",
+   "draco"
+  ],
+  "description": "긴 조석 꼬리가 특징인 충돌 은하",
+  "rating": 4
+ },
+ {
+  "id": "tadpole",
+  "name": "Tadpole Galaxy",
+  "se_name": "Tadpole Galaxy",
+  "aliases": [
+   "UGC 10214",
+   "Arp 188"
+  ],
+  "category": "galaxy",
+  "subcategory": "spiral",
+  "parent": null,
+  "tags": [
+   "tidal-tail",
+   "interacting",
+   "long-tail"
+  ],
+  "description": "긴 꼬리가 있는 올챙이 은하",
+  "rating": 4
+ },
+ {
+  "id": "mice-galaxies",
+  "name": "The Mice Galaxies",
+  "se_name": "NGC 4676",
+  "aliases": [
+   "생쥐 은하"
+  ],
+  "category": "galaxy",
+  "subcategory": "interacting",
+  "parent": null,
+  "tags": [
+   "interacting",
+   "merger",
+   "tidal-tails",
+   "coma"
+  ],
+  "description": "긴 꼬리를 가진 충돌 은하쌍",
+  "rating": 4
+ },
+ {
+  "id": "triangulum",
+  "name": "Triangulum",
+  "se_name": "Triangulum",
+  "aliases": [
+   "M 33",
+   "NGC 598",
+   "삼각형자리 은하"
+  ],
+  "category": "galaxy",
+  "subcategory": "spiral",
+  "parent": null,
+  "tags": [
+   "spiral",
+   "local-group",
+   "third-largest"
+  ],
+  "description": "국부은하군 세 번째 큰 나선은하",
+  "rating": 4
+ },
+ {
+  "id": "3c120",
+  "name": "3C 120",
+  "se_name": "3C 120",
+  "aliases": [
+   "Mrk 1506"
+  ],
+  "category": "galaxy",
+  "subcategory": "spiral",
+  "parent": null,
+  "tags": [
+   "seyfert",
+   "radio",
+   "active"
+  ],
+  "description": "활동적인 세이퍼트 전파은하",
+  "rating": 3
+ },
+ {
+  "id": "am0644",
+  "name": "AM 0644",
+  "se_name": "AM 0644",
+  "aliases": [],
+  "category": "galaxy",
+  "subcategory": "ring",
+  "parent": null,
+  "tags": [
+   "ring-galaxy",
+   "collision"
+  ],
+  "description": "충돌로 형성된 고리 은하",
+  "rating": 3
+ },
+ {
+  "id": "abell2261",
+  "name": "Abell 2261 BCG",
+  "se_name": "Abell 2261 BCG",
+  "aliases": [],
+  "category": "galaxy",
+  "subcategory": "elliptical",
+  "parent": null,
+  "tags": [
+   "giant",
+   "cluster-center",
+   "massive"
+  ],
+  "description": "은하단 중심의 초거대 타원은하",
+  "rating": 3
+ },
+ {
+  "id": "barnards-galaxy",
+  "name": "Barnard's Galaxy",
+  "se_name": "Barnard's galaxy",
+  "aliases": [
+   "NGC 6822",
+   "바너드 은하"
+  ],
+  "category": "galaxy",
+  "subcategory": "irregular",
+  "parent": null,
+  "tags": [
+   "local-group",
+   "irregular"
+  ],
+  "description": "바너드가 발견한 국부은하군 왜소은하",
+  "rating": 3
+ },
+ {
+  "id": "eso510",
+  "name": "ESO 510-G13",
+  "se_name": "ESO 510-G13",
+  "aliases": [],
+  "category": "galaxy",
+  "subcategory": "lenticular",
+  "parent": null,
+  "tags": [
+   "warped",
+   "dust-lane"
+  ],
+  "description": "뒤틀린 먼지 원반의 렌즈형 은하",
+  "rating": 3
+ },
+ {
+  "id": "ic10",
+  "name": "IC 10",
+  "se_name": "IC 10",
+  "aliases": [
+   "UGC 192"
+  ],
+  "category": "galaxy",
+  "subcategory": "irregular",
+  "parent": null,
+  "tags": [
+   "starburst",
+   "local-group"
+  ],
+  "description": "국부은하군의 폭발적 별 생성 은하",
+  "rating": 3
+ },
+ {
+  "id": "m110",
+  "name": "M 110",
+  "se_name": "M 110",
+  "aliases": [
+   "NGC 205"
+  ],
+  "category": "galaxy",
+  "subcategory": "elliptical",
+  "parent": null,
+  "tags": [
+   "satellite",
+   "andromeda",
+   "dwarf-elliptical"
+  ],
+  "description": "안드로메다의 위성 타원은하",
+  "rating": 3
+ },
+ {
+  "id": "m32",
+  "name": "M 32",
+  "se_name": "M 32",
+  "aliases": [
+   "NGC 221"
+  ],
+  "category": "galaxy",
+  "subcategory": "elliptical",
+  "parent": null,
+  "tags": [
+   "satellite",
+   "andromeda",
+   "compact"
+  ],
+  "description": "안드로메다의 컴팩트 타원 위성은하",
+  "rating": 3
+ },
+ {
+  "id": "m49",
+  "name": "M 49",
+  "se_name": "M 49",
+  "aliases": [
+   "NGC 4472"
+  ],
+  "category": "galaxy",
+  "subcategory": "elliptical",
+  "parent": null,
+  "tags": [
+   "virgo-cluster",
+   "brightest-virgo"
+  ],
+  "description": "처녀자리 은하단에서 가장 밝은 은하",
+  "rating": 3
+ },
+ {
+  "id": "m60",
+  "name": "M 60",
+  "se_name": "M 60",
+  "aliases": [
+   "NGC 4649"
+  ],
+  "category": "galaxy",
+  "subcategory": "elliptical",
+  "parent": null,
+  "tags": [
+   "virgo-cluster",
+   "massive"
+  ],
+  "description": "처녀자리 은하단의 대형 타원은하",
+  "rating": 3
+ },
+ {
+  "id": "m84",
+  "name": "M 84",
+  "se_name": "M 84",
+  "aliases": [
+   "NGC 4374"
+  ],
+  "category": "galaxy",
+  "subcategory": "elliptical",
+  "parent": null,
+  "tags": [
+   "virgo-cluster",
+   "jet"
+  ],
+  "description": "처녀자리 은하단의 타원은하",
+  "rating": 3
+ },
+ {
+  "id": "m86",
+  "name": "M 86",
+  "se_name": "M 86",
+  "aliases": [
+   "NGC 4406"
+  ],
+  "category": "galaxy",
+  "subcategory": "elliptical",
+  "parent": null,
+  "tags": [
+   "virgo-cluster",
+   "blueshift"
+  ],
+  "description": "청색편이를 보이는 처녀자리 은하",
+  "rating": 3
+ },
+ {
+  "id": "maffei1",
+  "name": "Maffei 1",
+  "se_name": "Maffei 1",
+  "aliases": [],
+  "category": "galaxy",
+  "subcategory": "elliptical",
+  "parent": null,
+  "tags": [
+   "hidden",
+   "zone-of-avoidance",
+   "nearby"
+  ],
+  "description": "은하면에 가려진 근거리 타원은하",
+  "rating": 3
+ },
+ {
+  "id": "ngc5195",
+  "name": "NGC 5195",
+  "se_name": "NGC 5195",
+  "aliases": [],
+  "category": "galaxy",
+  "subcategory": "irregular",
+  "parent": null,
+  "tags": [
+   "interacting",
+   "companion",
+   "whirlpool"
+  ],
+  "description": "소용돌이 은하와 상호작용하는 동반은하",
+  "rating": 3
+ },
+ {
+  "id": "sag-dsph",
+  "name": "Sag dSph",
+  "se_name": "Sag dSph",
+  "aliases": [],
+  "category": "galaxy",
+  "subcategory": "dwarf_spheroidal",
+  "parent": null,
+  "tags": [
+   "satellite",
+   "merging",
+   "stream"
+  ],
+  "description": "우리 은하에 흡수되는 중인 왜소은하",
+  "rating": 3
+ },
+ {
+  "id": "spider-galaxy",
+  "name": "The Spider Galaxy",
+  "se_name": "The Spider Galaxy",
+  "aliases": [
+   "UGC 5829"
+  ],
+  "category": "galaxy",
+  "subcategory": "irregular",
+  "parent": null,
+  "tags": [
+   "irregular",
+   "spider-shape"
+  ],
+  "description": "거미 모양의 불규칙 은하",
+  "rating": 3
+ },
+ {
+  "id": "udf-423",
+  "name": "UDF 423",
+  "se_name": "UDF 423",
+  "aliases": [],
+  "category": "galaxy",
+  "subcategory": "spiral",
+  "parent": null,
+  "tags": [
+   "ultra-deep-field",
+   "distant",
+   "hubble"
+  ],
+  "description": "허블 울트라 딥 필드에서 촬영된 원거리 은하",
+  "rating": 3
+ },
+ {
+  "id": "udf423",
+  "name": "UDF 423",
+  "se_name": "UDF 423",
+  "aliases": [],
+  "category": "galaxy",
+  "subcategory": "spiral",
+  "parent": null,
+  "tags": [
+   "ultra-deep-field",
+   "distant"
+  ],
+  "description": "허블 울트라 딥 필드의 먼 은하",
+  "rating": 3
+ },
+ {
+  "id": "dwingeloo1",
+  "name": "Dwingeloo 1",
+  "se_name": "Dwingeloo 1",
+  "aliases": [],
+  "category": "galaxy",
+  "subcategory": "spiral",
+  "parent": null,
+  "tags": [
+   "hidden",
+   "zone-of-avoidance"
+  ],
+  "description": "은하면 뒤에 숨은 나선은하",
+  "rating": 2
+ },
+ {
+  "id": "fornax-dsph",
+  "name": "Fornax dSph",
+  "se_name": "Fornax dSph",
+  "aliases": [
+   "ESO 356-04"
+  ],
+  "category": "galaxy",
+  "subcategory": "dwarf_spheroidal",
+  "parent": null,
+  "tags": [
+   "satellite",
+   "globular-clusters"
+  ],
+  "description": "구상성단이 많은 왜소타원은하",
+  "rating": 2
+ },
+ {
+  "id": "ic-10",
+  "name": "IC 10",
+  "se_name": "IC 10",
+  "aliases": [],
+  "category": "galaxy",
+  "subcategory": "irregular",
+  "parent": null,
+  "tags": [
+   "irregular",
+   "starburst",
+   "local-group",
+   "obscured"
+  ],
+  "description": "국부은하군의 폭발적 별생성 불규칙은하",
+  "rating": 2
+ },
+ {
+  "id": "ic1613",
+  "name": "IC 1613",
+  "se_name": "IC 1613",
+  "aliases": [
+   "UGC 668"
+  ],
+  "category": "galaxy",
+  "subcategory": "irregular",
+  "parent": null,
+  "tags": [
+   "local-group",
+   "transparent"
+  ],
+  "description": "거의 먼지가 없는 투명한 왜소은하",
+  "rating": 2
+ },
+ {
+  "id": "leo-i",
+  "name": "Leo I",
+  "se_name": "Leo I",
+  "aliases": [
+   "DDO 74"
+  ],
+  "category": "galaxy",
+  "subcategory": "dwarf_spheroidal",
+  "parent": null,
+  "tags": [
+   "satellite",
+   "distant-satellite"
+  ],
+  "description": "사자자리 왜소타원은하",
+  "rating": 2
+ },
+ {
+  "id": "m59",
+  "name": "M 59",
+  "se_name": "M 59",
+  "aliases": [
+   "NGC 4621"
+  ],
+  "category": "galaxy",
+  "subcategory": "elliptical",
+  "parent": null,
+  "tags": [
+   "virgo-cluster"
+  ],
+  "description": "처녀자리 은하단의 타원은하",
+  "rating": 2
+ },
+ {
+  "id": "m89",
+  "name": "M 89",
+  "se_name": "M 89",
+  "aliases": [
+   "NGC 4552"
+  ],
+  "category": "galaxy",
+  "subcategory": "elliptical",
+  "parent": null,
+  "tags": [
+   "virgo-cluster",
+   "almost-spherical"
+  ],
+  "description": "거의 완벽한 구형의 타원은하",
+  "rating": 2
+ },
+ {
+  "id": "maffei-1",
+  "name": "Maffei 1",
+  "se_name": "Maffei 1",
+  "aliases": [
+   "마페이 1"
+  ],
+  "category": "galaxy",
+  "subcategory": "elliptical",
+  "parent": null,
+  "tags": [
+   "elliptical",
+   "obscured",
+   "nearby",
+   "zone-of-avoidance"
+  ],
+  "description": "은하면에 가려진 가장 가까운 거대 타원은하",
+  "rating": 2
+ },
+ {
+  "id": "ngc3109",
+  "name": "NGC 3109",
+  "se_name": "NGC 3109",
+  "aliases": [
+   "ESO 499-36"
+  ],
+  "category": "galaxy",
+  "subcategory": "irregular",
+  "parent": null,
+  "tags": [
+   "local-group-edge",
+   "magellanic-type"
+  ],
+  "description": "국부은하군 외곽의 불규칙 은하",
+  "rating": 2
+ },
+ {
+  "id": "phoenix-dwarf",
+  "name": "Phoenix Dwarf",
+  "se_name": "Phoenix Dwarf",
+  "aliases": [],
+  "category": "galaxy",
+  "subcategory": "irregular",
+  "parent": null,
+  "tags": [
+   "transitional",
+   "local-group"
+  ],
+  "description": "불사조자리의 전이형 왜소은하",
+  "rating": 2
+ },
+ {
+  "id": "sculptor-dsph",
+  "name": "Sculptor dSph",
+  "se_name": "Sculptor dSph",
+  "aliases": [
+   "ESO 351-30"
+  ],
+  "category": "galaxy",
+  "subcategory": "dwarf_spheroidal",
+  "parent": null,
+  "tags": [
+   "satellite",
+   "nearby"
+  ],
+  "description": "조각가자리 왜소타원은하",
+  "rating": 2
+ },
+ {
+  "id": "sextans-a",
+  "name": "Sextans A",
+  "se_name": "Sextans A",
+  "aliases": [
+   "DDO 75"
+  ],
+  "category": "galaxy",
+  "subcategory": "irregular",
+  "parent": null,
+  "tags": [
+   "local-group",
+   "starburst-history"
+  ],
+  "description": "과거 폭발적 별 생성 흔적의 왜소은하",
+  "rating": 2
+ },
+ {
+  "id": "wlm",
+  "name": "Wolf-Lundmark-Melotte",
+  "se_name": "Wolf-Lundmark-Melotte",
+  "aliases": [
+   "WLM",
+   "DDO 221"
+  ],
+  "category": "galaxy",
+  "subcategory": "irregular",
+  "parent": null,
+  "tags": [
+   "local-group",
+   "isolated"
+  ],
+  "description": "국부은하군 가장자리의 고립된 왜소은하",
+  "rating": 2
+ },
+ {
+  "id": "ic-1613",
+  "name": "IC 1613",
+  "se_name": "IC 1613",
+  "aliases": [],
+  "category": "galaxy",
+  "subcategory": "irregular",
+  "parent": null,
+  "tags": [
+   "irregular",
+   "dwarf",
+   "local-group",
+   "low-metallicity"
+  ],
+  "description": "국부은하군의 왜소 불규칙은하",
+  "rating": 1
+ },
+ {
+  "id": "3c-273-bh",
+  "name": "3C 273*",
+  "se_name": "3C 273*",
+  "aliases": [
+   "3C 273 퀘이사"
+  ],
+  "category": "black_hole",
+  "subcategory": "supermassive",
+  "parent": null,
+  "tags": [
+   "quasar",
+   "brightest-quasar",
+   "first-quasar",
+   "agn"
+  ],
+  "description": "최초로 발견되고 가장 밝은 퀘이사의 블랙홀",
+  "rating": 5
+ },
+ {
+  "id": "cygnus-x1",
+  "name": "Cygnus X-1",
+  "se_name": "HD 226868",
+  "aliases": [
+   "Cygnus X-1",
+   "백조자리 X-1"
+  ],
+  "category": "black_hole",
+  "subcategory": "stellar",
+  "parent": null,
+  "tags": [
+   "first-confirmed",
+   "x-ray-binary",
+   "historic"
+  ],
+  "description": "최초로 확인된 항성질량 블랙홀",
+  "rating": 5
+ },
+ {
+  "id": "holm15-bh",
+  "name": "Holm 15*",
+  "se_name": "Holm 15*",
+  "aliases": [],
+  "category": "black_hole",
+  "subcategory": "supermassive",
+  "parent": null,
+  "tags": [
+   "ultramassive",
+   "40-billion-solar",
+   "record"
+  ],
+  "description": "400억 태양질량의 초거대 블랙홀",
+  "rating": 5
+ },
+ {
+  "id": "holm-15-bh",
+  "name": "Holm 15A*",
+  "se_name": "Holm 15*",
+  "aliases": [
+   "Holm 15A 블랙홀"
+  ],
+  "category": "black_hole",
+  "subcategory": "supermassive",
+  "parent": null,
+  "tags": [
+   "ultramassive",
+   "400-billion-solar",
+   "extreme",
+   "core-depleted"
+  ],
+  "description": "400억 태양질량의 극대 블랙홀",
+  "rating": 5
+ },
+ {
+  "id": "powehi",
+  "name": "Powehi",
+  "se_name": "Powehi",
+  "aliases": [
+   "M 87*",
+   "포웨히"
+  ],
+  "category": "black_hole",
+  "subcategory": "supermassive",
+  "parent": "M 87",
+  "tags": [
+   "first-image",
+   "EHT",
+   "supermassive",
+   "famous",
+   "6.5-billion-solar"
+  ],
+  "description": "최초로 촬영된 블랙홀 (65억 태양질량)",
+  "rating": 5
+ },
+ {
+  "id": "sgr-a-star",
+  "name": "Sagittarius A*",
+  "se_name": "Sgr A*",
+  "aliases": [
+   "궁수자리 A*",
+   "은하 중심 블랙홀"
+  ],
+  "category": "black_hole",
+  "subcategory": "supermassive",
+  "parent": "Milky Way",
+  "tags": [
+   "supermassive",
+   "galactic-center",
+   "4-million-solar",
+   "eht"
+  ],
+  "description": "우리 은하 중심의 초대질량 블랙홀(400만 태양질량)",
+  "rating": 5
+ },
+ {
+  "id": "sgr-a",
+  "name": "Sagittarius A*",
+  "se_name": "Sgr A*",
+  "aliases": [
+   "궁수자리 A*",
+   "은하 중심 블랙홀"
+  ],
+  "category": "black_hole",
+  "subcategory": "supermassive",
+  "parent": "Milky Way",
+  "tags": [
+   "galactic-center",
+   "supermassive",
+   "EHT-image",
+   "4-million-solar"
+  ],
+  "description": "우리 은하 중심의 초대질량 블랙홀",
+  "rating": 5
+ },
+ {
+  "id": "ton-618-bh",
+  "name": "TON 618*",
+  "se_name": "TON 618*",
+  "aliases": [
+   "TON 618 블랙홀"
+  ],
+  "category": "black_hole",
+  "subcategory": "supermassive",
+  "parent": null,
+  "tags": [
+   "ultramassive",
+   "quasar",
+   "660-billion-solar",
+   "extreme"
+  ],
+  "description": "660억 태양질량의 초극대 블랙홀",
+  "rating": 5
+ },
+ {
+  "id": "ton618",
+  "name": "TON 618*",
+  "se_name": "TON 618*",
+  "aliases": [],
+  "category": "black_hole",
+  "subcategory": "supermassive",
+  "parent": null,
+  "tags": [
+   "ultramassive",
+   "66-billion-solar",
+   "quasar",
+   "record"
+  ],
+  "description": "660억 태양질량의 초거대 블랙홀",
+  "rating": 5
+ },
+ {
+  "id": "3c273-bh",
+  "name": "3C 273*",
+  "se_name": "3C 273*",
+  "aliases": [],
+  "category": "black_hole",
+  "subcategory": "supermassive",
+  "parent": null,
+  "tags": [
+   "quasar",
+   "first-quasar",
+   "luminous"
+  ],
+  "description": "최초 발견 퀘이사의 초대질량 블랙홀",
+  "rating": 4
+ },
+ {
+  "id": "cen-a-bh",
+  "name": "Centaurus A*",
+  "se_name": "Centaurus A*",
+  "aliases": [
+   "센타우루스 A 블랙홀"
+  ],
+  "category": "black_hole",
+  "subcategory": "supermassive",
+  "parent": "Centaurus A",
+  "tags": [
+   "supermassive",
+   "radio-galaxy-center",
+   "jets"
+  ],
+  "description": "가장 가까운 전파은하 중심의 초대질량 블랙홀",
+  "rating": 4
+ },
+ {
+  "id": "centaurus-a-bh",
+  "name": "Centaurus A*",
+  "se_name": "Centaurus A*",
+  "aliases": [
+   "NGC 5128*"
+  ],
+  "category": "black_hole",
+  "subcategory": "supermassive",
+  "parent": null,
+  "tags": [
+   "radio-jet",
+   "active"
+  ],
+  "description": "센타우루스 A의 활동 블랙홀",
+  "rating": 4
+ },
+ {
+  "id": "grs-1915-105",
+  "name": "GRS 1915+105",
+  "se_name": "GRS 1915+105",
+  "aliases": [],
+  "category": "black_hole",
+  "subcategory": "stellar",
+  "parent": null,
+  "tags": [
+   "microquasar",
+   "superluminal-jets",
+   "x-ray",
+   "massive"
+  ],
+  "description": "초광속 제트를 방출하는 항성질량 블랙홀",
+  "rating": 4
+ },
+ {
+  "id": "grs1915",
+  "name": "GRS 1915+105",
+  "se_name": "GRS 1915+105",
+  "aliases": [],
+  "category": "black_hole",
+  "subcategory": "stellar",
+  "parent": null,
+  "tags": [
+   "microquasar",
+   "superluminal-jet"
+  ],
+  "description": "초광속 제트를 분출하는 마이크로퀘이사",
+  "rating": 4
+ },
+ {
+  "id": "gaia-bh1",
+  "name": "Gaia BH1",
+  "se_name": "Gaia BH1",
+  "aliases": [
+   "Gaia DR3 4373465352415301632"
+  ],
+  "category": "black_hole",
+  "subcategory": "stellar",
+  "parent": null,
+  "tags": [
+   "nearest",
+   "dormant",
+   "gaia-discovery"
+  ],
+  "description": "태양에서 가장 가까운 블랙홀",
+  "rating": 4
+ },
+ {
+  "id": "gaia-bh3",
+  "name": "Gaia BH3",
+  "se_name": "Gaia BH3",
+  "aliases": [],
+  "category": "black_hole",
+  "subcategory": "stellar",
+  "parent": null,
+  "tags": [
+   "massive-stellar",
+   "gaia-discovery",
+   "33-solar"
+  ],
+  "description": "33 태양질량의 무거운 항성질량 블랙홀",
+  "rating": 4
+ },
+ {
+  "id": "ic-1101-bh",
+  "name": "IC 1101*",
+  "se_name": "IC 1101*",
+  "aliases": [],
+  "category": "black_hole",
+  "subcategory": "supermassive",
+  "parent": "IC 1101",
+  "tags": [
+   "ultramassive",
+   "largest-galaxy-center",
+   "extreme"
+  ],
+  "description": "가장 큰 은하 IC 1101 중심의 초거대 블랙홀",
+  "rating": 4
+ },
+ {
+  "id": "ic1101-bh",
+  "name": "IC 1101*",
+  "se_name": "IC 1101*",
+  "aliases": [],
+  "category": "black_hole",
+  "subcategory": "supermassive",
+  "parent": null,
+  "tags": [
+   "giant-galaxy",
+   "massive"
+  ],
+  "description": "가장 큰 은하 중 하나의 중심 블랙홀",
+  "rating": 4
+ },
+ {
+  "id": "ss-433",
+  "name": "SS 433",
+  "se_name": "SS 433",
+  "aliases": [],
+  "category": "black_hole",
+  "subcategory": "stellar",
+  "parent": null,
+  "tags": [
+   "microquasar",
+   "jets",
+   "precessing",
+   "x-ray-binary"
+  ],
+  "description": "세차 운동하는 제트를 방출하는 마이크로퀘이사",
+  "rating": 4
+ },
+ {
+  "id": "ss433",
+  "name": "SS 433",
+  "se_name": "SS 433",
+  "aliases": [],
+  "category": "black_hole",
+  "subcategory": "stellar",
+  "parent": null,
+  "tags": [
+   "microquasar",
+   "precessing-jets",
+   "x-ray"
+  ],
+  "description": "세차하는 제트의 마이크로퀘이사",
+  "rating": 4
+ },
+ {
+  "id": "a0620",
+  "name": "A 0620-00",
+  "se_name": "A 0620-00",
+  "aliases": [],
+  "category": "black_hole",
+  "subcategory": "stellar",
+  "parent": null,
+  "tags": [
+   "x-ray-nova",
+   "quiet"
+  ],
+  "description": "조용한 상태의 X선 신성 블랙홀",
+  "rating": 3
+ },
+ {
+  "id": "gaia-bh2",
+  "name": "Gaia BH2",
+  "se_name": "Gaia BH2",
+  "aliases": [],
+  "category": "black_hole",
+  "subcategory": "stellar",
+  "parent": null,
+  "tags": [
+   "dormant",
+   "wide-orbit",
+   "gaia-discovery"
+  ],
+  "description": "넓은 궤도의 휴면 블랙홀",
+  "rating": 3
+ },
+ {
+  "id": "lb1",
+  "name": "LB-1 System",
+  "se_name": "LB-1 System",
+  "aliases": [],
+  "category": "black_hole",
+  "subcategory": "stellar",
+  "parent": null,
+  "tags": [
+   "controversial",
+   "massive"
+  ],
+  "description": "질량 논쟁이 있었던 블랙홀 시스템",
+  "rating": 3
+ },
+ {
+  "id": "lmc-x1",
+  "name": "LMC X-1",
+  "se_name": "LMC X-1",
+  "aliases": [],
+  "category": "black_hole",
+  "subcategory": "stellar",
+  "parent": null,
+  "tags": [
+   "LMC",
+   "x-ray-binary"
+  ],
+  "description": "대마젤란은하의 X선 쌍성 블랙홀",
+  "rating": 3
+ },
+ {
+  "id": "m31-bh",
+  "name": "M 31*",
+  "se_name": "M 31*",
+  "aliases": [],
+  "category": "black_hole",
+  "subcategory": "supermassive",
+  "parent": "Andromeda",
+  "tags": [
+   "andromeda-center"
+  ],
+  "description": "안드로메다 은하 중심의 블랙홀",
+  "rating": 3
+ },
+ {
+  "id": "m51-uls-1",
+  "name": "M51-ULS-1",
+  "se_name": "M51-ULS-1",
+  "aliases": [],
+  "category": "black_hole",
+  "subcategory": "stellar",
+  "parent": null,
+  "tags": [
+   "extragalactic",
+   "x-ray-binary",
+   "m51",
+   "first-extragalactic-planet"
+  ],
+  "description": "소용돌이 은하의 외계행성 후보를 가진 X선 쌍성",
+  "rating": 3
+ },
+ {
+  "id": "m51-uls-1-bh",
+  "name": "M51-ULS-1",
+  "se_name": "M51-ULS-1",
+  "aliases": [],
+  "category": "black_hole",
+  "subcategory": "stellar",
+  "parent": null,
+  "tags": [
+   "extragalactic",
+   "x-ray-transit"
+  ],
+  "description": "외부은하에서 발견된 블랙홀 후보",
+  "rating": 3
+ },
+ {
+  "id": "qv-tel",
+  "name": "QV Tel",
+  "se_name": "QV Tel",
+  "aliases": [
+   "HR 6819"
+  ],
+  "category": "black_hole",
+  "subcategory": "stellar",
+  "parent": null,
+  "tags": [
+   "triple-system",
+   "naked-eye",
+   "nearby"
+  ],
+  "description": "삼중성계의 맨눈으로 보이는 블랙홀",
+  "rating": 3
+ },
+ {
+  "id": "whirlpool-bh",
+  "name": "Whirlpool*",
+  "se_name": "Whirlpool*",
+  "aliases": [
+   "M 51*",
+   "NGC 5194*"
+  ],
+  "category": "black_hole",
+  "subcategory": "supermassive",
+  "parent": null,
+  "tags": [
+   "whirlpool-center"
+  ],
+  "description": "소용돌이 은하 중심의 블랙홀",
+  "rating": 3
+ },
+ {
+  "id": "lb-1-system",
+  "name": "LB-1 System",
+  "se_name": "LB-1 System",
+  "aliases": [
+   "LS V +22 25"
+  ],
+  "category": "black_hole",
+  "subcategory": "stellar",
+  "parent": null,
+  "tags": [
+   "stellar-mass",
+   "controversial",
+   "massive",
+   "binary"
+  ],
+  "description": "질량이 논란인 항성질량 블랙홀 쌍성계",
+  "rating": 2
+ },
+ {
+  "id": "47-tuc",
+  "name": "47 Tucanae",
+  "se_name": "47 Tuc",
+  "aliases": [
+   "NGC 104",
+   "47 투카나"
+  ],
+  "category": "cluster",
+  "subcategory": "globular",
+  "parent": null,
+  "tags": [
+   "globular",
+   "bright",
+   "southern",
+   "dense",
+   "visible"
+  ],
+  "description": "남반구에서 가장 밝은 구상성단 중 하나",
+  "rating": 5
+ },
+ {
+  "id": "47tuc",
+  "name": "47 Tucanae",
+  "se_name": "47 Tuc",
+  "aliases": [
+   "NGC 104",
+   "47 Tuc"
+  ],
+  "category": "cluster",
+  "subcategory": "globular",
+  "parent": null,
+  "tags": [
+   "bright",
+   "southern",
+   "dense",
+   "famous"
+  ],
+  "description": "남반구 최고의 구상성단",
+  "rating": 5
+ },
+ {
+  "id": "chi-per",
+  "name": "Chi Persei",
+  "se_name": "CHI Per",
+  "aliases": [
+   "NGC 884"
+  ],
+  "category": "cluster",
+  "subcategory": "open",
+  "parent": null,
+  "tags": [
+   "double-cluster",
+   "famous"
+  ],
+  "description": "페르세우스 이중성단의 다른 쪽",
+  "rating": 5
+ },
+ {
+  "id": "jewel-box",
+  "name": "Jewel Box",
+  "se_name": "NGC 4755",
+  "aliases": [
+   "Kappa Crucis"
+  ],
+  "category": "cluster",
+  "subcategory": "open",
+  "parent": null,
+  "tags": [
+   "colorful",
+   "southern",
+   "beautiful"
+  ],
+  "description": "다채로운 색상의 보석상자 성단",
+  "rating": 5
+ },
+ {
+  "id": "ngc-4755",
+  "name": "Jewel Box Cluster",
+  "se_name": "NGC 4755",
+  "aliases": [
+   "보석상자 성단",
+   "Kappa Crucis"
+  ],
+  "category": "cluster",
+  "subcategory": "open",
+  "parent": null,
+  "tags": [
+   "open",
+   "colorful",
+   "southern-cross",
+   "young"
+  ],
+  "description": "다양한 색의 별이 보석처럼 빛나는 성단",
+  "rating": 5
+ },
+ {
+  "id": "m13",
+  "name": "M 13",
+  "se_name": "M 13",
+  "aliases": [
+   "NGC 6205",
+   "헤르쿨레스 성단"
+  ],
+  "category": "cluster",
+  "subcategory": "globular",
+  "parent": null,
+  "tags": [
+   "famous",
+   "northern",
+   "bright",
+   "arecibo-message"
+  ],
+  "description": "북반구 최고의 구상성단, 아레시보 메시지 대상",
+  "rating": 5
+ },
+ {
+  "id": "ngc2070",
+  "name": "NGC 2070",
+  "se_name": "NGC 2070",
+  "aliases": [
+   "Tarantula Nebula cluster"
+  ],
+  "category": "cluster",
+  "subcategory": "open",
+  "parent": null,
+  "tags": [
+   "LMC",
+   "tarantula",
+   "massive",
+   "super-star-cluster"
+  ],
+  "description": "타란튤라 성운의 초거대 성단",
+  "rating": 5
+ },
+ {
+  "id": "omega-centauri",
+  "name": "Omega Centauri",
+  "se_name": "OME Cen",
+  "aliases": [
+   "오메가 센타우리",
+   "NGC 5139"
+  ],
+  "category": "cluster",
+  "subcategory": "globular",
+  "parent": null,
+  "tags": [
+   "globular",
+   "largest",
+   "brightest",
+   "visible",
+   "possible-dwarf-galaxy"
+  ],
+  "description": "은하계에서 가장 크고 밝은 구상성단",
+  "rating": 5
+ },
+ {
+  "id": "omega-cen",
+  "name": "Omega Centauri",
+  "se_name": "OME Cen",
+  "aliases": [
+   "NGC 5139",
+   "오메가 센타우리"
+  ],
+  "category": "cluster",
+  "subcategory": "globular",
+  "parent": null,
+  "tags": [
+   "largest",
+   "brightest",
+   "dwarf-galaxy-remnant"
+  ],
+  "description": "가장 크고 밝은 구상성단 (왜소은하 잔해)",
+  "rating": 5
+ },
+ {
+  "id": "pleiades",
+  "name": "Pleiades",
+  "se_name": "Pleiades",
+  "aliases": [
+   "M 45",
+   "NGC 1432",
+   "플레이아데스",
+   "좀생이별"
+  ],
+  "category": "cluster",
+  "subcategory": "open",
+  "parent": null,
+  "tags": [
+   "famous",
+   "naked-eye",
+   "young",
+   "blue",
+   "beautiful"
+  ],
+  "description": "가장 유명한 산개성단, 맨눈으로 보이는 푸른 별들",
+  "rating": 5
+ },
+ {
+  "id": "r136",
+  "name": "R136",
+  "se_name": "R136",
+  "aliases": [],
+  "category": "cluster",
+  "subcategory": "open",
+  "parent": null,
+  "tags": [
+   "LMC",
+   "super-massive-stars",
+   "dense"
+  ],
+  "description": "가장 무거운 별들이 있는 초밀집 성단",
+  "rating": 5
+ },
+ {
+  "id": "h-per",
+  "name": "h Persei",
+  "se_name": "h Per",
+  "aliases": [
+   "NGC 869",
+   "이중 성단"
+  ],
+  "category": "cluster",
+  "subcategory": "open",
+  "parent": null,
+  "tags": [
+   "double-cluster",
+   "famous",
+   "bright"
+  ],
+  "description": "페르세우스 이중성단의 한 쪽",
+  "rating": 5
+ },
+ {
+  "id": "chi-persei",
+  "name": "Chi Persei",
+  "se_name": "CHI Per",
+  "aliases": [
+   "NGC 884",
+   "Double Cluster"
+  ],
+  "category": "cluster",
+  "subcategory": "open",
+  "parent": null,
+  "tags": [
+   "open",
+   "double-cluster",
+   "perseus",
+   "young",
+   "bright"
+  ],
+  "description": "페르세우스 이중성단의 다른 한쪽",
+  "rating": 4
+ },
+ {
+  "id": "g1",
+  "name": "G1",
+  "se_name": "G1",
+  "aliases": [
+   "Mayall II"
+  ],
+  "category": "cluster",
+  "subcategory": "globular",
+  "parent": null,
+  "tags": [
+   "andromeda",
+   "largest-globular",
+   "extragalactic"
+  ],
+  "description": "안드로메다의 가장 큰 구상성단",
+  "rating": 4
+ },
+ {
+  "id": "hyades",
+  "name": "Hyades",
+  "se_name": "Hyades",
+  "aliases": [
+   "Melotte 25",
+   "히아데스"
+  ],
+  "category": "cluster",
+  "subcategory": "open",
+  "parent": null,
+  "tags": [
+   "nearest",
+   "naked-eye",
+   "V-shape",
+   "taurus"
+  ],
+  "description": "가장 가까운 산개성단",
+  "rating": 4
+ },
+ {
+  "id": "m15",
+  "name": "M 15",
+  "se_name": "M 15",
+  "aliases": [
+   "NGC 7078"
+  ],
+  "category": "cluster",
+  "subcategory": "globular",
+  "parent": null,
+  "tags": [
+   "dense-core",
+   "collapsed",
+   "planetary-nebula"
+  ],
+  "description": "핵 붕괴된 매우 밀집한 구상성단",
+  "rating": 4
+ },
+ {
+  "id": "m3",
+  "name": "M 3",
+  "se_name": "M 3",
+  "aliases": [
+   "NGC 5272"
+  ],
+  "category": "cluster",
+  "subcategory": "globular",
+  "parent": null,
+  "tags": [
+   "bright",
+   "variable-stars"
+  ],
+  "description": "변광성이 많은 밝은 구상성단",
+  "rating": 4
+ },
+ {
+  "id": "m4",
+  "name": "M 4",
+  "se_name": "M 4",
+  "aliases": [
+   "NGC 6121"
+  ],
+  "category": "cluster",
+  "subcategory": "globular",
+  "parent": null,
+  "tags": [
+   "nearest",
+   "bar-structure"
+  ],
+  "description": "지구에 가장 가까운 구상성단",
+  "rating": 4
+ },
+ {
+  "id": "m5",
+  "name": "M 5",
+  "se_name": "M 5",
+  "aliases": [
+   "NGC 5904"
+  ],
+  "category": "cluster",
+  "subcategory": "globular",
+  "parent": null,
+  "tags": [
+   "bright",
+   "old",
+   "beautiful"
+  ],
+  "description": "가장 오래된 구상성단 중 하나",
+  "rating": 4
+ },
+ {
+  "id": "ngc-2070-cluster",
+  "name": "NGC 2070",
+  "se_name": "NGC 2070",
+  "aliases": [
+   "타란툴라 성단"
+  ],
+  "category": "cluster",
+  "subcategory": "open",
+  "parent": null,
+  "tags": [
+   "super-star-cluster",
+   "lmc",
+   "tarantula",
+   "extragalactic"
+  ],
+  "description": "대마젤란은하 타란툴라 성운의 중심 성단",
+  "rating": 4
+ },
+ {
+  "id": "ngc-3603-cluster",
+  "name": "NGC 3603",
+  "se_name": "NGC 3603",
+  "aliases": [],
+  "category": "cluster",
+  "subcategory": "open",
+  "parent": null,
+  "tags": [
+   "starburst",
+   "massive",
+   "carina",
+   "h-ii-region"
+  ],
+  "description": "은하계에서 가장 활발한 별 탄생 영역의 성단",
+  "rating": 4
+ },
+ {
+  "id": "ngc3603-cluster",
+  "name": "NGC 3603",
+  "se_name": "NGC 3603",
+  "aliases": [],
+  "category": "cluster",
+  "subcategory": "open",
+  "parent": null,
+  "tags": [
+   "starburst",
+   "massive",
+   "dense"
+  ],
+  "description": "은하계 최대의 별 폭발 생성 영역",
+  "rating": 4
+ },
+ {
+  "id": "praesepe",
+  "name": "Praesepe",
+  "se_name": "Praesepe",
+  "aliases": [
+   "M 44",
+   "NGC 2632",
+   "벌집 성단"
+  ],
+  "category": "cluster",
+  "subcategory": "open",
+  "parent": null,
+  "tags": [
+   "beehive",
+   "bright",
+   "naked-eye"
+  ],
+  "description": "벌집 성단이라 불리는 밝은 산개성단",
+  "rating": 4
+ },
+ {
+  "id": "southern-pleiades",
+  "name": "Southern Pleiades",
+  "se_name": "Southern Pleiades",
+  "aliases": [
+   "IC 2602"
+  ],
+  "category": "cluster",
+  "subcategory": "open",
+  "parent": null,
+  "tags": [
+   "bright",
+   "southern",
+   "naked-eye"
+  ],
+  "description": "남반구의 플레이아데스라 불리는 성단",
+  "rating": 4
+ },
+ {
+  "id": "trapezium",
+  "name": "Trapezium",
+  "se_name": "Trapezium",
+  "aliases": [
+   "TET1 Ori"
+  ],
+  "category": "cluster",
+  "subcategory": "open",
+  "parent": null,
+  "tags": [
+   "orion-nebula",
+   "young",
+   "massive-stars"
+  ],
+  "description": "오리온 성운 중심의 젊은 성단",
+  "rating": 4
+ },
+ {
+  "id": "westerlund-1",
+  "name": "Westerlund 1",
+  "se_name": "Westerlund 1",
+  "aliases": [
+   "베스터룬드 1"
+  ],
+  "category": "cluster",
+  "subcategory": "open",
+  "parent": null,
+  "tags": [
+   "super-star-cluster",
+   "massive",
+   "young",
+   "galactic"
+  ],
+  "description": "은하계에서 가장 무거운 젊은 초성단",
+  "rating": 4
+ },
+ {
+  "id": "westerlund1",
+  "name": "Westerlund 1",
+  "se_name": "Westerlund 1",
+  "aliases": [],
+  "category": "cluster",
+  "subcategory": "open",
+  "parent": null,
+  "tags": [
+   "super-massive",
+   "young",
+   "red-supergiants"
+  ],
+  "description": "은하계에서 가장 무거운 젊은 성단",
+  "rating": 4
+ },
+ {
+  "id": "westerlund-2",
+  "name": "Westerlund 2",
+  "se_name": "Westerlund 2",
+  "aliases": [
+   "베스터룬드 2"
+  ],
+  "category": "cluster",
+  "subcategory": "open",
+  "parent": null,
+  "tags": [
+   "super-star-cluster",
+   "young",
+   "carina",
+   "massive-stars"
+  ],
+  "description": "카리나 방향의 젊은 대형 성단",
+  "rating": 4
+ },
+ {
+  "id": "westerlund2",
+  "name": "Westerlund 2",
+  "se_name": "Westerlund 2",
+  "aliases": [],
+  "category": "cluster",
+  "subcategory": "open",
+  "parent": null,
+  "tags": [
+   "young",
+   "massive",
+   "stellar-nursery"
+  ],
+  "description": "젊은 대질량 별들의 성단",
+  "rating": 4
+ },
+ {
+  "id": "m11",
+  "name": "Wild Duck Cluster",
+  "se_name": "M 11",
+  "aliases": [
+   "NGC 6705",
+   "야생 오리 성단"
+  ],
+  "category": "cluster",
+  "subcategory": "open",
+  "parent": null,
+  "tags": [
+   "rich",
+   "dense",
+   "V-shape"
+  ],
+  "description": "풍부하고 밀집한 야생 오리 모양 성단",
+  "rating": 4
+ },
+ {
+  "id": "h-persei",
+  "name": "h Persei",
+  "se_name": "h Per",
+  "aliases": [
+   "NGC 869",
+   "Double Cluster"
+  ],
+  "category": "cluster",
+  "subcategory": "open",
+  "parent": null,
+  "tags": [
+   "open",
+   "double-cluster",
+   "perseus",
+   "young",
+   "bright"
+  ],
+  "description": "페르세우스 이중성단의 한쪽",
+  "rating": 4
+ },
+ {
+  "id": "g1-cluster",
+  "name": "G1",
+  "se_name": "G1",
+  "aliases": [
+   "Mayall II",
+   "마얄 II"
+  ],
+  "category": "cluster",
+  "subcategory": "globular",
+  "parent": "Andromeda",
+  "tags": [
+   "globular",
+   "extragalactic",
+   "massive",
+   "andromeda",
+   "brightest-gc"
+  ],
+  "description": "국부은하군에서 가장 밝은 구상성단",
+  "rating": 3
+ },
+ {
+  "id": "m22",
+  "name": "M 22",
+  "se_name": "M 22",
+  "aliases": [
+   "NGC 6656"
+  ],
+  "category": "cluster",
+  "subcategory": "globular",
+  "parent": null,
+  "tags": [
+   "bright",
+   "southern",
+   "nearby"
+  ],
+  "description": "밝고 가까운 구상성단",
+  "rating": 3
+ },
+ {
+  "id": "m35",
+  "name": "M 35",
+  "se_name": "M 35",
+  "aliases": [
+   "NGC 2168"
+  ],
+  "category": "cluster",
+  "subcategory": "open",
+  "parent": null,
+  "tags": [
+   "bright",
+   "large"
+  ],
+  "description": "크고 밝은 산개성단",
+  "rating": 3
+ },
+ {
+  "id": "m54",
+  "name": "M 54",
+  "se_name": "M 54",
+  "aliases": [
+   "NGC 6715"
+  ],
+  "category": "cluster",
+  "subcategory": "globular",
+  "parent": null,
+  "tags": [
+   "extragalactic",
+   "sag-dsph"
+  ],
+  "description": "궁수자리 왜소은하의 구상성단",
+  "rating": 3
+ },
+ {
+  "id": "m67",
+  "name": "M 67",
+  "se_name": "M 67",
+  "aliases": [
+   "NGC 2682"
+  ],
+  "category": "cluster",
+  "subcategory": "open",
+  "parent": null,
+  "tags": [
+   "old",
+   "sun-like",
+   "famous"
+  ],
+  "description": "태양과 비슷한 나이의 오래된 성단",
+  "rating": 3
+ },
+ {
+  "id": "m92",
+  "name": "M 92",
+  "se_name": "M 92",
+  "aliases": [
+   "NGC 6341"
+  ],
+  "category": "cluster",
+  "subcategory": "globular",
+  "parent": null,
+  "tags": [
+   "old",
+   "bright"
+  ],
+  "description": "매우 오래된 밝은 구상성단",
+  "rating": 3
+ },
+ {
+  "id": "ngc-2419",
+  "name": "NGC 2419",
+  "se_name": "NGC 2419",
+  "aliases": [
+   "Intergalactic Wanderer",
+   "은하간 방랑자"
+  ],
+  "category": "cluster",
+  "subcategory": "globular",
+  "parent": null,
+  "tags": [
+   "globular",
+   "remote",
+   "intergalactic",
+   "luminous"
+  ],
+  "description": "은하계에서 가장 먼 구상성단 중 하나",
+  "rating": 3
+ },
+ {
+  "id": "ngc2419",
+  "name": "NGC 2419",
+  "se_name": "NGC 2419",
+  "aliases": [
+   "Intergalactic Wanderer"
+  ],
+  "category": "cluster",
+  "subcategory": "globular",
+  "parent": null,
+  "tags": [
+   "distant",
+   "intergalactic"
+  ],
+  "description": "은하계를 떠도는 먼 구상성단",
+  "rating": 3
+ },
+ {
+  "id": "ngc-6752",
+  "name": "NGC 6752",
+  "se_name": "NGC 6752",
+  "aliases": [],
+  "category": "cluster",
+  "subcategory": "globular",
+  "parent": null,
+  "tags": [
+   "globular",
+   "bright",
+   "southern",
+   "nearby"
+  ],
+  "description": "남반구의 밝고 가까운 구상성단",
+  "rating": 3
+ },
+ {
+  "id": "ngc6752",
+  "name": "NGC 6752",
+  "se_name": "NGC 6752",
+  "aliases": [],
+  "category": "cluster",
+  "subcategory": "globular",
+  "parent": null,
+  "tags": [
+   "bright",
+   "southern",
+   "nearby"
+  ],
+  "description": "세 번째로 밝은 구상성단",
+  "rating": 3
+ },
+ {
+  "id": "trumpler14",
+  "name": "Trumpler 14",
+  "se_name": "Trumpler 14",
+  "aliases": [],
+  "category": "cluster",
+  "subcategory": "open",
+  "parent": null,
+  "tags": [
+   "young",
+   "carina",
+   "massive"
+  ],
+  "description": "카리나 성운의 젊은 대질량 성단",
+  "rating": 3
+ },
+ {
+  "id": "apophis",
+  "name": "Apophis",
+  "se_name": "Apophis",
+  "aliases": [
+   "아포피스",
+   "99942 Apophis"
+  ],
+  "category": "other",
+  "subcategory": "asteroid",
+  "parent": "Sun",
+  "tags": [
+   "near-earth",
+   "potentially-hazardous",
+   "2029-flyby",
+   "famous"
+  ],
+  "description": "2029년 지구에 극접근 예정인 소행성",
+  "rating": 4
+ },
+ {
+  "id": "hale-bopp",
+  "name": "Hale-Bopp",
+  "se_name": "Hale-Bopp",
+  "aliases": [
+   "헤일-밥 혜성",
+   "C/1995 O1"
+  ],
+  "category": "other",
+  "subcategory": "comet",
+  "parent": "Sun",
+  "tags": [
+   "comet",
+   "great-comet",
+   "bright",
+   "1997"
+  ],
+  "description": "1997년 맨눈으로 18개월간 보인 대혜성",
+  "rating": 4
+ },
+ {
+  "id": "halley",
+  "name": "Halley's Comet",
+  "se_name": "Halley",
+  "aliases": [
+   "핼리 혜성",
+   "1P/Halley"
+  ],
+  "category": "other",
+  "subcategory": "comet",
+  "parent": "Sun",
+  "tags": [
+   "comet",
+   "periodic",
+   "famous",
+   "visible",
+   "76-year"
+  ],
+  "description": "약 76년 주기로 돌아오는 가장 유명한 혜성",
+  "rating": 4
+ },
+ {
+  "id": "neowise",
+  "name": "NEOWISE",
+  "se_name": "C|2020 F3 (NEOWISE)",
+  "aliases": [
+   "니오와이즈 혜성"
+  ],
+  "category": "other",
+  "subcategory": "comet",
+  "parent": "Sun",
+  "tags": [
+   "comet",
+   "great-comet",
+   "2020",
+   "visible"
+  ],
+  "description": "2020년 맨눈으로 관측된 아름다운 혜성",
+  "rating": 4
+ },
+ {
+  "id": "chariklo",
+  "name": "Chariklo",
+  "se_name": "Chariklo",
+  "aliases": [
+   "카리클로"
+  ],
+  "category": "other",
+  "subcategory": "kuiper_belt",
+  "parent": "Sun",
+  "tags": [
+   "centaur",
+   "rings",
+   "small-body-with-rings"
+  ],
+  "description": "고리를 가진 최초로 확인된 소행성/켄타우루스족",
+  "rating": 3
+ },
+ {
+  "id": "ison",
+  "name": "ISON",
+  "se_name": "ISON",
+  "aliases": [
+   "아이손 혜성",
+   "C/2012 S1"
+  ],
+  "category": "other",
+  "subcategory": "comet",
+  "parent": "Sun",
+  "tags": [
+   "comet",
+   "sun-grazing",
+   "disintegrated",
+   "2013"
+  ],
+  "description": "태양에 접근하여 소멸된 선그레이징 혜성",
+  "rating": 3
+ },
+ {
+  "id": "psyche",
+  "name": "Psyche",
+  "se_name": "Psyche",
+  "aliases": [
+   "프시케",
+   "16 Psyche"
+  ],
+  "category": "other",
+  "subcategory": "asteroid",
+  "parent": "Sun",
+  "tags": [
+   "metallic",
+   "m-type",
+   "nasa-mission",
+   "core-remnant"
+  ],
+  "description": "금속으로 이루어진 소행성, NASA 탐사 대상",
+  "rating": 3
+ },
+ {
+  "id": "sedna",
+  "name": "Sedna",
+  "se_name": "Sedna",
+  "aliases": [
+   "세드나"
+  ],
+  "category": "other",
+  "subcategory": "kuiper_belt",
+  "parent": "Sun",
+  "tags": [
+   "detached",
+   "extreme-orbit",
+   "red",
+   "mysterious"
+  ],
+  "description": "극단적으로 긴 궤도의 신비로운 해왕성바깥천체",
+  "rating": 3
+ },
+ {
+  "id": "albion",
+  "name": "Albion",
+  "se_name": "Albion",
+  "aliases": [
+   "알비온",
+   "1992 QB1"
+  ],
+  "category": "other",
+  "subcategory": "kuiper_belt",
+  "parent": "Sun",
+  "tags": [
+   "tno",
+   "first-tno",
+   "kuiper-belt",
+   "historic"
+  ],
+  "description": "명왕성 다음으로 발견된 최초의 해왕성바깥천체",
+  "rating": 2
+ },
+ {
+  "id": "gaspra",
+  "name": "Gaspra",
+  "se_name": "Gaspra",
+  "aliases": [
+   "가스프라",
+   "951 Gaspra"
+  ],
+  "category": "other",
+  "subcategory": "asteroid",
+  "parent": "Sun",
+  "tags": [
+   "s-type",
+   "first-flyby",
+   "galileo",
+   "historic"
+  ],
+  "description": "최초로 근접 촬영된 소행성(갈릴레오 탐사선)",
+  "rating": 2
+ },
+ {
+  "id": "gonggong",
+  "name": "Gonggong",
+  "se_name": "Gonggong",
+  "aliases": [
+   "공공"
+  ],
+  "category": "other",
+  "subcategory": "kuiper_belt",
+  "parent": "Sun",
+  "tags": [
+   "tno",
+   "kuiper-belt",
+   "red",
+   "large"
+  ],
+  "description": "붉은 색의 대형 해왕성바깥천체",
+  "rating": 2
+ },
+ {
+  "id": "toutatis",
+  "name": "Toutatis",
+  "se_name": "Toutatis",
+  "aliases": [
+   "투타티스",
+   "4179 Toutatis"
+  ],
+  "category": "other",
+  "subcategory": "asteroid",
+  "parent": "Sun",
+  "tags": [
+   "near-earth",
+   "tumbling",
+   "elongated",
+   "radar-imaged"
+  ],
+  "description": "불규칙하게 회전하는 지구근접 소행성",
+  "rating": 2
+ },
+ {
+  "id": "ixion",
+  "name": "Ixion",
+  "se_name": "Ixion",
+  "aliases": [
+   "익시온"
+  ],
+  "category": "other",
+  "subcategory": "kuiper_belt",
+  "parent": "Sun",
+  "tags": [
+   "tno",
+   "plutino",
+   "kuiper-belt"
+  ],
+  "description": "명왕성과 궤도공명하는 플루티노 천체",
+  "rating": 1
+ },
+ {
+  "id": "varuna",
+  "name": "Varuna",
+  "se_name": "Varuna",
+  "aliases": [
+   "바루나"
+  ],
+  "category": "other",
+  "subcategory": "kuiper_belt",
+  "parent": "Sun",
+  "tags": [
+   "tno",
+   "kuiper-belt",
+   "classical",
+   "large"
+  ],
+  "description": "카이퍼벨트의 대형 고전적 천체",
+  "rating": 1
+ }
+]
