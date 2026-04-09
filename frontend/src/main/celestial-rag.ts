@@ -61,7 +61,7 @@ const KO_TAG_MAP: Record<string, string> = {
   '거대': 'giant',
   '거성': 'supergiant',
   '왜성': 'dwarf',
-  '고리': 'ringed',
+  '고리': 'rings',
   '생명': 'habitable',
   '아름다운': 'beautiful',
   '유명한': 'famous',
