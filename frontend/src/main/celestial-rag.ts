@@ -127,18 +127,24 @@ export class CelestialRAG {
       this.tokenize(obj.name).forEach(t => tokens.add(t))
       this.tokenize(obj.se_name).forEach(t => tokens.add(t))
 
-      // 별칭 토큰화
-      for (const alias of obj.aliases) {
-        this.tokenize(alias).forEach(t => tokens.add(t))
+      // 별칭 토큰화 (Extended 카탈로그에는 aliases가 없을 수 있음)
+      if (obj.aliases) {
+        for (const alias of obj.aliases) {
+          this.tokenize(alias).forEach(t => tokens.add(t))
+        }
       }
 
       // 태그 토큰화
-      for (const tag of obj.tags) {
-        tokens.add(tag.toLowerCase())
+      if (obj.tags) {
+        for (const tag of obj.tags) {
+          tokens.add(tag.toLowerCase())
+        }
       }
 
       // 설명 토큰화
-      this.tokenize(obj.description).forEach(t => tokens.add(t))
+      if (obj.description) {
+        this.tokenize(obj.description).forEach(t => tokens.add(t))
+      }
 
       // 카테고리/서브카테고리 추가
       tokens.add(obj.category.toLowerCase())
@@ -194,10 +200,12 @@ export class CelestialRAG {
       }
 
       // 2. 별칭 정확 매치 (8점)
-      for (const alias of obj.aliases) {
-        if (alias.toLowerCase() === queryLower) {
-          score += 8
-          break
+      if (obj.aliases) {
+        for (const alias of obj.aliases) {
+          if (alias.toLowerCase() === queryLower) {
+            score += 8
+            break
+          }
         }
       }
 
@@ -209,15 +217,17 @@ export class CelestialRAG {
         }
 
         // 별칭 부분 매치
-        for (const alias of obj.aliases) {
-          if (alias.toLowerCase().includes(token)) {
-            score += 4
-            break
+        if (obj.aliases) {
+          for (const alias of obj.aliases) {
+            if (alias.toLowerCase().includes(token)) {
+              score += 4
+              break
+            }
           }
         }
 
         // 태그 매치 (5점)
-        if (obj.tags.some(t => t.toLowerCase() === token)) {
+        if (obj.tags?.some(t => t.toLowerCase() === token)) {
           score += 5
         }
 
@@ -227,14 +237,14 @@ export class CelestialRAG {
         }
 
         // 설명 매치 (2점)
-        if (obj.description.toLowerCase().includes(token)) {
+        if (obj.description?.toLowerCase().includes(token)) {
           score += 2
         }
       }
 
       // rating 가중치 적용
       if (score > 0) {
-        score *= (1 + obj.rating * 0.1)
+        score *= (1 + (obj.rating ?? 0) * 0.1)
         scores.set(obj.id, score)
       }
     }
@@ -285,7 +295,7 @@ export class CelestialRAG {
     // 'all' — 전체 카테고리에서 랜덤 추천
     if (resolvedCategory === 'all') {
       const shuffled = this.shuffle([...allObjects])
-      shuffled.sort((a, b) => b.rating - a.rating)
+      shuffled.sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0))
       const result = shuffled.slice(0, count)
       this.lastRecommendations = result
       return result
@@ -301,7 +311,7 @@ export class CelestialRAG {
     // 셔플 후 rating 기준 상위 선택
     const shuffled = this.shuffle([...candidates])
     const selected = shuffled.slice(0, Math.max(count * 2, candidates.length))
-    selected.sort((a, b) => b.rating - a.rating)
+    selected.sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0))
     const result = selected.slice(0, count)
 
     // 마지막 추천 결과 저장 (인덱스 기반 접근용)
@@ -323,8 +333,8 @@ export class CelestialRAG {
     const allObjects = [...this.core, ...this.extended]
 
     return allObjects
-      .filter(obj => obj.tags.some(t => t.toLowerCase() === resolvedTag))
-      .sort((a, b) => b.rating - a.rating)
+      .filter(obj => obj.tags?.some(t => t.toLowerCase() === resolvedTag))
+      .sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0))
       .slice(0, limit)
   }
 
@@ -389,7 +399,7 @@ export class CelestialRAG {
     const seed = now.getFullYear() * 10000 + (now.getMonth() + 1) * 100 + now.getDate()
 
     // rating 3 이상인 천체만 후보로 (시각적으로 인상적인 것)
-    const candidates = this.core.filter(obj => obj.rating >= 3)
+    const candidates = this.core.filter(obj => (obj.rating ?? 0) >= 3)
     if (candidates.length === 0) return this.core[0]
 
     // 시드 기반 인덱스 선택 (간단한 해싱)
